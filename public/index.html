@@ -66,16 +66,16 @@
       </div>
 
       <aside class="try" aria-labelledby="try-q">
-        <div class="try-head"><p class="label">Try one question</p><span class="mono q-key">C19-06</span></div>
-        <h2 id="try-q">Does Google support crawl-delay or noindex in robots.txt?</h2>
-        <ol class="options" id="try-opts"><li><button class="opt" data-i="0"><span class="opt-key">A</span><span class="opt-text">noindex is supported, but crawl-delay is not.</span></button></li><li><button class="opt" data-i="1"><span class="opt-key">B</span><span class="opt-text">Neither is supported by Google in robots.txt.</span></button></li><li><button class="opt" data-i="2"><span class="opt-key">C</span><span class="opt-text">Both are supported, though Google can cap the crawl-delay value.</span></button></li><li><button class="opt" data-i="3"><span class="opt-key">D</span><span class="opt-text">crawl-delay works, but noindex does not.</span></button></li></ol>
+        <div class="try-head"><p class="label">Try one question</p><span class="mono q-key">FS02</span></div>
+        <h2 id="try-q">A developer blocked a URL in robots.txt and added noindex, but it still appears. What happened?</h2>
+        <ol class="options" id="try-opts"><li><button class="opt" data-i="0"><span class="opt-key">A</span><span class="opt-text">Meta robots tags are not honored on pages that Google has already indexed.</span></button></li><li><button class="opt" data-i="1"><span class="opt-key">B</span><span class="opt-text">Noindex typically takes months to apply, so the page is in a grace period.</span></button></li><li><button class="opt" data-i="2"><span class="opt-key">C</span><span class="opt-text">The robots.txt block kept Google from crawling the page and seeing noindex.</span></button></li><li><button class="opt" data-i="3"><span class="opt-key">D</span><span class="opt-text">Combining the two directives makes Google treat them as conflicting and ignore both.</span></button></li></ol>
         <p class="try-hint" id="try-hint">Pick an answer to see the explanation and the Google evidence.</p>
         <div class="try-result" id="try-result" hidden aria-live="polite">
           <p class="try-verdict" id="try-verdict"></p>
           <figure class="evidence">
             <div class="ev-head"><span class="label">From Google’s documentation</span></div>
-            <blockquote>“Google supports the following fields (other fields such as crawl-delay aren&#x27;t supported):”</blockquote>
-            <figcaption class="ev-src"><a class="url mono" href="https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec#syntax" target="_blank" rel="noopener">developers.google.com/crawling/docs/robots-txt/robots-txt-spec</a></figcaption>
+            <blockquote>“To block Google from finding your page, restrict access to your content to logged in users (for example, use a login page or password-protect your page ).”</blockquote>
+            <figcaption class="ev-src"><a class="url mono" href="https://developers.google.com/search/docs/fundamentals/get-started-developers#control" target="_blank" rel="noopener">developers.google.com/search/docs/fundamentals/get-started-developers</a></figcaption>
           </figure>
           <div class="try-foot"><span>668 more questions like this</span><a class="btn btn-primary" href="quiz/">Keep practising</a></div>
         </div>
@@ -170,7 +170,7 @@
   </div>
 </footer>
 
-<script type="application/json" id="try-data">{"correct": 1, "answer": "This specification's supported fields are user-agent, allow, disallow, and sitemap, and it explicitly says crawl-delay is unsupported. Google's separate noindex guide says noindex in robots.txt is unsupported."}</script>
+<script type="application/json" id="try-data">{"correct": 2, "answer": "The crawl block can prevent Google from seeing the noindex directive. Decide whether the goal is index exclusion, crawl management, or privacy. For noindex processing, allow crawling; for private material, require access control. Reinspect the page after the chosen coherent setup is implemented. This applies pages 6 and 7."}</script>
 <script>
 (() => {
   const $ = id => document.getElementById(id);

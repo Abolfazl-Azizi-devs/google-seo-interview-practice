@@ -18,7 +18,7 @@ SITE = ROOT / 'site'
 OWNER = 'Abolfazl-Azizi-devs'
 REPO = 'google-seo-interview-practice'
 BASE_URL = f'https://{OWNER.lower()}.github.io/{REPO}/'
-TRY_KEY = 'C19-06'
+TRY_KEY = 'FS02'
 
 data = json.loads((PUBLIC / 'assets/study-data.json').read_text(encoding='utf-8'))
 choices = json.loads((PUBLIC / 'assets/quiz-choices.json').read_text(encoding='utf-8'))
