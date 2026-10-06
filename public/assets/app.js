@@ -588,8 +588,9 @@
       updateSheet();
     });
     sheet.addEventListener('click', e => { if (e.target === sheet) sheet.close('cancel'); });
-    sheet.addEventListener('close', () => {
-      if (sheet.returnValue !== 'apply') return;
+    // Apply on submit (synchronous), not on the dialog's close event, which fires a task later.
+    form.addEventListener('submit', e => {
+      if (!e.submitter || e.submitter.value !== 'apply') return;
       const f = new FormData(form);
       S.scope = f.get('scope'); S.status = f.get('status'); S.set = f.get('set');
       S.order = f.get('order') === 'shuffle' ? (S.order || shuffled()) : null;

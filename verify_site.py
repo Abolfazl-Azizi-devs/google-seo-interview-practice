@@ -203,7 +203,7 @@ with sync_playwright() as p:
                 page.locator('#filter-btn').click()
                 page.locator('input[name="set"][value="priority"]').check()
                 page.locator('#sheet-apply').click()
-                assert matched(page) == 179
+                assert matched(page) == 179, (mode, width, page.evaluate("[practiceAudit().matched, studyApp.state.status, studyApp.state.set, studyApp.state.term, studyApp.state.chapter, studyApp.state.group, document.getElementById('sheet').open]"))
                 page.evaluate('studyApp.clearFilters()')
         page.set_viewport_size({'width': 390, 'height': 844})
         mobile_failures = page.evaluate('''() => { const f = []; studyApp.clearFilters();

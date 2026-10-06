@@ -3,10 +3,11 @@
   "documents": 95,
   "definitions": 127,
   "sources": 102,
-  "originalAnswersAndEvidenceUnchanged": true,
+  "originalAnswersAndEvidenceUnchanged": false,
   "sharedStudyDataBytes": 2525706,
   "sourceSnapshot": "6 October 2026",
   "baseUrl": "https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/",
   "correctQuizOptionsRewritten": 669,
-  "wrongQuizOptionsUnchanged": true
+  "wrongQuizOptionsRewritten": 2007,
+  "answersCorrected": 7
 }

@@ -1,0 +1,3347 @@
+{
+ "F01-01": {
+  "F01-01-d1": "It buys higher placement for chosen pages through Google's paid listings.",
+  "F01-01-d2": "It sets the ranking position of each page by submitting its target keywords to Google.",
+  "F01-01-d3": "It is a technical layer that can raise rankings on its own, whatever the content quality."
+ },
+ "F01-02": {
+  "F01-02-d1": "Most changes take effect within two days, so judge results after 48 hours.",
+  "F01-02-d2": "Effects typically wait for the next core update, so judge results after that rollout.",
+  "F01-02-d3": "Google applies changes on a fixed six-month cycle, so evaluate them twice a year."
+ },
+ "F01-03": {
+  "F01-03-d1": "A sitemap is required for indexing, since links alone don't let Google index pages.",
+  "F01-03-d2": "A sitemap mainly boosts rankings, so sites without one usually rank lower.",
+  "F01-03-d3": "Small sites need one to rank, while large sites can rely on links."
+ },
+ "F01-04": {
+  "F01-04-d1": "Open the page in your own browser and check that every section loads.",
+  "F01-04-d2": "Run the HTML through a markup validator, since valid code shows Google can read it.",
+  "F01-04-d3": "View Google's cached copy of the page, which shows the version Googlebot rendered."
+ },
+ "F01-05": {
+  "F01-05-d1": "Keywords in folder names give each page in that directory a ranking boost.",
+  "F01-05-d2": "Directories pass more PageRank to their pages than links in the navigation do.",
+  "F01-05-d3": "It gives each folder its own authority score, separate from the domain."
+ },
+ "F01-06": {
+  "F01-06-d1": "Duplicate product URLs trigger a manual action once they pass a set share of the site.",
+  "F01-06-d2": "They can lead to a duplicate content penalty that lowers the whole domain.",
+  "F01-06-d3": "They trigger a penalty unless each one has a canonical tag."
+ },
+ "F01-07": {
+  "F01-07-d1": "Use a redirect when both URLs need to stay accessible to visitors.",
+  "F01-07-d2": "Use a redirect when the pages differ in content, and a canonical when both URLs match.",
+  "F01-07-d3": "Use a canonical when users should land on the preferred URL, since it forwards them."
+ },
+ "F01-08": {
+  "F01-08-d1": "Include each variation at least once, since Google matches exact strings.",
+  "F01-08-d2": "Repeat the main phrase at a 2-3% density so Google ranks each variant.",
+  "F01-08-d3": "Create a separate page for each variation so every phrasing has its own match."
+ },
+ "F01-09": {
+  "F01-09-d1": "Google shows them as written unless they exceed the pixel limit.",
+  "F01-09-d2": "Titles may be rewritten, but a meta description is shown whenever the page has one.",
+  "F01-09-d3": "Google uses them as written once the page has enough authority to be trusted."
+ },
+ "F01-10": {
+  "F01-10-d1": "Compressed images with the target keyword repeated in each alt text.",
+  "F01-10-d2": "Images placed in a separate gallery, with file names that match the main keyword.",
+  "F01-10-d3": "Large images with keyword captions, since Google can't read alt text."
+ },
+ "F01-11": {
+  "F01-11-d1": "Embed it in a long article where it supports the text as a secondary element.",
+  "F01-11-d2": "Host it on YouTube and link to it, since Google can't index self-hosted video.",
+  "F01-11-d3": "Place several videos on one page so Google sees it as a stronger video hub."
+ },
+ "F01-12": {
+  "F01-12-d1": "Add nofollow to all external links so your pages keep their PageRank.",
+  "F01-12-d2": "Only links to competitors need nofollow, since they could pass them authority.",
+  "F01-12-d3": "Paid links can stay as normal links if the sponsor is relevant to the topic."
+ },
+ "F01-13": {
+  "F01-13-d1": "An exact-match domain is still a strong signal, and .com ranks best worldwide.",
+  "F01-13-d2": "A .com domain usually outranks country-code domains, even for local searches.",
+  "F01-13-d3": "Keywords in the domain can lift rankings, while TLD choice has no geographic effect."
+ },
+ "F01-14": {
+  "F01-14-d1": "About 1,500 words with an H2 every 300 words ranks best.",
+  "F01-14-d2": "Longer pages usually rank higher, so aim to beat top results on length.",
+  "F01-14-d3": "Google prefers one H1 and at least three H2s, whatever the length."
+ },
+ "F01-15": {
+  "F01-15-d1": "It was retired years ago and no longer plays a role.",
+  "F01-15-d2": "It is the main ranking system, with other signals as tie-breakers.",
+  "F01-15-d3": "It still exists but only affects crawling, not the ranking system."
+ },
+ "F01-16": {
+  "F01-16-d1": "Running Google Ads can lift organic rankings for the same keywords.",
+  "F01-16-d2": "Ad campaigns can buy faster crawling, but not rankings.",
+  "F01-16-d3": "Promotion spend counts as a brand signal that Google feeds into rankings."
+ },
+ "F01-17": {
+  "F01-17-d1": "Wait for the next core update, since rankings usually stay flat until then.",
+  "F01-17-d2": "Focus on link building, since technical and content work is done once.",
+  "F01-17-d3": "Add every structured data type available, whatever the page content."
+ },
+ "F02-01": {
+  "F02-01-d1": "Google indexes submitted URLs first, then crawls them when someone searches.",
+  "F02-01-d2": "Google crawls the web at query time and ranks whatever pages it fetches.",
+  "F02-01-d3": "Google finds pages through sitemaps, indexes all of them, then ranks by backlinks."
+ },
+ "F02-02": {
+  "F02-02-d1": "Discovery is fetching a URL, and crawling is adding it to the index.",
+  "F02-02-d2": "Discovery happens in Search Console, while crawling happens through links.",
+  "F02-02-d3": "Both are the same step, since Google fetches a URL as soon as it finds it."
+ },
+ "F02-03": {
+  "F02-03-d1": "Through a sitemap submission, since Google doesn't follow internal links to new URLs.",
+  "F02-03-d2": "Through the Indexing API, which is the standard route for any new page.",
+  "F02-03-d3": "Through social shares, which Google can use as its main discovery source."
+ },
+ "F02-04": {
+  "F02-04-d1": "Google reads the raw HTML and skips scripts, so JavaScript content is unseen.",
+  "F02-04-d2": "Google runs JavaScript with an older Chrome version that lacks modern features.",
+  "F02-04-d3": "Google can run JavaScript, but only for sites that are verified in Search Console."
+ },
+ "F02-05": {
+  "F02-05-d1": "Marked with a noindex tag, which tells Googlebot to skip fetching it.",
+  "F02-05-d2": "Lacking backlinks from other sites, which Google requires before a first crawl.",
+  "F02-05-d3": "Missing a canonical tag, so Google can't decide whether to fetch it."
+ },
+ "F02-06": {
+  "F02-06-d1": "They can make Google crawl more often to check whether the page has recovered.",
+  "F02-06-d2": "Google treats them as 404s and drops the URL at the first one.",
+  "F02-06-d3": "Google caches the last good version, so a 500 has no effect on crawling."
+ },
+ "F02-07": {
+  "F02-07-d1": "Google saves the raw HTML of each crawled page without analyzing it.",
+  "F02-07-d2": "Google assigns each page a fixed ranking position for its main keyword.",
+  "F02-07-d3": "Google picks the page with the most backlinks and discards its duplicates for good."
+ },
+ "F02-08": {
+  "F02-08-d1": "The URL the site owner marks with a canonical tag, which Google must follow.",
+  "F02-08-d2": "The oldest URL in a group of similar pages, which Google keeps as the original.",
+  "F02-08-d3": "The URL in a cluster with the most backlinks, which Google uses to pool rankings."
+ },
+ "F02-09": {
+  "F02-09-d1": "Missing from the sitemap, which Google requires before indexing a page.",
+  "F02-09-d2": "A missing meta description, which Google needs before indexing a page.",
+  "F02-09-d3": "A URL that is too long or has parameters, which Google won't index."
+ },
+ "F02-10": {
+  "F02-10-d1": "Google may still be testing it, since indexed pages wait a month before ranking.",
+  "F02-10-d2": "Its title lacks the exact keyword, which ranking requires.",
+  "F02-10-d3": "It is sandboxed, since new pages can't rank until the domain is a year old."
+ },
+ "F02-11": {
+  "F02-11-d1": "Google rotates rankings at random to test click-through rates.",
+  "F02-11-d2": "Logged-in users see results ranked by their own past clicks rather than relevance.",
+  "F02-11-d3": "The results only differ when one searcher is using a VPN or private mode."
+ },
+ "F02-12": {
+  "F02-12-d1": "Features depend on the schema the top pages use.",
+  "F02-12-d2": "Google rotates features on a schedule to test which ones users click.",
+  "F02-12-d3": "Google picks features based on the site's own preference in Search Console."
+ },
+ "F02-13": {
+  "F02-13-d1": "Payment can't buy rankings, but Google Ads customers get crawled faster.",
+  "F02-13-d2": "Large advertisers get a dedicated rep who can request faster crawling.",
+  "F02-13-d3": "Only Google Partners can pay for faster indexing."
+ },
+ "F02-14": {
+  "F02-14-d1": "Agree, since a submitted URL ranks once Google finishes processing it.",
+  "F02-14-d2": "Explain that ranking follows once the URL is indexed, which usually takes a few days.",
+  "F02-14-d3": "Resubmit the URL daily until it appears, since repeat requests raise priority."
+ },
+ "F03-01": {
+  "F03-01-d1": "Check word count, keyword coverage, and readability scores against top results.",
+  "F03-01-d2": "Check the page's SEO tool score and how often it has been updated.",
+  "F03-01-d3": "Check time on page and bounce rate, since Google ranks by these metrics."
+ },
+ "F03-02": {
+  "F03-02-d1": "Expertise, engagement, authoritativeness and trustworthiness.",
+  "F03-02-d2": "Experience, engagement, authority and transparency.",
+  "F03-02-d3": "Effort, expertise, authoritativeness and trustworthiness."
+ },
+ "F03-03": {
+  "F03-03-d1": "It is a direct factor that Google scores from author bios and credentials.",
+  "F03-03-d2": "It is only a rater concept and has no link to how Google ranks pages.",
+  "F03-03-d3": "It is a sitewide score that Google can calculate and show in Search Console."
+ },
+ "F03-04": {
+  "F03-04-d1": "Expert authorship is required on every page, whatever the topic.",
+  "F03-04-d2": "Experience can replace expertise, even for medical or financial advice.",
+  "F03-04-d3": "A named byline is what counts, since Google doesn't weigh expertise by topic."
+ },
+ "F03-05": {
+  "F03-05-d1": "Sites that sell products, where checkout security counts more than content.",
+  "F03-05-d2": "News and current events topics, where freshness counts more than accuracy.",
+  "F03-05-d3": "Topics with high search volume, where Google can require expert schema."
+ },
+ "F03-06": {
+  "F03-06-d1": "Rater scores feed directly into the ranking of each page they review.",
+  "F03-06-d2": "Raters can demote weak pages on topics they review.",
+  "F03-06-d3": "Raters can issue manual actions when a page fails their guidelines."
+ },
+ "F03-07": {
+  "F03-07-d1": "Writing for trending queries first, then adapting the page for its audience.",
+  "F03-07-d2": "Writing in a conversational tone with the reader's keywords in every heading.",
+  "F03-07-d3": "Writing longer pages so visitors stay on the site and dwell time goes up."
+ },
+ "F03-08": {
+  "F03-08-d1": "Outbound links to competitors, long paragraphs, and no keyword in the URL.",
+  "F03-08-d2": "Pages under 300 words, few images, and posting less than once a week.",
+  "F03-08-d3": "Missing author photos, no FAQ section, and dates left unchanged for a year."
+ },
+ "F03-09": {
+  "F03-09-d1": "Pruning old pages raises the site's average freshness, which lifts rankings.",
+  "F03-09-d2": "Only pages older than two years should be deleted to gain a freshness boost.",
+  "F03-09-d3": "Changing publish dates can give the same freshness boost without deleting pages."
+ },
+ "F03-10": {
+  "F03-10-d1": "Check third-party visibility scores first, since they show the cause.",
+  "F03-10-d2": "Look for a manual action, since content drops usually come from penalties.",
+  "F03-10-d3": "Update publish dates sitewide and wait for a recrawl."
+ },
+ "F03-11": {
+  "F03-11-d1": "The text that appears above the fold, excluding tabs and user reviews.",
+  "F03-11-d2": "Any text written by the site owner, while tools and reviews count as supplementary.",
+  "F03-11-d3": "The longest block of text on the page, plus its headings and images."
+ },
+ "F03-12": {
+  "F03-12-d1": "Effort, originality, freshness, and accuracy.",
+  "F03-12-d2": "Expertise, originality, freshness, and depth of coverage.",
+  "F03-12-d3": "Expertise, readability, talent or skill, and accuracy."
+ },
+ "F03-13": {
+  "F03-13-d1": "Attribution makes a summary original when each claim links to its source.",
+  "F03-13-d2": "Citing sources is enough if the summary is reworded to pass AI detectors.",
+  "F03-13-d3": "Summaries can be original when they cite more sources than competitors."
+ },
+ "F03-14": {
+  "F03-14-d1": "Tabbed content counts as supplementary, so key specs belong above the fold.",
+  "F03-14-d2": "Tabbed content is given less weight, so it can't count as main content.",
+  "F03-14-d3": "Specs count as main content only in a plain table without tabs."
+ },
+ "F03-15": {
+  "F03-15-d1": "Add review schema with star ratings and a summary of the product's main specs.",
+  "F03-15-d2": "Use a well-known expert's name as the byline, even if staff did the testing.",
+  "F03-15-d3": "Summarize manufacturer specs and customer ratings from major retailers."
+ },
+ "F03-16": {
+  "F03-16-d1": "Label every page that used AI at any stage with Google's required tag.",
+  "F03-16-d2": "Avoid AI disclosures, since Google can read them as low quality.",
+  "F03-16-d3": "Use the AI label in Search Console, which Google shows next to results."
+ },
+ "F03-17": {
+  "F03-17-d1": "They can help if the author bios list real-sounding credentials.",
+  "F03-17-d2": "They are fine as long as the content itself is accurate.",
+  "F03-17-d3": "They help, since Google rewards pages that show an author photo."
+ },
+ "F04-01": {
+  "F04-01-d1": "AI features use a separate index, so SEO needs a different approach.",
+  "F04-01-d2": "AI answers come from model training data, so rankings no longer matter.",
+  "F04-01-d3": "AI features cite pages by brand mentions, so link-based SEO no longer applies."
+ },
+ "F04-02": {
+  "F04-02-d1": "It retrains the model on new pages each week so answers stay current.",
+  "F04-02-d2": "It ranks pages by how closely their text matches the model's training data.",
+  "F04-02-d3": "It pulls answers from a separate AI index built from llms.txt files."
+ },
+ "F04-03": {
+  "F04-03-d1": "Creating a separate page for each related query a model might search.",
+  "F04-03-d2": "The model spreads a query across several AI tools and merges their answers.",
+  "F04-03-d3": "Google merges related queries into one result page to save processing."
+ },
+ "F04-04": {
+  "F04-04-d1": "Content about niche topics with low search volume and little competition.",
+  "F04-04-d2": "Content that combines the top-ranking pages into one longer summary.",
+  "F04-04-d3": "Content written by a person rather than generated with AI tools."
+ },
+ "F04-05": {
+  "F04-05-d1": "It must use AI-specific schema and be listed in the site's llms.txt file.",
+  "F04-05-d2": "It needs to be indexed and rank in the top ten for the user's query.",
+  "F04-05-d3": "It needs a FAQ or HowTo schema block and a page speed score above 90."
+ },
+ "F04-06": {
+  "F04-06-d1": "It is optional, but Google uses it to choose pages for AI Overviews.",
+  "F04-06-d2": "Google reads it like robots.txt to decide what its AI features can use.",
+  "F04-06-d3": "It is needed for AI Mode, but regular results ignore it."
+ },
+ "F04-07": {
+  "F04-07-d1": "Google can only extract passages that sit under their own H2.",
+  "F04-07-d2": "AI features cite each page for one topic and ignore the rest of it.",
+  "F04-07-d3": "Short chunks of about 100 words are the format AI systems prefer."
+ },
+ "F04-08": {
+  "F04-08-d1": "FAQPage schema is required for a page to appear in AI Overviews.",
+  "F04-08-d2": "Google uses a speakable-style AI markup to pick supporting links.",
+  "F04-08-d3": "Standard schema.org markup is a requirement for appearing in AI features."
+ },
+ "F04-09": {
+  "F04-09-d1": "It can work, since AI features favor sites with more matching pages.",
+  "F04-09-d2": "It is fine if each page targets a different fan-out query.",
+  "F04-09-d3": "Scaled content rules apply to classic results, not to AI features."
+ },
+ "F04-10": {
+  "F04-10-d1": "Validation errors can keep a page out of AI features until they're fixed.",
+  "F04-10-d2": "Semantic tags are how AI systems find answers, so they decide visibility.",
+  "F04-10-d3": "Markup doesn't matter, as AI features read only the page's plain text."
+ },
+ "F04-11": {
+  "F04-11-d1": "Publish AI-written product pages at scale to cover fan-out queries.",
+  "F04-11-d2": "Add product schema with an AI tag, since feeds aren't used in AI answers.",
+  "F04-11-d3": "Enable all optional merchant programs, since each one is a ranking factor."
+ },
+ "F04-12": {
+  "F04-12-d1": "Use Google Analytics referral data, which lists AI Overviews citations.",
+  "F04-12-d2": "Track citations with a rank tracker, since Google can't report AI visibility.",
+  "F04-12-d3": "Filter the standard Performance report by the AI Overviews search appearance."
+ },
+ "F04-13": {
+  "F04-13-d1": "Add a noai meta tag, which Google reads as a sitewide opt-out from AI features.",
+  "F04-13-d2": "Block Google-Extended, which removes pages from AI Overviews and AI Mode.",
+  "F04-13-d3": "Turning off AI features in Search Console also drops pages from regular results."
+ },
+ "F04-14": {
+  "F04-14-d1": "They replace SEO, since AI answers use different ranking signals.",
+  "F04-14-d2": "They require separate AI schema and an llms.txt file.",
+  "F04-14-d3": "They mean writing for chatbots, so pages no longer need to rank in Search."
+ },
+ "F04-15": {
+  "F04-15-d1": "AI crawlers building a separate index for AI Overviews to draw on.",
+  "F04-15-d2": "An AI ranking mode where pages earn a score for agent compatibility.",
+  "F04-15-d3": "Chatbots that site owners add to pages to answer visitor questions."
+ },
+ "F05-01": {
+  "F05-01-d1": "It bans AI text but allows AI-assisted images and outlines.",
+  "F05-01-d2": "It allows AI content as long as each page is labeled as AI-generated.",
+  "F05-01-d3": "It can detect AI text and usually ranks it below human writing."
+ },
+ "F05-02": {
+  "F05-02-d1": "Using AI to write pages at all, whatever value they add for users.",
+  "F05-02-d2": "Publishing more than a set number of pages per day on one site.",
+  "F05-02-d3": "Using one template for many product pages that each list different specs."
+ },
+ "F05-03": {
+  "F05-03-d1": "Review is needed to remove patterns that Google flags as AI-written.",
+  "F05-03-d2": "Models only err on recent events, so older facts need no checking.",
+  "F05-03-d3": "Human edits can lift a page above Google's AI-content threshold."
+ },
+ "F05-04": {
+  "F05-04-d1": "Headings, internal links, and the URL slug of each page.",
+  "F05-04-d2": "Meta keywords, author bios, and the sitemap's priority values.",
+  "F05-04-d3": "Canonical tags, hreflang tags, and robots.txt rules."
+ },
+ "F05-05": {
+  "F05-05-d1": "Publish it once it passes the Rich Results Test, since that checks accuracy.",
+  "F05-05-d2": "Add extra properties beyond the page content to qualify for more features.",
+  "F05-05-d3": "Keep it out of the page, since Google detects and ignores generated JSON-LD."
+ },
+ "F05-06": {
+  "F05-06-d1": "A standard AI label on each page, in the format Google requires.",
+  "F05-06-d2": "No disclosure, since Google can treat it as a low-quality signal.",
+  "F05-06-d3": "The name of the AI model and prompt used, listed in the page's schema."
+ },
+ "F05-07": {
+  "F05-07-d1": "An alt attribute that states the image was created with AI.",
+  "F05-07-d2": "A visible watermark saying 'AI-generated' placed in a corner of the image.",
+  "F05-07-d3": "Embedded EXIF metadata naming the AI tool used as the camera model."
+ },
+ "F05-08": {
+  "F05-08-d1": "Via the standard title and description fields, with 'AI' added to the text.",
+  "F05-08-d2": "Via a product_ai_content flag set to true in the feed's custom labels.",
+  "F05-08-d3": "Via the description field only, since titles can't be AI-generated."
+ },
+ "F05-09": {
+  "F05-09-d1": "They list the signals Google weights most, in order of importance.",
+  "F05-09-d2": "They spell out the rating criteria a page has to meet to rank first.",
+  "F05-09-d3": "Rater scores can move a page up once enough raters agree on it."
+ },
+ "F06-01": {
+  "F06-01-d1": "robots.txt handles indexing, while noindex handles crawling.",
+  "F06-01-d2": "robots.txt removes pages from results, while noindex hides them from users.",
+  "F06-01-d3": "Both stop indexing, but robots.txt can work faster for large sections."
+ },
+ "F06-02": {
+  "F06-02-d1": "Blocking it is fine, since Google can render pages from HTML alone.",
+  "F06-02-d2": "Blocking CSS frees crawl budget, which usually goes to more important pages.",
+  "F06-02-d3": "Block only the largest files, since small CSS doesn't use crawl budget."
+ },
+ "F06-03": {
+  "F06-03-d1": "Google treats changefreq as a hint and uses priority to order crawling.",
+  "F06-03-d2": "Google follows changefreq for crawling but ignores lastmod, which sites often misuse.",
+  "F06-03-d3": "Google ignores lastmod but can use changefreq to plan recrawls."
+ },
+ "F06-04": {
+  "F06-04-d1": "Use 302 for a permanent move, and 301 for a temporary one.",
+  "F06-04-d2": "Use 302 for both, since 301s pass less ranking signal.",
+  "F06-04-d3": "Use 301 for moves within a site and 302 for moves to a new domain."
+ },
+ "F06-05": {
+  "F06-05-d1": "A 404 page with a custom design instead of the default server page.",
+  "F06-05-d2": "A page that returns 404 but is still linked from other pages.",
+  "F06-05-d3": "A temporary 404 that Google retries before treating the page as removed."
+ },
+ "F06-06": {
+  "F06-06-d1": "Redirect all old URLs to the new homepage, then submit the new sitemap.",
+  "F06-06-d2": "Use 302 redirects during the move, then switch them to 301s a year later.",
+  "F06-06-d3": "Point canonical tags at the new domain, since they can replace redirects in a move."
+ },
+ "F06-07": {
+  "F06-07-d1": "Rely on scroll events, since Googlebot scrolls like a user.",
+  "F06-07-d2": "Load more items on scroll and list the first page in the sitemap.",
+  "F06-07-d3": "Use #fragment URLs for each section so Google can index them."
+ },
+ "F06-08": {
+  "F06-08-d1": "rel=next and rel=prev are required so Google can group the pages.",
+  "F06-08-d2": "Each page needs a canonical pointing to page one of the set.",
+  "F06-08-d3": "All pages need to be merged into a view-all page for crawling."
+ },
+ "F06-09": {
+  "F06-09-d1": "When a site has more than a few hundred pages, whatever its crawl stats.",
+  "F06-09-d2": "When Search Console reports any URL as discovered but not indexed.",
+  "F06-09-d3": "When rankings drop after a core update, as crawl budget affects quality scores."
+ },
+ "F06-10": {
+  "F06-10-d1": "Canonicalize each translation to the main language version.",
+  "F06-10-d2": "Redirect each visitor by IP to their own language.",
+  "F06-10-d3": "Use the lang attribute, which Google relies on to pick versions."
+ },
+ "F06-11": {
+  "F06-11-d1": "Product detail URLs, since category pages already list their content.",
+  "F06-11-d2": "Paginated category URLs, such as page 2 and beyond of a listing.",
+  "F06-11-d3": "Out-of-stock product URLs, until the items are available again."
+ },
+ "F06-12": {
+  "F06-12-d1": "It does once Google recrawls the page after the markup passes tests.",
+  "F06-12-d2": "It guarantees display for most markup types, though reviews need approval.",
+  "F06-12-d3": "It can, but only if the site has enough authority to be trusted."
+ },
+ "F06-13": {
+  "F06-13-d1": "Video, podcasts, product reviews, local businesses, and news.",
+  "F06-13-d2": "Images, recipes, product reviews, job postings, and medical content.",
+  "F06-13-d3": "Articles, podcasts, AI content, apps, and news."
+ },
+ "F06-14": {
+  "F06-14-d1": "PageSpeed Insights shows site-wide data, while CWV tests single pages.",
+  "F06-14-d2": "CWV measures lab data only, while PageSpeed Insights shows field data alone.",
+  "F06-14-d3": "They report the same data, but CWV can be used to request recrawls."
+ },
+ "F06-15": {
+  "F06-15-d1": "Add a meta keywords tag and a longer meta description.",
+  "F06-15-d2": "Add every schema type that could apply, even if not on the page.",
+  "F06-15-d3": "Write a longer title tag, since Google shows more of it on mobile."
+ },
+ "F07-01": {
+  "F07-01-d1": "Google sees a cached copy that can be weeks older than your version.",
+  "F07-01-d2": "Google usually skips content that loads more than a second after the HTML.",
+  "F07-01-d3": "Your browser shows the desktop page, while Google sees only the AMP version."
+ },
+ "F07-02": {
+  "F07-02-d1": "A button with an onclick handler that loads the page's URL.",
+  "F07-02-d2": "An <a> tag with a #fragment href that loads the page's content.",
+  "F07-02-d3": "A link with the keyword repeated in its title attribute."
+ },
+ "F07-03": {
+  "F07-03-d1": "One URL is fine if the shell has good metadata.",
+  "F07-03-d2": "Pre-rendering the home page is enough for the whole app.",
+  "F07-03-d3": "Hash-based routes are enough, since Google can tell those screens apart."
+ },
+ "F07-04": {
+  "F07-04-d1": "Tests check page speed, which decides whether Google runs the scripts.",
+  "F07-04-d2": "Google runs JavaScript only in a second wave that can take months.",
+  "F07-04-d3": "Testing is mostly needed for sites that still use old jQuery libraries."
+ },
+ "F07-05": {
+  "F07-05-d1": "Change the publish date on updated pages so Google sees new content.",
+  "F07-05-d2": "Ping Google with each update, which triggers an immediate recrawl.",
+  "F07-05-d3": "Use the Indexing API for all page types so Google sees updates."
+ },
+ "F07-06": {
+  "F07-06-d1": "Google can't load more than a few images per page while crawling.",
+  "F07-06-d2": "Image-heavy pages load slowly, which usually blocks them from indexing.",
+  "F07-06-d3": "Google can index images, but it may only rank them in Image Search."
+ },
+ "F07-07": {
+  "F07-07-d1": "It works, since Google indexes it after rendering like JavaScript text.",
+  "F07-07-d2": "Google reads it, but gives it less weight than text in the HTML.",
+  "F07-07-d3": "It is fine if the stylesheet is crawlable and not blocked in robots.txt."
+ },
+ "F07-08": {
+  "F07-08-d1": "It is safe if the canvas has an aria-label with the copy.",
+  "F07-08-d2": "Google can read canvas text through its OCR during rendering.",
+  "F07-08-d3": "It is safe, as long as Google can render the JavaScript."
+ },
+ "F07-09": {
+  "F07-09-d1": "Use noindex on duplicate and translated pages to avoid conflicts.",
+  "F07-09-d2": "Set a target country in Search Console for each translated page.",
+  "F07-09-d3": "Canonicalize each localized page to the original-language URL."
+ },
+ "F07-10": {
+  "F07-10-d1": "Google applies noindex only when the page is also listed in the sitemap.",
+  "F07-10-d2": "Google applies Disallow first and then waits weeks before noindex.",
+  "F07-10-d3": "The two rules conflict, so Google applies neither of them."
+ },
+ "F07-11": {
+  "F07-11-d1": "Check the backlink profile, since missing pages usually lack links.",
+  "F07-11-d2": "Check keyword density and title length against the top results.",
+  "F07-11-d3": "Resubmit the sitemap and wait two weeks before checking anything."
+ },
+ "F07-12": {
+  "F07-12-d1": "It gives a direct ranking boost to pages that use more schema types.",
+  "F07-12-d2": "It shows rich results for each marked-up page once the code validates.",
+  "F07-12-d3": "It can replace on-page text, as Google reads the markup first."
+ },
+ "F08-01": {
+  "F08-01-d1": "Top rankings within a set time, backed by a money-back offer.",
+  "F08-01-d2": "Submission to hundreds of search engines and directories.",
+  "F08-01-d3": "Every specialty in the field, to look as broad as possible."
+ },
+ "F08-02": {
+  "F08-02-d1": "Show a ranking screenshot for the top keyword, without the context.",
+  "F08-02-d2": "Share total revenue growth during your time there as SEO results.",
+  "F08-02-d3": "Present a well-known brand's case study as an example of your work."
+ },
+ "F08-03": {
+  "F08-03-d1": "Follow the Webmaster Guidelines, which still apply as written.",
+  "F08-03-d2": "Follow the quality rater guidelines, which replaced them.",
+  "F08-03-d3": "Follow the Google SEO Starter Guide, which took their place."
+ },
+ "F08-04": {
+  "F08-04-d1": "Promise page-one rankings within 90 days and track keyword positions.",
+  "F08-04-d2": "Expect rankings to move in about two weeks and report organic sessions.",
+  "F08-04-d3": "Set targets by domain authority growth, since it tracks rankings closely."
+ },
+ "F08-05": {
+  "F08-05-d1": "Claim industry experience, since SEO skills transfer across sectors.",
+  "F08-05-d2": "Say SEO works the same in every market, so no local research is needed.",
+  "F08-05-d3": "Avoid the topic and steer the talk toward ranking results."
+ },
+ "F08-06": {
+  "F08-06-d1": "Describe how you translated pages with one URL for all languages.",
+  "F08-06-d2": "Describe team results as your own, since roles rarely matter to employers.",
+  "F08-06-d3": "Describe using IP redirects to send each visitor to their language."
+ },
+ "F08-07": {
+  "F08-07-d1": "Report rankings monthly, without details of the changes made.",
+  "F08-07-d2": "Make changes quietly, then share results if rankings go up.",
+  "F08-07-d3": "Send a list of tool warnings and let the team decide what to fix."
+ },
+ "F08-08": {
+  "F08-08-d1": "How many backlinks the site has, its domain authority, and its top keywords.",
+  "F08-08-d2": "Which keywords they want to rank for, and by what date they expect page one.",
+  "F08-08-d3": "What the monthly link budget is and which tools they already pay for."
+ },
+ "F08-09": {
+  "F08-09-d1": "Write access is needed so the auditor can see the full reports.",
+  "F08-09-d2": "Read-only access shows all the same data, so owner access is never needed.",
+  "F08-09-d3": "Read-only users can't see the Performance report, which is fine for audits."
+ },
+ "F08-10": {
+  "F08-10-d1": "Agree, but only for low-competition keywords you choose yourself.",
+  "F08-10-d2": "Guarantee it for one year, with a refund if rankings slip.",
+  "F08-10-d3": "Say it can be done with a large enough link-building budget."
+ },
+ "F08-11": {
+  "F08-11-d1": "Monthly reports, fixed retainers, and requests for Search Console access.",
+  "F08-11-d2": "Offshore teams, low prices, and the use of third-party SEO tools.",
+  "F08-11-d3": "Long contracts, technical jargon, and reports without guaranteed outcomes."
+ },
+ "F08-12": {
+  "F08-12-d1": "The agency, since the contract transfers responsibility to it.",
+  "F08-12-d2": "The individual SEO, as Google penalizes the person rather than the site.",
+  "F08-12-d3": "Both share it, but Google only acts against the agency's own sites."
+ },
+ "F09-01": {
+  "F09-01-d1": "They're allowed only if Google certified them.",
+  "F09-01-d2": "They can be risky, since Google may flag sites using them.",
+  "F09-01-d3": "They are fine, and their data comes directly from Google."
+ },
+ "F09-02": {
+  "F09-02-d1": "It is Google's ranking score, rescaled by the vendor to a 0-100 range.",
+  "F09-02-d2": "It closely tracks Google's score because tools receive Search Console ranking data.",
+  "F09-02-d3": "It is a separate score, but Google uses popular vendor scores as a ranking input."
+ },
+ "F09-03": {
+  "F09-03-d1": "Treat it as confirmed if several well-known SEOs repeat it.",
+  "F09-03-d2": "Accept it if the influencer shares a test showing a ranking change after the tactic.",
+  "F09-03-d3": "Look for a Google patent describing the idea and treat that as current policy."
+ },
+ "F09-04": {
+  "F09-04-d1": "It can, if the vendor holds a Google Partners badge.",
+  "F09-04-d2": "Google approves SEO tools that meet its published quality checklist.",
+  "F09-04-d3": "Tools built on official Google APIs count as Google-approved."
+ },
+ "F09-05": {
+  "F09-05-d1": "Fix warnings by frequency, starting with the most common issue type.",
+  "F09-05-d2": "Prioritize whatever raises the tool's health score fastest.",
+  "F09-05-d3": "Report the warning count to stakeholders as proof of a ranking problem."
+ },
+ "F09-06": {
+  "F09-06-d1": "It exposes the internal ranking scores that paid tools try to estimate.",
+  "F09-06-d2": "It is required to keep the site eligible for indexing in Google.",
+  "F09-06-d3": "Verified properties usually get crawled more often than unverified ones."
+ },
+ "F09-07": {
+  "F09-07-d1": "It comes from an author with a large following and many case studies.",
+  "F09-07-d2": "It presents correlation data as confirmed Google ranking factors.",
+  "F09-07-d3": "It can be trusted once several industry blogs repeat the same claim."
+ },
+ "F09-08": {
+  "F09-08-d1": "Run a trial and accept the promise if citations appear within a month.",
+  "F09-08-d2": "Accept the claim if the tool shows proprietary AI visibility scores.",
+  "F09-08-d3": "Treat GEO as separate from SEO, so Search guidance does not apply to it."
+ },
+ "FS01": {
+  "FS01-d1": "Build external links first, since they usually decide whether a page is indexed.",
+  "FS01-d2": "Resubmit the sitemap daily until the page shows up in the results.",
+  "FS01-d3": "Rewrite the title and meta description to better target the query."
+ },
+ "FS02": {
+  "FS02-d1": "Combining the two directives makes Google treat them as conflicting and ignore both.",
+  "FS02-d2": "Meta robots tags are not honored on pages that Google has already indexed.",
+  "FS02-d3": "Noindex typically takes months to apply, so the page is in a grace period."
+ },
+ "FS03": {
+  "FS03-d1": "Publish them, since AI content is fine if each page targets a distinct keyword.",
+  "FS03-d2": "Agree, but add an AI disclosure label so the pages comply with Google policy.",
+  "FS03-d3": "Release them gradually so Google does not detect the jump in volume."
+ },
+ "FS04": {
+  "FS04-d1": "Adopt llms.txt, since Google reads it to choose sources for AI Overviews.",
+  "FS04-d2": "Accept it if the agency can show citation gains for clients in other niches.",
+  "FS04-d3": "Restructure pages into short answer chunks, which Google's AI features prefer."
+ },
+ "FS05": {
+  "FS05-d1": "It is enough, since Google rewrites inaccurate titles and descriptions anyway.",
+  "FS05-d2": "It is enough as long as the structured data passes the Rich Results Test.",
+  "FS05-d3": "Only the titles need review, since descriptions and alt text rarely reach users."
+ },
+ "FS06": {
+  "FS06-d1": "Crawl budget and how often Googlebot revisits the indexed pages.",
+  "FS06-d2": "Sitemap priority values and how recently the sitemap was submitted.",
+  "FS06-d3": "Domain age, since newer sites are typically held back for their first year."
+ },
+ "FS07": {
+  "FS07-d1": "After launch, once redirects can be tested on the live domain.",
+  "FS07-d2": "During QA, after design is final but before the DNS switch.",
+  "FS07-d3": "Once traffic drops, so the impact of the move can be measured first."
+ },
+ "FS08": {
+  "FS08-d1": "A persona profile is usually acceptable; the AI text just needs a disclosure label.",
+  "FS08-d2": "It is mainly thin content, which adding more depth on the condition would fix.",
+  "FS08-d3": "The profile is fine once it is marked up with Person schema and a photo."
+ },
+ "FS09": {
+  "FS09-d1": "Follow it, since longer pages with more H2s tend to rank better on Google.",
+  "FS09-d2": "Match the average word count of the top three ranking pages instead.",
+  "FS09-d3": "Apply it, as the tool's content score is calibrated on Google's ranking data."
+ },
+ "FS10": {
+  "FS10-d1": "It points to a technical penalty, which a reconsideration request can lift.",
+  "FS10-d2": "It means the property is excluded from AI features until it adds AI schema.",
+  "FS10-d3": "It typically reflects a manual action that may be limited to AI features."
+ },
+ "C01-01": {
+  "C01-01-d1": "It lists the quality signals Google uses to rank pages once they are indexed.",
+  "C01-01-d2": "It sets out Google's spam policies and the manual actions for violations.",
+  "C01-01-d3": "It explains how to write content that matches search intent."
+ },
+ "C01-02": {
+  "C01-02-d1": "In the overview itself, which lists the full requirements for each topic.",
+  "C01-02-d2": "In the Search Quality Rater Guidelines, which define technical rules.",
+  "C01-02-d3": "In the Search Central blog archive, where each rule was first announced."
+ },
+ "C01-03": {
+  "C01-03-d1": "Yes; other crawl topics such as crawl budget are covered in the ranking section.",
+  "C01-03-d2": "No; it also covers sitemaps, but status codes and DNS errors are left to hosting docs.",
+  "C01-03-d3": "Yes; robots.txt is the one crawler-management topic the overview links to."
+ },
+ "C02-01": {
+  "C02-01-d1": "Google indexes PDFs, but Word and other office formats are not supported.",
+  "C02-01-d2": "Non-HTML files can be indexed once they are embedded in an HTML page.",
+  "C02-01-d3": "Google lists them in Search but cannot index their text content."
+ },
+ "C02-02": {
+  "C02-02-d1": "Mainly by the file extension, with the Content-Type header as a fallback.",
+  "C02-02-d2": "By sniffing the first bytes of the file and ignoring the HTTP headers.",
+  "C02-02-d3": "By the type attribute on the link that pointed Googlebot to the file."
+ },
+ "C02-03": {
+  "C02-03-d1": "Excel .xls/.xlsx files are listed, but EPUB and OpenOffice .ods are not.",
+  "C02-03-d2": "EPUB is listed, but spreadsheets are excluded because they hold tabular data.",
+  "C02-03-d3": "They can be indexed once converted to PDF, which Google lists instead."
+ },
+ "C02-04": {
+  "C02-04-d1": "Use site: with the file extension and a search term.",
+  "C02-04-d2": "Use intitle: with the format name and a search term.",
+  "C02-04-d3": "Use mime: followed by the MIME type, such as application/pdf."
+ },
+ "C03-01": {
+  "C03-01-d1": "Fragments generally slow rendering, so Googlebot times out before content loads.",
+  "C03-01-d2": "Google crawls each #/ route but can't pass link signals to fragment URLs.",
+  "C03-01-d3": "They need the #! AJAX crawling scheme so Google can request escaped fragments."
+ },
+ "C03-02": {
+  "C03-02-d1": "Use : between each key and value, and ; to add more parameters.",
+  "C03-02-d2": "Wrap each pair in brackets, such as [color:red], so Google can parse it.",
+  "C03-02-d3": "Separate each pair with a comma and link keys to values with a hyphen."
+ },
+ "C03-03": {
+  "C03-03-d1": "Underscores, since Google reads them as word separators in URLs.",
+  "C03-03-d2": "Either; Google treats hyphens and underscores identically in URLs.",
+  "C03-03-d3": "Plus signs, since they match how Google encodes spaces in queries."
+ },
+ "C03-04": {
+  "C03-04-d1": "Google treats them as one URL, since paths are case-insensitive.",
+  "C03-04-d2": "They are identical when the domain is written in lowercase.",
+  "C03-04-d3": "Googlebot converts paths to lowercase before crawling them."
+ },
+ "C03-05": {
+  "C03-05-d1": "Long URLs, deep folders, uppercase paths and non-English words.",
+  "C03-05-d2": "Large sitemaps, hreflang annotations, canonical tags and image galleries.",
+  "C03-05-d3": "Too many internal links per page, nofollow tags and slow server responses."
+ },
+ "C03-06": {
+  "C03-06-d1": "Use English words, since Google matches them across languages.",
+  "C03-06-d2": "Use numeric IDs rather than words to avoid encoding issues.",
+  "C03-06-d3": "Use English in paths and the local language in parameters."
+ },
+ "C04-01": {
+  "C04-01-d1": "A <span> with an onclick handler that calls window.location.",
+  "C04-01-d2": "An <a> element with a routerLink attribute that the framework resolves on click.",
+  "C04-01-d3": "A <button> element whose click handler navigates to the URL."
+ },
+ "C04-02": {
+  "C04-02-d1": "They can, as long as a click handler is attached to them.",
+  "C04-02-d2": "Googlebot reads links from the raw HTML response alone.",
+  "C04-02-d3": "They can, if the script inserts them after the user scrolls."
+ },
+ "C04-03": {
+  "C04-03-d1": "Exact-match keyword text for the target page's main query, repeated site-wide.",
+  "C04-03-d2": "Short generic labels like 'click here', which keep the design consistent.",
+  "C04-03-d3": "Long, keyword-rich text that covers as many related queries as possible."
+ },
+ "C04-04": {
+  "C04-04-d1": "Google uses the image's file name, with hyphens read as word separators.",
+  "C04-04-d2": "Google uses the image's caption from the image sitemap as the anchor text.",
+  "C04-04-d3": "Google uses the nearest heading text, since images carry no anchor text of their own."
+ },
+ "C04-05": {
+  "C04-05-d1": "Keep it under 100 links per page so PageRank is not diluted.",
+  "C04-05-d2": "About three to five contextual links per 1,000 words of content.",
+  "C04-05-d3": "As many as possible, since each link adds ranking value to its target."
+ },
+ "C04-06": {
+  "C04-06-d1": "Yes, so the site's own PageRank is not leaked to other domains.",
+  "C04-06-d2": "Only paid ones; user-posted links can pass signals like normal citations.",
+  "C04-06-d3": "Only links in comments; disclosed paid links can stay followed."
+ },
+ "C05-01": {
+  "C05-01-d1": "It tells search engines which pages to rank highest for their keywords.",
+  "C05-01-d2": "It controls which URLs Google may crawl and which it should skip.",
+  "C05-01-d3": "It submits pages directly into Google's index, bypassing the crawl step."
+ },
+ "C05-02": {
+  "C05-02-d1": "For small sites with strong internal linking and mostly text content.",
+  "C05-02-d2": "For sites recovering from a penalty, since sitemaps signal fresh quality.",
+  "C05-02-d3": "For sites with many backlinks, since sitemaps can amplify link signals."
+ },
+ "C05-03": {
+  "C05-03-d1": "It guarantees crawling of every URL, though indexing still depends on quality.",
+  "C05-03-d2": "It guarantees indexing for URLs that return 200 and carry no noindex.",
+  "C05-03-d3": "It ensures indexing within a few days for URLs that pass validation."
+ },
+ "C05-04": {
+  "C05-04-d1": "Rarely, since Google usually needs a sitemap to find new pages.",
+  "C05-04-d2": "Often, if it has under 5,000 pages, even with weak internal linking.",
+  "C05-04-d3": "It can't, since a sitemap is required before Google indexes a new site."
+ },
+ "C06-01": {
+  "C06-01-d1": "50,000 URLs or 10 MB compressed.",
+  "C06-01-d2": "10,000 URLs or 50 MB compressed.",
+  "C06-01-d3": "10,000 URLs or 10 MB uncompressed."
+ },
+ "C06-02": {
+  "C06-02-d1": "XML, since Google parses it faster and weights its URLs more heavily.",
+  "C06-02-d2": "RSS or Atom, since Google crawls feed URLs before XML sitemaps.",
+  "C06-02-d3": "Plain text, since it is the lightest file for Googlebot to parse."
+ },
+ "C06-03": {
+  "C06-03-d1": "Relative URLs are fine, since Google resolves them against the sitemap's location.",
+  "C06-03-d2": "Relative paths work if a <base> tag in the sitemap sets the domain.",
+  "C06-03-d3": "Either works, though absolute URLs can be crawled slightly faster."
+ },
+ "C06-04": {
+  "C06-04-d1": "Both are hints Google weighs alongside lastmod when scheduling recrawls.",
+  "C06-04-d2": "Google falls back on them when an entry has no lastmod value.",
+  "C06-04-d3": "priority can raise a URL's crawl rate, while lastmod is ignored by Google."
+ },
+ "C06-05": {
+  "C06-05-d1": "Edits anywhere in the HTML, including a new copyright year in the footer.",
+  "C06-05-d2": "Changes to the title tag or meta description, but not edits to links.",
+  "C06-05-d3": "Each visit or crawl of the page, so the date stays current for Google."
+ },
+ "C06-06": {
+  "C06-06-d1": "Yes, list all variants so Google can pick the canonical itself.",
+  "C06-06-d2": "List the parameter versions too, as they help Google find faceted pages.",
+  "C06-06-d3": "List the shortest URL variant, even when the canonical points elsewhere."
+ },
+ "C06-07": {
+  "C06-07-d1": "Google's sitemap ping endpoint, called after each update.",
+  "C06-07-d2": "A <link rel=\"sitemap\"> tag in each page's head.",
+  "C06-07-d3": "Saving it as /sitemap.xml, which Googlebot checks by default."
+ },
+ "C06-08": {
+  "C06-08-d1": "It can, as long as the sitemap's own domain is verified in Search Console.",
+  "C06-08-d2": "Each domain needs a sitemap file hosted on its own server.",
+  "C06-08-d3": "It can, if each domain links to the central file from its homepage."
+ },
+ "C06-09": {
+  "C06-09-d1": "Put the most important URLs first, as Google reads files top-down.",
+  "C06-09-d2": "Group URLs by directory, since Googlebot processes sitemaps one section at a time.",
+  "C06-09-d3": "Sort entries by lastmod so Google can find the newest pages first."
+ },
+ "C07-01": {
+  "C07-01-d1": "It ranks child sitemaps so Google crawls the most important one first.",
+  "C07-01-d2": "It lists the site's sections so Google can build breadcrumb results.",
+  "C07-01-d3": "It stores the shared lastmod and priority for the URLs in each child file."
+ },
+ "C07-02": {
+  "C07-02-d1": "Anywhere on the same domain, including folders above the index file.",
+  "C07-02-d2": "On a CDN or other host, since the index file vouches for its children.",
+  "C07-02-d3": "In the root folder, because Google won't read sitemaps stored in subdirectories."
+ },
+ "C07-03": {
+  "C07-03-d1": "50,000 loc entries per index and 1,000 index files per site.",
+  "C07-03-d2": "10,000 loc entries per index and 1,000 index files per site.",
+  "C07-03-d3": "10,000 loc entries per index and 500 index files per site."
+ },
+ "C07-04": {
+  "C07-04-d1": "It records when the most recently updated page in that child file changed.",
+  "C07-04-d2": "It records when Google last downloaded the child sitemap file.",
+  "C07-04-d3": "It records when the sitemap index was last submitted in Search Console."
+ },
+ "C08-01": {
+  "C08-01-d1": "A separate image sitemap is needed so Google can process the image tags.",
+  "C08-01-d2": "Image URLs go in robots.txt Allow lines rather than in a sitemap.",
+  "C08-01-d3": "Images should be listed as their own <url> entries instead of image tags."
+ },
+ "C08-02": {
+  "C08-02-d1": "image:image for each entry and image:title for the image's name.",
+  "C08-02-d2": "image:loc for the image URL and image:caption for its description.",
+  "C08-02-d3": "image:title and image:caption, which carry the image's name and text."
+ },
+ "C08-03": {
+  "C08-03-d1": "Up to 100 images per url entry.",
+  "C08-03-d2": "Up to 10,000 images per url entry.",
+  "C08-03-d3": "Up to 50,000 images per url entry."
+ },
+ "C08-04": {
+  "C08-04-d1": "That's fine if the CDN domain is listed in the sitemap's xmlns attribute.",
+  "C08-04-d2": "It's allowed only when the CDN is a subdomain of the page's own domain.",
+  "C08-04-d3": "That's fine as long as the main site is verified; the CDN needs no setup."
+ },
+ "C08-05": {
+  "C08-05-d1": "image:title is still required, but image:caption became optional.",
+  "C08-05-d2": "They are optional, but omitting them stops images showing in Google Images.",
+  "C08-05-d3": "Both remain required, alongside the newer image:license tag."
+ },
+ "C09-01": {
+  "C09-01-d1": "Seven days, then move the URL to the sitemap index.",
+  "C09-01-d2": "Thirty days, then delete the article's news:news tag.",
+  "C09-01-d3": "Until Google indexes it, then remove the URL from the file."
+ },
+ "C09-02": {
+  "C09-02-d1": "Create a new file for each batch and list it in the sitemap index.",
+  "C09-02-d2": "Leave the file as is and request indexing for each new URL.",
+  "C09-02-d3": "Append new articles to a regular sitemap and drop the news sitemap."
+ },
+ "C09-03": {
+  "C09-03-d1": "1,000 news:news tags per sitemap, several per url entry.",
+  "C09-03-d2": "50,000 news:news tags per sitemap, one per url entry.",
+  "C09-03-d3": "50,000 news:news tags per sitemap, several per url entry."
+ },
+ "C09-04": {
+  "C09-04-d1": "The time the article was last updated.",
+  "C09-04-d2": "The time the URL was added to the sitemap.",
+  "C09-04-d3": "The time the article was submitted to Google News."
+ },
+ "C09-05": {
+  "C09-05-d1": "It may lower the site's Google News ranking until new articles appear.",
+  "C09-05-d2": "It can make Google drop the sitemap until it is resubmitted.",
+  "C09-05-d3": "It signals an inactive publication, so older articles should stay in the file."
+ },
+ "C09-06": {
+  "C09-06-d1": "An SEO-optimized title with the main keyword, plus the site's brand name.",
+  "C09-06-d2": "The on-site title with the date appended, plus the domain name in parentheses.",
+  "C09-06-d3": "The headline from the social share tags, plus the author's byline."
+ },
+ "C10-01": {
+  "C10-01-d1": "Title, description, duration and an upload date for each video.",
+  "C10-01-d2": "Thumbnail, title, and both a content URL and a player URL.",
+  "C10-01-d3": "A content URL and duration; title and description come from the page."
+ },
+ "C10-02": {
+  "C10-02-d1": "content_loc is the host page; player_loc is the video's thumbnail.",
+  "C10-02-d2": "content_loc is the player URL; player_loc is the raw media file.",
+  "C10-02-d3": "content_loc is the host page; player_loc is the media file itself."
+ },
+ "C10-03": {
+  "C10-03-d1": "Blocked files are fine, since Google can read the details from the sitemap tags.",
+  "C10-03-d2": "Only the thumbnail must be crawlable; the video file can require a login.",
+  "C10-03-d3": "Robots-blocked files are fine as long as the host page itself is crawlable."
+ },
+ "C10-04": {
+  "C10-04-d1": "Description: 2,048 characters; duration: 1–3,600 seconds.",
+  "C10-04-d2": "Description: 10,000 characters; duration: 1–28,800 seconds.",
+  "C10-04-d3": "Description: 10,000 characters; duration: 1–3,600 seconds."
+ },
+ "C10-05": {
+  "C10-05-d1": "They block playback for viewers in the listed countries.",
+  "C10-05-d2": "They block the embedded player but leave direct file links playable.",
+  "C10-05-d3": "They restrict playback when the video is opened from a Google result."
+ },
+ "C10-06": {
+  "C10-06-d1": "Google recrawls the video page on that date to check for updates.",
+  "C10-06-d2": "Google removes the whole host page from the index after that date.",
+  "C10-06-d3": "The video gets a freshness boost until the date passes."
+ },
+ "C10-07": {
+  "C10-07-d1": "A JSON video list submitted through the Indexing API for each new upload.",
+  "C10-07-d2": "oEmbed endpoints, which Google can poll for new videos on a schedule.",
+  "C10-07-d3": "A YouTube channel feed, which Google uses in place of site sitemaps."
+ },
+ "C10-08": {
+  "C10-08-d1": "video:price is still supported, while mRSS media:price was deprecated.",
+  "C10-08-d2": "video:price and mRSS media:price were both deprecated at the same time.",
+  "C10-08-d3": "They are aliases for one field, so either works in sitemaps and mRSS."
+ },
+ "C11-01": {
+  "C11-01-d1": "It works for images and video, but hreflang needs its own sitemap file.",
+  "C11-01-d2": "It works, but Google then reads only the first extension in each entry.",
+  "C11-01-d3": "News entries can't be combined with other extensions in one sitemap."
+ },
+ "C11-02": {
+  "C11-02-d1": "In the XML declaration at the very top of the file.",
+  "C11-02-d2": "In the sitemap index file that lists the child sitemap.",
+  "C11-02-d3": "In the HTTP Content-Type header of the sitemap response."
+ },
+ "C11-03": {
+  "C11-03-d1": "Extension tags go before loc so Google reads them before the URL.",
+  "C11-03-d2": "News tags come first, then image and video tags, in namespace declaration order.",
+  "C11-03-d3": "The order sets priority, so put the most important extension first."
+ },
+ "C12-01": {
+  "C12-01-d1": "A sitemap for a few URLs; URL Inspection in bulk for many URLs.",
+  "C12-01-d2": "URL Inspection for a few URLs; the Removals tool for many at once.",
+  "C12-01-d3": "The Indexing API for a few URLs; the Crawl Stats report for many."
+ },
+ "C12-02": {
+  "C12-02-d1": "Restricted users can request it for URLs in the property.",
+  "C12-02-d2": "Owner only; full users can view reports but not request it.",
+  "C12-02-d3": "Edit access in the linked Google Analytics property."
+ },
+ "C12-03": {
+  "C12-03-d1": "Each repeat request moves the URL up in the crawl queue.",
+  "C12-03-d2": "There is no quota, but requests are processed in the order received.",
+  "C12-03-d3": "Resubmitting the sitemap alongside the request forces a same-day crawl."
+ },
+ "C12-04": {
+  "C12-04-d1": "About 24 hours for most URLs, since requests are processed daily.",
+  "C12-04-d2": "Within a week, as long as the page passes the live URL test.",
+  "C12-04-d3": "A few minutes for indexing, though ranking can take days to weeks."
+ },
+ "C13-01": {
+  "C13-01-d1": "In the Core Web Vitals report and the PageSpeed Insights field data for the site.",
+  "C13-01-d2": "In the Performance report's impressions and click trends.",
+  "C13-01-d3": "In the robots.txt report and the Removals tool history."
+ },
+ "C13-02": {
+  "C13-02-d1": "It does, since crawl budget is set by response time alone.",
+  "C13-02-d2": "It can't, since crawl budget is a fixed quota assigned to each domain.",
+  "C13-02-d3": "It does, as long as pages also carry a sitemap priority of 1.0."
+ },
+ "C13-03": {
+  "C13-03-d1": "Filter the Crawl Stats report by path to see each Googlebot visit.",
+  "C13-03-d2": "Check the Performance report; impressions show the page was crawled.",
+  "C13-03-d3": "Check the sitemap report, which marks each listed URL as crawled."
+ },
+ "C13-04": {
+  "C13-04-d1": "A real 404 with a thin template; add more text to the error page.",
+  "C13-04-d2": "A page that loads slowly; fix it by improving server response time.",
+  "C13-04-d3": "A redirect chain that ends in a 404; shorten it to a single 302."
+ },
+ "C13-05": {
+  "C13-05-d1": "Soft 404 is based on the status code alone, so rendering can't affect it.",
+  "C13-05-d2": "Google classifies soft 404s from raw HTML before JavaScript runs.",
+  "C13-05-d3": "Missing scripts can lower Core Web Vitals scores but not soft 404 detection."
+ },
+ "C13-06": {
+  "C13-06-d1": "Do it weekly, since blocked sections hand their budget to open ones.",
+  "C13-06-d2": "Do it, but rotate sitemaps too so Google sees the new priorities.",
+  "C13-06-d3": "Use noindex instead, since noindexed URLs free up crawl budget."
+ },
+ "C13-07": {
+  "C13-07-d1": "A 304 for updated content tells Google to fetch it again.",
+  "C13-07-d2": "A 200 with an empty body tells Google the page is unchanged.",
+  "C13-07-d3": "A 302 for unchanged pages lets Google keep the cached copy."
+ },
+ "C13-08": {
+  "C13-08-d1": "Return 403 to Googlebot until the load is back to normal.",
+  "C13-08-d2": "Add a crawl-delay rule to robots.txt for Googlebot.",
+  "C13-08-d3": "Return 503 for a few weeks so Google lowers its crawl rate for good."
+ },
+ "C14-01": {
+  "C14-01-d1": "Googlebot crawlers, AdsBot crawlers and third-party verified partner crawlers.",
+  "C14-01-d2": "Mobile crawlers, desktop crawlers and rendering crawlers.",
+  "C14-01-d3": "Automatic crawlers, scheduled crawlers and on-demand indexers."
+ },
+ "C14-02": {
+  "C14-02-d1": "It gives a small boost, since HTTP/2 is a page experience signal.",
+  "C14-02-d2": "It mainly speeds up indexing, since Google indexes HTTP/2 pages first.",
+  "C14-02-d3": "It can help rankings by letting Googlebot crawl more pages per visit."
+ },
+ "C14-03": {
+  "C14-03-d1": "15 MB applies across every Google crawler, whatever the file type.",
+  "C14-03-d2": "15 MB covers HTML, while PDFs and images can be fetched with no cap.",
+  "C14-03-d3": "15 MB was replaced by a 2 MB limit that covers Google's whole infrastructure."
+ },
+ "C14-04": {
+  "C14-04-d1": "gzip, bzip2 and ZIP.",
+  "C14-04-d2": "deflate, LZMA (xz) and ZIP archives.",
+  "C14-04-d3": "Brotli (br), bzip2 and LZMA."
+ },
+ "C14-05": {
+  "C14-05-d1": "Last-Modified takes precedence, since Google prefers date-based checks.",
+  "C14-05-d2": "Whichever header appears first in the response takes precedence.",
+  "C14-05-d3": "Google compares both and refetches if either one has changed."
+ },
+ "C14-06": {
+  "C14-06-d1": "All do, so a non-US request claiming to be Googlebot is fake.",
+  "C14-06-d2": "They come from whichever Google data center is nearest the site.",
+  "C14-06-d3": "Googlebot does, while other Google crawlers usually use EU addresses."
+ },
+ "C15-01": {
+  "C15-01-d1": "Use Googlebot-Mobile for Smartphone and Googlebot for Desktop.",
+  "C15-01-d2": "Use Googlebot-Smartphone and Googlebot-Desktop as separate tokens.",
+  "C15-01-d3": "Each can be targeted by matching its full user-agent string in robots.txt."
+ },
+ "C15-02": {
+  "C15-02-d1": "2 MB for ordinary files and 100 MB for PDFs, compressed.",
+  "C15-02-d2": "15 MB for ordinary files and 64 MB for PDFs, compressed.",
+  "C15-02-d3": "15 MB for ordinary files and 100 MB for PDFs, uncompressed."
+ },
+ "C15-03": {
+  "C15-03-d1": "HTML, CSS and JavaScript share one 2 MB budget per page.",
+  "C15-03-d2": "Scripts count toward the HTML limit, but CSS is fetched separately.",
+  "C15-03-d3": "Googlebot skips external CSS and JavaScript and renders HTML by itself."
+ },
+ "C15-04": {
+  "C15-04-d1": "It's usually reliable, since spoofed agents are blocked by most hosts.",
+  "C15-04-d2": "It's enough if the request also includes a Google referrer header.",
+  "C15-04-d3": "Check that the request follows robots.txt, which spoofed bots don't do."
+ },
+ "C15-05": {
+  "C15-05-d1": "It can, since Googlebot finds URLs through links and sitemaps alone.",
+  "C15-05-d2": "It works if robots.txt also disallows the URL, which hides it.",
+  "C15-05-d3": "It works as long as the page also carries a noindex tag."
+ },
+ "C16-01": {
+  "C16-01-d1": "Check Search Console for a manual action on the site.",
+  "C16-01-d2": "Compare rankings before and after the spike started.",
+  "C16-01-d3": "Check whether the sitemap's changefreq was set to hourly."
+ },
+ "C16-02": {
+  "C16-02-d1": "Add a Crawl-delay line for Googlebot in robots.txt.",
+  "C16-02-d2": "Briefly return 403 or 404 instead of 200.",
+  "C16-02-d3": "Lower the crawl rate setting in Search Console."
+ },
+ "C16-03": {
+  "C16-03-d1": "It slows crawling just for the URLs that return the error codes.",
+  "C16-03-d2": "It slows crawling for the affected directory and its subfolders.",
+  "C16-03-d3": "It slows crawling for the whole domain, including other subdomains."
+ },
+ "C16-04": {
+  "C16-04-d1": "Google keeps the URLs indexed but stops updating their snippets.",
+  "C16-04-d2": "Google may lower the crawl rate further but leaves indexing alone.",
+  "C16-04-d3": "Google flags the site with a manual action for server instability."
+ },
+ "C16-05": {
+  "C16-05-d1": "It can, for verified sites with fast servers and large inventories.",
+  "C16-05-d2": "Only news publishers can use it to request a higher rate.",
+  "C16-05-d3": "Increases are handled through the crawl rate setting in Search Console."
+ },
+ "C17-01": {
+  "C17-01-d1": "Run a WHOIS lookup on the source IP and confirm it is registered to Google LLC.",
+  "C17-01-d2": "Reverse DNS the IP and accept it if the hostname contains the word google.",
+  "C17-01-d3": "Compare the user-agent with Google's crawler list and confirm a google.com referrer."
+ },
+ "C17-02": {
+  "C17-02-d1": "Reverse DNS often times out, so it fails for many genuine requests.",
+  "C17-02-d2": "Reverse DNS reveals the hostname but not which Google product sent it.",
+  "C17-02-d3": "The user-agent must also be checked against Google's published list."
+ },
+ "C17-03": {
+  "C17-03-d1": "Match user-agent strings against Google's published crawler list.",
+  "C17-03-d2": "Run reverse DNS on a sample of requests and apply it to the rest.",
+  "C17-03-d3": "Allow traffic from Google Cloud ASNs, which host Google's crawlers."
+ },
+ "C17-04": {
+  "C17-04-d1": "Only user-triggered fetchers always obey it.",
+  "C17-04-d2": "All of them, including user-triggered fetchers.",
+  "C17-04-d3": "Only special-case crawlers ignore it."
+ },
+ "C18-01": {
+  "C18-01-d1": "Which URLs Google can show in search results.",
+  "C18-01-d2": "Which pages visitors can open without logging in.",
+  "C18-01-d3": "How often Googlebot recrawls each allowed URL."
+ },
+ "C18-02": {
+  "C18-02-d1": "Google ignores Disallow rules for pages that already rank well.",
+  "C18-02-d2": "Disallow rules apply to Googlebot Desktop but not Googlebot Smartphone.",
+  "C18-02-d3": "Google keeps crawling disallowed pages that are listed in the sitemap."
+ },
+ "C18-03": {
+  "C18-03-d1": "It does, as major crawlers are legally bound to follow Disallow rules.",
+  "C18-03-d2": "It does if the private folder is also left out of the sitemap.",
+  "C18-03-d3": "It can, once the Disallow path matches the folder name exactly."
+ },
+ "C18-04": {
+  "C18-04-d1": "Media still appears through host pages, whatever robots.txt says.",
+  "C18-04-d2": "It blocks images, but video and audio need a noindex meta tag instead.",
+  "C18-04-d3": "It hides media from Google Images but not from video or web results."
+ },
+ "C18-05": {
+  "C18-05-d1": "All of them, since Google renders pages from HTML and ignores styling.",
+  "C18-05-d2": "Only CSS files, since Google needs JavaScript but not stylesheets.",
+  "C18-05-d3": "Leave them unblocked, since blocking resources counts as cloaking."
+ },
+ "C19-01": {
+  "C19-01-d1": "It applies site-wide to whichever domain property is verified in Search Console.",
+  "C19-01-d2": "Its rules cover only the hostname, so HTTP, HTTPS and other ports share them.",
+  "C19-01-d3": "It covers subdomains too when they are hosted on the same server and IP."
+ },
+ "C19-02": {
+  "C19-02-d1": "Google treats it as a full disallow and stops crawling until the file returns 200.",
+  "C19-02-d2": "Google pauses crawling for 12 hours, then reuses the last cached file.",
+  "C19-02-d3": "Google may slow its crawl rate on the site until a valid robots.txt is served."
+ },
+ "C19-03": {
+  "C19-03-d1": "Google treats it like a 404 and crawls the site with no restrictions right away.",
+  "C19-03-d2": "Google keeps crawling as usual and retries the robots file once a day.",
+  "C19-03-d3": "Crawling stops for 30 days, and after that the site's URLs are deindexed."
+ },
+ "C19-04": {
+  "C19-04-d1": "About seven days, unless Cache-Control says otherwise.",
+  "C19-04-d2": "Until the next sitemap ping is received from the site.",
+  "C19-04-d3": "About one hour, so changes apply almost immediately."
+ },
+ "C19-05": {
+  "C19-05-d1": "50 MB, the same uncompressed limit that applies to sitemap files.",
+  "C19-05-d2": "2 MB; a larger file is rejected and treated as a full disallow.",
+  "C19-05-d3": "100 KiB; an oversized file is skipped and the site is crawled freely."
+ },
+ "C19-06": {
+  "C19-06-d1": "crawl-delay works, but noindex does not.",
+  "C19-06-d2": "noindex is supported, but crawl-delay is not.",
+  "C19-06-d3": "Both are supported, though Google can cap the crawl-delay value."
+ },
+ "C19-07": {
+  "C19-07-d1": "Paths ignore case, but field names such as User-agent are case-sensitive.",
+  "C19-07-d2": "Both field names and path values are case-sensitive in Google's parser.",
+  "C19-07-d3": "Neither is case-sensitive, since Google lowercases URLs before matching."
+ },
+ "C19-08": {
+  "C19-08-d1": "Googlebot merges the * group into its own group and applies both sets.",
+  "C19-08-d2": "Googlebot follows the first group in the file that matches, which may be *.",
+  "C19-08-d3": "Googlebot follows only the stricter of the two groups when they conflict."
+ },
+ "C19-09": {
+  "C19-09-d1": "The last matching rule in the group takes effect.",
+  "C19-09-d2": "Disallow beats allow whenever both rules match.",
+  "C19-09-d3": "The longest path wins; ties favor disallow."
+ },
+ "C19-10": {
+  "C19-10-d1": "* matches one or more of any character, and $ marks the end of a path segment.",
+  "C19-10-d2": "* matches a single character, and $ marks the start of a query string.",
+  "C19-10-d3": "* works as in regex, repeating the previous character, and $ is literal."
+ },
+ "C19-11": {
+  "C19-11-d1": "Neither; it needs a group and the same host.",
+  "C19-11-d2": "Another host, yes; outside a group, no.",
+  "C19-11-d3": "Outside a group, but it can't point to another host."
+ },
+ "C19-12": {
+  "C19-12-d1": "It matches /fish and anything inside /fish/, but not /fishheads.",
+  "C19-12-d2": "It matches any URL containing fish, like /catfish.",
+  "C19-12-d3": "It matches the exact path /fish, plus /Fish since case is ignored."
+ },
+ "C20-01": {
+  "C20-01-d1": "Demoting duplicate pages so the original can outrank its copies.",
+  "C20-01-d2": "Redirecting duplicate URLs to the version listed in the sitemap.",
+  "C20-01-d3": "Normalizing URL case and trailing slashes before a page is crawled."
+ },
+ "C20-02": {
+  "C20-02-d1": "It is a hint only until the same URL is also listed in the XML sitemap.",
+  "C20-02-d2": "It is a hint for HTML pages but becomes a binding directive when sent in an HTTP header.",
+  "C20-02-d3": "It is generally binding, though Google may skip it if the target is slow."
+ },
+ "C20-03": {
+  "C20-03-d1": "They are unless each version sits on its own ccTLD or subdomain.",
+  "C20-03-d2": "They are, and only hreflang annotations can mark them as distinct versions.",
+  "C20-03-d3": "They can be when the pages share images and structured data, even if translated."
+ },
+ "C20-04": {
+  "C20-04-d1": "Duplicates are crawled more often to check if they still match.",
+  "C20-04-d2": "Both are crawled equally, since Google can't tell them apart before fetching.",
+  "C20-04-d3": "The URL with the most backlinks is crawled most, canonical or not."
+ },
+ "C20-05": {
+  "C20-05-d1": "It can't; once chosen, the canonical URL is the one shown in results.",
+  "C20-05-d2": "It can, but just when the canonical returns an error at query time.",
+  "C20-05-d3": "It can, when the alternate has more backlinks than the canonical."
+ },
+ "C21-01": {
+  "C21-01-d1": "Sitemap inclusion and redirects are strong signals; rel=\"canonical\" is weak.",
+  "C21-01-d2": "rel=\"canonical\" is the strongest signal; redirects and sitemaps are weak.",
+  "C21-01-d3": "The three are weighted equally, and Google needs two of them to agree."
+ },
+ "C21-02": {
+  "C21-02-d1": "noindex is ignored entirely on duplicate pages, so clustering is unaffected.",
+  "C21-02-d2": "noindex works, but Google may take longer to process it than a canonical tag.",
+  "C21-02-d3": "noindex removes the duplicate but also drops the canonical from the same cluster."
+ },
+ "C21-03": {
+  "C21-03-d1": "It shouldn't; a self-referencing tag is redundant and can confuse Google.",
+  "C21-03-d2": "It's optional; Google ignores self-referencing tags on canonical pages.",
+  "C21-03-d3": "It should, but just on pages that are reachable with URL parameters."
+ },
+ "C21-04": {
+  "C21-04-d1": "Add a rel=\"canonical\" field to the PDF's document properties, which Google can read.",
+  "C21-04-d2": "Return an X-Robots-Tag header with a canonical value and the preferred URL.",
+  "C21-04-d3": "Return a Content-Location header pointing to the HTML version of the file."
+ },
+ "C21-05": {
+  "C21-05-d1": "It's fine; Google uses the rendered canonical and discards the source one.",
+  "C21-05-d2": "Set both, since Google can merge the HTML and rendered canonicals.",
+  "C21-05-d3": "Avoid it; keep the canonical only in the sitemap when JavaScript is used."
+ },
+ "C21-06": {
+  "C21-06-d1": "Not supported; Google ignores relative paths.",
+  "C21-06-d2": "Supported, and preferred since they survive domain moves.",
+  "C21-06-d3": "Supported, but Google resolves them against the site's homepage."
+ },
+ "C21-07": {
+  "C21-07-d1": "It is preferred, but just when the HTTP version also redirects to it.",
+  "C21-07-d2": "It isn't; Google treats HTTP and HTTPS as equal and picks the older URL.",
+  "C21-07-d3": "It is preferred, though a faster HTTP page can override that."
+ },
+ "C21-08": {
+  "C21-08-d1": "robots.txt can, since blocked duplicates pass signals to the canonical.",
+  "C21-08-d2": "The Removals tool can, as long as the canonical stays indexed.",
+  "C21-08-d3": "Both, though robots.txt acts faster than Removals."
+ },
+ "C22-01": {
+  "C22-01-d1": "Start with a site: search, then resubmit the sitemap until Google switches.",
+  "C22-01-d2": "Start in the Links report, then add internal links until the canonical changes.",
+  "C22-01-d3": "Start with the Manual Actions report, since unexpected canonicals signal a penalty."
+ },
+ "C22-02": {
+  "C22-02-d1": "Add a self-referencing canonical to each page; that splits the cluster.",
+  "C22-02-d2": "Change titles and headings, then request indexing to split them within a day.",
+  "C22-02-d3": "Use the Removals tool on one page so Google re-clusters the pair."
+ },
+ "C22-03": {
+  "C22-03-d1": "It can't; cross-domain choices come from rel=\"canonical\" tags alone.",
+  "C22-03-d2": "A slow server can cause it, since Google may then prefer the faster domain.",
+  "C22-03-d3": "It can when both domains share an IP address, even with distinct content."
+ },
+ "C22-04": {
+  "C22-04-d1": "Spam backlinks pointing at the site can make Google switch its canonical.",
+  "C22-04-d2": "Hackers can change the preferred canonical in Search Console settings.",
+  "C22-04-d3": "Malware warnings make Google choose a clean mirror site as the canonical."
+ },
+ "C22-05": {
+  "C22-05-d1": "It is; a cross-domain canonical from each partner is the safest fix.",
+  "C22-05-d2": "It isn't; publishing first and pinging Google protects the original.",
+  "C22-05-d3": "It isn't; a link back to the original is the recommended fix."
+ },
+ "C23-01": {
+  "C23-01-d1": "It means Google keeps a separate mobile index used for phone searches.",
+  "C23-01-d2": "It means mobile pages are ranked higher than desktop ones in results.",
+  "C23-01-d3": "It means Google crawls desktop first and adds mobile content later."
+ },
+ "C23-02": {
+  "C23-02-d1": "Separate m-dot URLs, since they can load faster on phones.",
+  "C23-02-d2": "Dynamic serving, since each device receives HTML tailored to its screen.",
+  "C23-02-d3": "AMP pages, since they are the mobile format Google ranks first."
+ },
+ "C23-03": {
+  "C23-03-d1": "Tabs and accordions are fine, but hidden text there is given less weight.",
+  "C23-03-d2": "They should be avoided, since Google can't read content hidden on load.",
+  "C23-03-d3": "They are fine if the hidden content is also marked up as FAQ structured data."
+ },
+ "C23-04": {
+  "C23-04-d1": "Page speed, viewport settings, tap-target size and font size on mobile.",
+  "C23-04-d2": "Internal link counts, word count and keyword density on both versions.",
+  "C23-04-d3": "Core Web Vitals, ad density and pop-ups, which can differ by device."
+ },
+ "C23-05": {
+  "C23-05-d1": "The m-dot URL becomes canonical now, and desktop is the alternate.",
+  "C23-05-d2": "Each URL should point its canonical to itself.",
+  "C23-05-d3": "Either can be canonical, as long as hreflang links them."
+ },
+ "C23-06": {
+  "C23-06-d1": "Point hreflang from both versions to the desktop URLs, the canonicals.",
+  "C23-06-d2": "Add hreflang to the mobile URLs alone, since those are what Google indexes.",
+  "C23-06-d3": "Skip hreflang on m-dot pages, since rel=\"alternate\" can carry the language."
+ },
+ "C23-07": {
+  "C23-07-d1": "The homepage can be flagged as a doorway page by Google.",
+  "C23-07-d2": "Googlebot Smartphone may loop between the redirects and stop crawling.",
+  "C23-07-d3": "Link equity from those pages is split, so the homepage can lose rank."
+ },
+ "C23-08": {
+  "C23-08-d1": "It can, since Googlebot taps visible buttons while rendering the page.",
+  "C23-08-d2": "It can, as long as the content is present in the XML sitemap.",
+  "C23-08-d3": "It shouldn't, because Google gives clicked content lower ranking weight."
+ },
+ "C24-01": {
+  "C24-01-d1": "It indexes the raw HTML, then renders it if no links are found.",
+  "C24-01-d2": "It crawls, then indexes, and renders the page in a later ranking pass.",
+  "C24-01-d3": "It renders the page in a Googlebot-specific engine that can't run ES6."
+ },
+ "C24-02": {
+  "C24-02-d1": "It is unnecessary, since Google now renders JavaScript as fast as HTML.",
+  "C24-02-d2": "It is still worth it, since Google can only index server-rendered text.",
+  "C24-02-d3": "It is now discouraged, since it can be treated as a form of cloaking."
+ },
+ "C24-03": {
+  "C24-03-d1": "It works, since Google indexes the final rendered HTML.",
+  "C24-03-d2": "It works if the script runs within five seconds of page load.",
+  "C24-03-d3": "It's unreliable, since Google caches the noindex for 30 days."
+ },
+ "C24-04": {
+  "C24-04-d1": "Show a not-found message on the route and keep its 200 status code.",
+  "C24-04-d2": "Redirect missing routes to the homepage so their signals can be kept.",
+  "C24-04-d3": "Add a canonical from the error state to the homepage of the app."
+ },
+ "C24-05": {
+  "C24-05-d1": "Fingerprints let Google verify that scripts haven't been tampered with.",
+  "C24-05-d2": "WRS obeys Cache-Control strictly, and hashed names make max-age unnecessary.",
+  "C24-05-d3": "WRS refetches scripts on each render, and hashed names cut repeat downloads."
+ },
+ "C24-06": {
+  "C24-06-d1": "Google indexes light DOM content but skips anything in the shadow DOM.",
+  "C24-06-d2": "Google indexes it if the component is registered before the load event.",
+  "C24-06-d3": "Google indexes it when a JSON-LD copy of the text is also provided."
+ },
+ "C24-07": {
+  "C24-07-d1": "Metadata works, but injected JSON-LD is ignored.",
+  "C24-07-d2": "JSON-LD can, but titles changed by JS are ignored.",
+  "C24-07-d3": "Neither; Google reads metadata before rendering starts."
+ },
+ "C25-01": {
+  "C25-01-d1": "Googlebot blocks third-party cookies, so analytics drops its sessions.",
+  "C25-01-d2": "Googlebot doesn't execute JavaScript, so analytics can't record its visits.",
+  "C25-01-d3": "WRS times out after five seconds, so analytics tags often load too late."
+ },
+ "C25-02": {
+  "C25-02-d1": "PageSpeed Insights or Lighthouse, checking the performance score and LCP.",
+  "C25-02-d2": "The Mobile-Friendly Test and the cache: operator, checking the stored copy.",
+  "C25-02-d3": "A site: search or the Coverage report, checking which pages rank."
+ },
+ "C25-03": {
+  "C25-03-d1": "It can; WRS keeps cookies across a crawl session, like a normal browser.",
+  "C25-03-d2": "Local storage is kept, though WRS clears cookies after each load.",
+  "C25-03-d3": "Googlebot logs in with stored credentials, so earlier state carries over."
+ },
+ "C25-04": {
+  "C25-04-d1": "Googlebot accepts them but supplies a blank camera feed and default location.",
+  "C25-04-d2": "Googlebot grants location but declines camera, so camera content must have a fallback.",
+  "C25-04-d3": "Googlebot ignores the prompts, so the page can render as if they were granted."
+ },
+ "C25-05": {
+  "C25-05-d1": "WebSockets work, though WebRTC-only content needs an HTTP fallback.",
+  "C25-05-d2": "It can, provided robots.txt allows crawling of the socket endpoint.",
+  "C25-05-d3": "Googlebot waits for socket messages for up to five seconds while rendering."
+ },
+ "C25-06": {
+  "C25-06-d1": "It is reliable if the hidden text is also marked with paywall structured data.",
+  "C25-06-d2": "It is reliable, since Google can't index text that JavaScript hides.",
+  "C25-06-d3": "Not reliably; use CSS display:none instead, which blocks text retrieval."
+ },
+ "C26-01": {
+  "C26-01-d1": "Load content on the first scroll event, since Googlebot scrolls each page.",
+  "C26-01-d2": "Load content on click, and list the hidden URLs in the XML sitemap.",
+  "C26-01-d3": "Load content when users hover, which Googlebot simulates on render."
+ },
+ "C26-02": {
+  "C26-02-d1": "Doing so speeds up the first render, so Google recommends it for LCP.",
+  "C26-02-d2": "It is fine for hero images, since Googlebot loads images eagerly anyway.",
+  "C26-02-d3": "It is fine as long as images carry width and height attributes."
+ },
+ "C26-03": {
+  "C26-03-d1": "Keep one URL and use #fragments so each chunk can be bookmarked.",
+  "C26-03-d2": "Put the chunks on one URL and point their canonical to page one.",
+  "C26-03-d3": "Give each chunk a URL, and use rel=next and rel=prev to connect them."
+ },
+ "C26-04": {
+  "C26-04-d1": "Google ignores date parameters, so the URL can't be crawled.",
+  "C26-04-d2": "It creates too many URL variants, which can exhaust crawl budget.",
+  "C26-04-d3": "Its content changes daily, so Google may treat it as a news page."
+ },
+ "C26-05": {
+  "C26-05-d1": "Check in PageSpeed Insights that offscreen images are deferred.",
+  "C26-05-d2": "Confirm in the page source that each img has a data-src attribute.",
+  "C26-05-d3": "Scroll the live page in Chrome; if images appear, Google can see them."
+ },
+ "C27-01": {
+  "C27-01-d1": "It is the recommended long-term option, provided bots and users see similar content.",
+  "C27-01-d2": "It's a workaround; Google recommends serving AMP versions of JS pages.",
+  "C27-01-d3": "It was retired, so Google can no longer index prerendered crawler responses."
+ },
+ "C27-02": {
+  "C27-02-d1": "It renders each page in the user's browser and sends the DOM back to Google.",
+  "C27-02-d2": "It sends users to a renderer, while crawlers get the raw JavaScript bundle.",
+  "C27-02-d3": "It switches rendering mode by device, so phones get server-rendered HTML."
+ },
+ "C27-03": {
+  "C27-03-d1": "It is cloaking, since crawlers and users receive different HTML.",
+  "C27-03-d2": "It isn't cloaking, even if crawlers get a different topic from users.",
+  "C27-03-d3": "It counts as cloaking whenever the renderer adds structured data."
+ },
+ "C27-04": {
+  "C27-04-d1": "It is classed as cloaking by default, so it can trigger a manual action.",
+  "C27-04-d2": "It blocks Googlebot from rendering, so pages are indexed from raw HTML.",
+  "C27-04-d3": "It doubles crawl budget use, since Google fetches each page twice."
+ },
+ "C28-01": {
+  "C28-01-d1": "img in head makes Google skip the whole head and read the body first.",
+  "C28-01-d2": "img in head delays rendering, so Google times out before the tags load.",
+  "C28-01-d3": "Google reads the image's alt text as metadata, which overrides the tags that follow."
+ },
+ "C28-02": {
+  "C28-02-d1": "title, meta, link, script, style, img, iframe and noscript.",
+  "C28-02-d2": "title, meta, link, script, style, base, div and section.",
+  "C28-02-d3": "title, meta, link, script and style; noscript belongs in the body."
+ },
+ "C28-03": {
+  "C28-03-d1": "It doesn't, since rendering repairs the head before Google parses it.",
+  "C28-03-d2": "It matters for rich results, but title and robots tags are read regardless.",
+  "C28-03-d3": "It matters for other engines, while Google's parser recovers each tag."
+ },
+ "C29-01": {
+  "C29-01-d1": "It does, unless it is longer than 160 characters.",
+  "C29-01-d2": "It does, but only when it contains every word of the query.",
+  "C29-01-d3": "It can't be; Google builds snippets from the body text instead."
+ },
+ "C29-02": {
+  "C29-02-d1": "They should be stated, or Google may treat the page as noindex.",
+  "C29-02-d2": "They are needed on pages that also carry a canonical tag.",
+  "C29-02-d3": "They are the defaults, but stating them overrides a noindex header."
+ },
+ "C29-03": {
+  "C29-03-d1": "Google uses it as a minor ranking factor.",
+  "C29-03-d2": "Google ignores it for ranking but uses it for indexing.",
+  "C29-03-d3": "Google uses it to spot keyword stuffing, which can hurt rankings."
+ },
+ "C29-04": {
+  "C29-04-d1": "It reads the lang attribute first and falls back to the text if it's missing.",
+  "C29-04-d2": "It uses hreflang annotations to decide which language each page is in.",
+  "C29-04-d3": "It uses the server location and ccTLD to determine the page's language."
+ },
+ "C29-05": {
+  "C29-05-d1": "Google still uses them to group paginated pages into one series.",
+  "C29-05-d2": "Google uses them as hints, so they can help consolidate signals.",
+  "C29-05-d3": "Google replaced them with a sitemap pagination field."
+ },
+ "C29-06": {
+  "C29-06-d1": "Its content token is case-sensitive, but the name can be in any case.",
+  "C29-06-d2": "Neither is case-sensitive, like other meta tags in Google's guide.",
+  "C29-06-d3": "Its name is case-sensitive, while the token is matched without case."
+ },
+ "C29-07": {
+  "C29-07-d1": "It is safe, since Google reads the rendered DOM just like static HTML.",
+  "C29-07-d2": "It is safe for titles and canonicals but not for robots meta tags.",
+  "C29-07-d3": "It is fine as long as every tag fires before the load event."
+ },
+ "C30-01": {
+  "C30-01-d1": "Use it when you need noindex processed faster than a meta tag.",
+  "C30-01-d2": "Use it for pages blocked in robots.txt, since headers are still read.",
+  "C30-01-d3": "Use it for HTML pages served over HTTP/2, which can drop meta tags."
+ },
+ "C30-02": {
+  "C30-02-d1": "The less restrictive rule wins.",
+  "C30-02-d2": "The rule appearing last in the HTML wins.",
+  "C30-02-d3": "The rule in the HTTP header beats the meta tag."
+ },
+ "C30-03": {
+  "C30-03-d1": "noindex only hides the snippet; nosnippet removes the page from text results.",
+  "C30-03-d2": "Both drop the page from results; nosnippet also hides it from Images.",
+  "C30-03-d3": "noindex removes the page; nosnippet can still show text in AI Overviews."
+ },
+ "C30-04": {
+  "C30-04-d1": "On its own, it lets Google index a page embedded elsewhere.",
+  "C30-04-d2": "Paired with noindex, it blocks the content from being embedded in iframes.",
+  "C30-04-d3": "Paired with nofollow, it lets embedded pages pass link signals to the host."
+ },
+ "C30-05": {
+  "C30-05-d1": "Characters; 0 lets Google choose the length, and -1 equals nosnippet.",
+  "C30-05-d2": "Words; 0 equals nosnippet, and -1 lets Google choose the snippet length.",
+  "C30-05-d3": "Characters; it also caps image previews, and 0 shows the full text."
+ },
+ "C30-06": {
+  "C30-06-d1": "none, small and full-width.",
+  "C30-06-d2": "small, standard and large.",
+  "C30-06-d3": "thumbnail, medium and full."
+ },
+ "C30-07": {
+  "C30-07-d1": "Seconds; 0 means no limit and -1 blocks video previews.",
+  "C30-07-d2": "Frames; 0 allows a static image and -1 means no limit.",
+  "C30-07-d3": "Seconds; 0 lets Google choose the length, and -1 shows only a still."
+ },
+ "C30-08": {
+  "C30-08-d1": "It can; Google reads the value false as turning it off.",
+  "C30-08-d2": "It does on div elements, but not on span or section.",
+  "C30-08-d3": "It is boolean, so false hides the whole page's snippet."
+ },
+ "C30-09": {
+  "C30-09-d1": "Structured data inside that element is excluded from rich results.",
+  "C30-09-d2": "JSON-LD still works, but microdata inside that element is dropped.",
+  "C30-09-d3": "It blocks that markup unless the item also appears in the sitemap."
+ },
+ "C30-10": {
+  "C30-10-d1": "Both still work; noarchive now keeps pages out of AI Overviews.",
+  "C30-10-d2": "noarchive still hides cached links, but nositelinkssearchbox is ignored.",
+  "C30-10-d3": "Both work, though nositelinkssearchbox also suppresses sitelinks."
+ },
+ "C30-11": {
+  "C30-11-d1": "Google reads headers with a HEAD request, so the two rules double up.",
+  "C30-11-d2": "Disallowed URLs are never shown, so the noindex header becomes redundant.",
+  "C30-11-d3": "Google honors the header but may still crawl the URL to confirm it."
+ },
+ "C31-01": {
+  "C31-01-d1": "A robots meta tag for HTML; a robots.txt noindex line for PDFs.",
+  "C31-01-d2": "An X-Robots-Tag for HTML; a meta tag in PDF properties.",
+  "C31-01-d3": "A robots meta tag for both, since PDFs can store HTML metadata."
+ },
+ "C31-02": {
+  "C31-02-d1": "Yes; it works for Googlebot but not for Bingbot.",
+  "C31-02-d2": "No; it was replaced by the crawl-delay field.",
+  "C31-02-d3": "Yes; it is honored, but it can take weeks."
+ },
+ "C31-03": {
+  "C31-03-d1": "Strong backlinks can keep a page indexed despite its noindex.",
+  "C31-03-d2": "noindex takes effect once the sitemap is resubmitted.",
+  "C31-03-d3": "Google may need a canonical tag next to the noindex to apply it."
+ },
+ "C31-04": {
+  "C31-04-d1": "Strong backlinks can keep the page indexed until the links are removed.",
+  "C31-04-d2": "Backlinks keep the URL listed, though without a title or snippet.",
+  "C31-04-d3": "Backlinks override it if they come from sites with higher authority."
+ },
+ "C31-05": {
+  "C31-05-d1": "Only users with the direct URL can open a noindexed page.",
+  "C31-05-d2": "It keeps the content private once robots.txt also blocks it.",
+  "C31-05-d3": "It can keep a page private, since caches and archives drop it too."
+ },
+ "C32-01": {
+  "C32-01-d1": "sponsored marks affiliate links, while paid ads still need nofollow.",
+  "C32-01-d2": "ugc marks paid guest posts, sponsored marks ads, nofollow marks comments.",
+  "C32-01-d3": "They are interchangeable, since Google reads each one as nofollow."
+ },
+ "C32-02": {
+  "C32-02-d1": "No; paid links have needed sponsored since 2020.",
+  "C32-02-d2": "Yes; nofollow is now preferred over sponsored for ads.",
+  "C32-02-d3": "No; nofollow on a paid link can trigger a manual action."
+ },
+ "C32-03": {
+  "C32-03-d1": "No; Google reads just the first value.",
+  "C32-03-d2": "Yes; separate them with semicolons.",
+  "C32-03-d3": "No; the two values can cancel each other out."
+ },
+ "C32-04": {
+  "C32-04-d1": "It blocks crawling of the target, but the target may still be indexed.",
+  "C32-04-d2": "It keeps the target out of the index until another site links to it.",
+  "C32-04-d3": "nofollow works as a directive, so the target can't be crawled via other paths."
+ },
+ "C33-01": {
+  "C33-01-d1": "Disallow what must go, noindex private files, and delete to hide from Search.",
+  "C33-01-d2": "Use the Removals tool for anything sensitive, since it deletes pages for good.",
+  "C33-01-d3": "noindex can cover each case, since it hides pages from Search and visitors."
+ },
+ "C33-02": {
+  "C33-02-d1": "It blocks visitors who arrive from links on other sites.",
+  "C33-02-d2": "It shows a 403 to anyone without a referrer.",
+  "C33-02-d3": "It may be visited, though just by signed-in users."
+ },
+ "C33-03": {
+  "C33-03-d1": "It can't; a page-level noindex is the one control across products.",
+  "C33-03-d2": "Google Images and News can each be blocked with the nosnippet rule.",
+  "C33-03-d3": "Each product reads a different sitemap, so removing URLs from one opts out."
+ },
+ "C34-01": {
+  "C34-01-d1": "Add a noindex tag, which removes the page within an hour.",
+  "C34-01-d2": "Disallow the URL in robots.txt, which drops it at the next crawl.",
+  "C34-01-d3": "Use the Removals tool on the canonical; every variant is covered by it."
+ },
+ "C34-02": {
+  "C34-02-d1": "About 90 days, after which it renews if the page still returns 404.",
+  "C34-02-d2": "About six weeks, so resubmit the request until the page is recrawled.",
+  "C34-02-d3": "It lasts until the page is recrawled, which can take a few days."
+ },
+ "C34-03": {
+  "C34-03-d1": "Yes; a Disallow line keeps the removed URL out for good.",
+  "C34-03-d2": "No; you also need a Sitemap line that lists the removed URL.",
+  "C34-03-d3": "Yes; it can, as long as the Removals request has expired."
+ },
+ "C34-04": {
+  "C34-04-d1": "Yes; Google purges the page from its host.",
+  "C34-04-d2": "No; removal also deletes it from other search engines.",
+  "C34-04-d3": "Yes; the Removals tool can return a 410 for the URL."
+ },
+ "C35-01": {
+  "C35-01-d1": "Add noimageindex to the page; that removes the image wherever it's used.",
+  "C35-01-d2": "Rename the image file, since the old URL drops out at the next crawl.",
+  "C35-01-d3": "Remove the image's alt text, so Google stops indexing it."
+ },
+ "C35-02": {
+  "C35-02-d1": "Yes; using both makes the removal faster and more reliable.",
+  "C35-02-d2": "No; noindex headers are never applied to image files.",
+  "C35-02-d3": "Yes; Google can read the header with a HEAD request despite Disallow."
+ },
+ "C35-03": {
+  "C35-03-d1": "At the root of the site that embeds the image.",
+  "C35-03-d2": "In the CDN folder that holds the image, which can override the root.",
+  "C35-03-d3": "In the page's head, as a robots meta tag."
+ },
+ "C35-04": {
+  "C35-04-d1": "It blocks the image file itself, wherever the image is embedded.",
+  "C35-04-d2": "It drops the image from Images, though it can stay in web results.",
+  "C35-04-d3": "It does, as long as the image is hosted on the same domain."
+ },
+ "C35-05": {
+  "C35-05-d1": "The image's alt text was still indexed.",
+  "C35-05-d2": "Image removals expire after 30 days.",
+  "C35-05-d3": "The removal covered the thumbnail, not the file."
+ },
+ "C36-01": {
+  "C36-01-d1": "Yes, if editing is also locked with a PDF permissions password.",
+  "C36-01-d2": "No; Google can read it, so add a noindex header to the PDF instead.",
+  "C36-01-d3": "Yes; Google can't parse text placed under a shape."
+ },
+ "C36-02": {
+  "C36-02-d1": "Embedded images are recompressed, so later edits can blur the redaction.",
+  "C36-02-d2": "Word and slide tools strip image metadata, so editing first saves file size.",
+  "C36-02-d3": "Google indexes embedded images via their alt text, so captions should be set first."
+ },
+ "C36-03": {
+  "C36-03-d1": "Yes; exporting to PDF flattens layers and drops edit history.",
+  "C36-03-d2": "No; conversion strips metadata, though edit history can stay.",
+  "C36-03-d3": "Yes, as long as the file is converted in Google Docs before upload."
+ },
+ "C36-04": {
+  "C36-04-d1": "Replace the file at the same URL so Google picks up the redacted copy.",
+  "C36-04-d2": "Add a noindex header to the original file and leave it online.",
+  "C36-04-d3": "Disallow the file in robots.txt, which can remove it within a few days."
+ },
+ "C36-05": {
+  "C36-05-d1": "Google may treat personal data in URLs as spam and demote the page.",
+  "C36-05-d2": "URLs with emails can't be crawled, so the page drops from the index.",
+  "C36-05-d3": "Long URLs with names often exceed Google's length limit for indexing."
+ },
+ "C37-01": {
+  "C37-01-d1": "Temporary ones signal the target as canonical; permanent ones don't.",
+  "C37-01-d2": "Both signal the target, but a temporary one takes a few weeks longer.",
+  "C37-01-d3": "Permanent ones signal the target; temporary ones keep it out of the index."
+ },
+ "C37-02": {
+  "C37-02-d1": "Permanent: 301 or 307; temporary: 302 or 308.",
+  "C37-02-d2": "Permanent: 301, 302 or 308; temporary: 303 or 307.",
+  "C37-02-d3": "Permanent: 301 or 410; temporary: 302, 303, 307 or 503."
+ },
+ "C37-03": {
+  "C37-03-d1": "They pass more PageRank, since JavaScript redirects lose link equity.",
+  "C37-03-d2": "JavaScript ones count as sneaky redirects and can trigger manual actions.",
+  "C37-03-d3": "They are faster for users, which Google uses as a ranking signal."
+ },
+ "C37-04": {
+  "C37-04-d1": "An instant refresh counts as temporary; a delayed one as permanent.",
+  "C37-04-d2": "Both count as permanent once the delay is under ten seconds.",
+  "C37-04-d3": "Both count as temporary, since meta refresh can't send a status code."
+ },
+ "C37-05": {
+  "C37-05-d1": "Only when you want Google to treat the redirect as temporary.",
+  "C37-05-d2": "When the redirect should also apply to logged-in users.",
+  "C37-05-d3": "When moving domains, since they can keep the old URL indexed."
+ },
+ "C37-06": {
+  "C37-06-d1": "It is a JavaScript redirect that Google treats like a 301, so it suits most moves.",
+  "C37-06-d2": "It is an encrypted 302 that keeps the old URL indexed while users see the new one.",
+  "C37-06-d3": "It is a Link header canonical, used only when a server can't return 301s."
+ },
+ "C37-07": {
+  "C37-07-d1": "It signals the redirects are being read as 302s, so the old URL keeps ranking.",
+  "C37-07-d2": "It usually means the Change of Address request failed and needs resubmitting.",
+  "C37-07-d3": "Google keeps the old name until backlinks to the old domain are updated."
+ },
+ "C37-08": {
+  "C37-08-d1": "Calling exit() right after header(), which can cancel the pending redirect.",
+  "C37-08-d2": "Using an absolute URL in the Location header rather than a relative path.",
+  "C37-08-d3": "Declaring the 301 status line before the Location header."
+ },
+ "C38-01": {
+  "C38-01-d1": "Only the URL paths change; the domain stays, so path-level 301s are needed.",
+  "C38-01-d2": "It needs a Change of Address request so Google learns the new server's IP.",
+  "C38-01-d3": "The URLs stay, but Google usually resets rankings until the new IP builds trust."
+ },
+ "C38-02": {
+  "C38-02-d1": "A lower TTL tells Googlebot to crawl the new host more often.",
+  "C38-02-d2": "A higher TTL makes resolvers pick up the new IP sooner.",
+  "C38-02-d3": "It can stop Google from seeing a duplicate site on two servers."
+ },
+ "C38-03": {
+  "C38-03-d1": "Request a Change of Address so Google can map the old IP to the new one.",
+  "C38-03-d2": "Create a new Search Console property and keep the copy noindexed until launch.",
+  "C38-03-d3": "Lower the crawl rate in Search Console and add 301s from the old server's IP."
+ },
+ "C38-04": {
+  "C38-04-d1": "It usually signals that the new server's IP lacks trust.",
+  "C38-04-d2": "Not by itself; Google holds crawling at the lower rate for about a month.",
+  "C38-04-d3": "It points to a crawl-budget penalty that lifts after a few months."
+ },
+ "C38-05": {
+  "C38-05-d1": "You can shut it down as soon as the DNS TTL has expired.",
+  "C38-05-d2": "Once Search Console shows the new IP in the Crawl Stats report.",
+  "C38-05-d3": "After one year, matching the period Google suggests for redirects."
+ },
+ "C39-01": {
+  "C39-01-d1": "Launch first; the URL map can be built from 404s seen in Search Console.",
+  "C39-01-d2": "Map URLs, add 302s until rankings settle, then switch them to 301s.",
+  "C39-01-d3": "Add 301s, then block the old URLs in robots.txt so Google drops them faster."
+ },
+ "C39-02": {
+  "C39-02-d1": "Bundle them in one launch so Google can reprocess the site just once.",
+  "C39-02-d2": "Move the domain and CMS together, then save the redesign for a later launch.",
+  "C39-02-d3": "Combine them if the URL paths stay identical on the new domain."
+ },
+ "C39-03": {
+  "C39-03-d1": "Each 301 passes roughly 85% of PageRank, so some loss is expected.",
+  "C39-03-d2": "301s keep PageRank, while 302s leave it behind on the old URL.",
+  "C39-03-d3": "301s can dilute PageRank across hops, so a migration usually costs some equity."
+ },
+ "C39-04": {
+  "C39-04-d1": "Google moves the whole site at once, usually within 48 hours of the redirects.",
+  "C39-04-d2": "It takes about 180 days, the length of the Change of Address period.",
+  "C39-04-d3": "Larger sites move faster, since Google crawls them more often than small ones."
+ },
+ "C39-05": {
+  "C39-05-d1": "Crawl the live site once and map each old URL to the closest new category page by keyword.",
+  "C39-05-d2": "Export the current XML sitemap; removed pages can usually go to the home page.",
+  "C39-05-d3": "Map the top landing pages from analytics and let lower-traffic URLs return 404."
+ },
+ "C39-06": {
+  "C39-06-d1": "Point canonicals back to the old URLs until the redirects are processed.",
+  "C39-06-d2": "Keep hreflang on the old URLs, as redirects can carry those annotations over.",
+  "C39-06-d3": "Drop canonical tags, since the 301s define the new URLs."
+ },
+ "C39-07": {
+  "C39-07-d1": "It follows up to 5 hops, and chains up to that length carry no downside.",
+  "C39-07-d2": "It stops after one hop, so a two-step chain leaves the final URL unindexed.",
+  "C39-07-d3": "It can follow 20 hops in one crawl, so chain length usually doesn't matter."
+ },
+ "C39-08": {
+  "C39-08-d1": "The home page can't absorb that many redirects without slowing crawling.",
+  "C39-08-d2": "It concentrates PageRank on the home page and can trigger a link-scheme penalty.",
+  "C39-08-d3": "Google treats mass home-page redirects as 302s, so old URLs stay indexed."
+ },
+ "C39-09": {
+  "C39-09-d1": "About 180 days, until Change of Address ends.",
+  "C39-09-d2": "Until Search Console shows the new URLs indexed.",
+  "C39-09-d3": "Usually a few weeks, once old URLs leave the index."
+ },
+ "C39-10": {
+  "C39-10-d1": "Protocol changes such as HTTP to HTTPS usually need it too.",
+  "C39-10-d2": "Moves with redirected URL paths need it as well.",
+  "C39-10-d3": "Only hosting moves need it, so Google can see the new IP."
+ },
+ "C39-11": {
+  "C39-11-d1": "Disavow the old domain's backlinks, then wait for PageRank to transfer.",
+  "C39-11-d2": "Revert the 301s to 302s so the old URLs can rank again while you investigate.",
+  "C39-11-d3": "Resubmit the Change of Address daily until the traffic graph recovers."
+ },
+ "C39-12": {
+  "C39-12-d1": "Yes; it can still slow Googlebot during a move.",
+  "C39-12-d2": "No; it was replaced by a crawl-rate field in robots.txt.",
+  "C39-12-d3": "Yes; it still works for verified Domain properties."
+ },
+ "C40-01": {
+  "C40-01-d1": "Noindex the variants and use 301s, which can keep test URLs out of the index.",
+  "C40-01-d2": "Canonicalize the original to the winning variant and redirect with 301s.",
+  "C40-01-d3": "Block variant URLs in robots.txt and serve Googlebot the original."
+ },
+ "C40-02": {
+  "C40-02-d1": "Canonical usually removes variants from the index faster than noindex does.",
+  "C40-02-d2": "Noindexed variants would count as cloaking, while canonical ones do not.",
+  "C40-02-d3": "Canonical lets Google rank whichever variant wins, while noindex locks in the original."
+ },
+ "C40-03": {
+  "C40-03-d1": "Yes; it can be allowed when the variants are disallowed in robots.txt.",
+  "C40-03-d2": "Yes; short tests lasting a few weeks are exempt from that rule.",
+  "C40-03-d3": "No; Googlebot can't render test scripts, so it would see nothing."
+ },
+ "C40-04": {
+  "C40-04-d1": "Googlebot typically keeps cookies between crawls, so it can see the variant first assigned.",
+  "C40-04-d2": "Googlebot gets a random variant on each visit, which looks like cloaking.",
+  "C40-04-d3": "Googlebot is served whichever variant most users see, based on the cookie split."
+ },
+ "C40-05": {
+  "C40-05-d1": "Tests can run up to 30 days; after that Google treats them as cloaking.",
+  "C40-05-d2": "Once results are reliable, keep all variants live but noindexed.",
+  "C40-05-d3": "Keep it running until the winning variant outranks the original URL."
+ },
+ "C41-01": {
+  "C41-01-d1": "Return 503 sitewide until orders resume, which can keep rankings frozen.",
+  "C41-01-d2": "Noindex product pages until checkout returns, then request reindexing.",
+  "C41-01-d3": "Redirect product pages to a temporary closure notice on the home page using 302 redirects."
+ },
+ "C41-02": {
+  "C41-02-d1": "Yes; it can hide the page until stock returns, after which it reappears.",
+  "C41-02-d2": "No; return a 404 instead so the page drops out cleanly.",
+  "C41-02-d3": "Yes; it stops shoppers landing on pages they can't buy from."
+ },
+ "C41-03": {
+  "C41-03-d1": "A 302 redirect to a temporary closure page.",
+  "C41-03-d2": "A 410 status, which Google typically treats as temporary.",
+  "C41-03-d3": "A noindexed notice page returning 200."
+ },
+ "C41-04": {
+  "C41-04-d1": "Yes; otherwise Google may index the maintenance page in place of content.",
+  "C41-04-d2": "No; return a 404 for robots.txt, which signals a short pause.",
+  "C41-04-d3": "No; disallow all paths in robots.txt for the maintenance window."
+ },
+ "C41-05": {
+  "C41-05-d1": "A noindex robots tag, a canonical pointing to the home page, and a link to the XML sitemap.",
+  "C41-05-d2": "A full copy of the page's content so Google can keep indexing it.",
+  "C41-05-d3": "A meta refresh to the home page and the original structured data."
+ },
+ "C41-06": {
+  "C41-06-d1": "Yes; Google reads the 503 body and updates titles from it.",
+  "C41-06-d2": "No; Google drops the page from the index on the first 503.",
+  "C41-06-d3": "Yes; changes can usually be picked up if Retry-After is set."
+ },
+ "C41-07": {
+  "C41-07-d1": "Yes; cancelling the removal can restore rankings within a few days.",
+  "C41-07-d2": "Yes; resubmitting the sitemap speeds reinstatement to about a week.",
+  "C41-07-d3": "Don't promise days, but recovery reliably completes within six months."
+ },
+ "C41-08": {
+  "C41-08-d1": "Yes; Googlebot usually crawls from US IPs, so blocking the US can stop it.",
+  "C41-08-d2": "Yes; Google crawls each site from the country of its ccTLD.",
+  "C41-08-d3": "No; Googlebot ignores IP blocks and uses its cached copy instead."
+ },
+ "A01-01": {
+  "A01-01-d1": "It sets the ranking rules for each rich result type in Google Search.",
+  "A01-01-d2": "It lists the schema.org types Google requires before a page can be indexed.",
+  "A01-01-d3": "It documents the Search Console reports for tracking crawl and index status."
+ },
+ "A01-02": {
+  "A01-02-d1": "Valid schema.org types become eligible once the Schema Markup Validator passes them.",
+  "A01-02-d2": "Most schema.org types can yield rich results, usually once a page has enough authority.",
+  "A01-02-d3": "Only JSON-LD types can trigger rich results; microdata versions can't."
+ },
+ "A01-03": {
+  "A01-03-d1": "Sites can enable it with markup now, though the format may still change.",
+  "A01-03-d2": "Sites that adopt the markup first get a ranking boost for it.",
+  "A01-03-d3": "The feature is being phased out and is kept for existing users."
+ },
+ "A02-01": {
+  "A02-01-d1": "An llms.txt file at the root is typically needed for AI Overviews eligibility.",
+  "A02-01-d2": "FAQPage or HowTo markup is required to be quoted in AI Mode.",
+  "A02-01-d3": "No file is needed, but pages need Speakable schema to be cited."
+ },
+ "A02-02": {
+  "A02-02-d1": "The page must also carry a Google-Extended allow rule in robots.txt.",
+  "A02-02-d2": "The page needs to rank on page one for the query that triggers it.",
+  "A02-02-d3": "The page can be cited if crawlable, even when it carries a nosnippet rule."
+ },
+ "A02-03": {
+  "A02-03-d1": "It spreads one page's ranking across many related queries.",
+  "A02-03-d2": "It sends a single query to several AI models in parallel.",
+  "A02-03-d3": "It can push the AI answer to more users as a query trends."
+ },
+ "A02-04": {
+  "A02-04-d1": "They can appear for most informational queries and usually cite AI Mode's links.",
+  "A02-04-d2": "They show only for logged-in users, and they share AI Mode's source links.",
+  "A02-04-d3": "They replace the featured snippet on each query and reuse AI Mode's top sources."
+ },
+ "A02-05": {
+  "A02-05-d1": "AI traffic is excluded from Search Console and is measured in GA4 instead.",
+  "A02-05-d2": "AI clicks can be found under the Discover report rather than the Web report.",
+  "A02-05-d3": "The new AI reports replace the Web report's AI data and add a separate AI clicks metric."
+ },
+ "A02-06": {
+  "A02-06-d1": "Repeat the directive in the page's JSON-LD, which Google reads before meta tags.",
+  "A02-06-d2": "Move the directive into robots.txt, where preview controls can take effect faster.",
+  "A02-06-d3": "Add the directive to the sitemap so Google applies it on the next sitemap read."
+ },
+ "A02-07": {
+  "A02-07-d1": "Google-Extended usually governs AI Overviews; Googlebot covers classic results.",
+  "A02-07-d2": "Google-Extended controls both, so blocking it also removes pages from Search.",
+  "A02-07-d3": "AI Overviews follow a separate GoogleOther token in robots.txt."
+ },
+ "A02-08": {
+  "A02-08-d1": "Add longer alt text, which AI features quote as if it were body text.",
+  "A02-08-d2": "Add ImageObject markup with a caption so AI features can parse the images.",
+  "A02-08-d3": "Submit the images in an image sitemap so AI Mode indexes their content."
+ },
+ "A02-09": {
+  "A02-09-d1": "Track AI Overview rank positions in Search Console.",
+  "A02-09-d2": "Track impressions instead, since AI clicks usually aren't recorded.",
+  "A02-09-d3": "Track crawl requests from Google-Extended in server logs."
+ },
+ "A03-01": {
+  "A03-01-d1": "Put the date in the URL path, which Google reads before other signals.",
+  "A03-01-d2": "Add datePublished in markup and hide the visible date to avoid conflicts.",
+  "A03-01-d3": "Set the sitemap lastmod to the publish date, which Google typically shows as the byline."
+ },
+ "A03-02": {
+  "A03-02-d1": "Yes; it can help the article surface for searches about the event.",
+  "A03-02-d2": "Yes; if the article is mainly about that event, its date takes precedence.",
+  "A03-02-d3": "No; leave the date out so the event date in Event markup is shown instead."
+ },
+ "A03-03": {
+  "A03-03-d1": "Time must be included, but the timezone is optional and defaults to UTC.",
+  "A03-03-d2": "Both are required, otherwise Google can ignore the byline date.",
+  "A03-03-d3": "Date and timezone are required, while the time itself is optional."
+ },
+ "A03-04": {
+  "A03-04-d1": "Update dateModified daily so Google picks the most recent date.",
+  "A03-04-d2": "Add the date to the title tag, which Google weighs above the byline.",
+  "A03-04-d3": "Request indexing; wrong dates usually come from an outdated cache."
+ },
+ "A03-05": {
+  "A03-05-d1": "Strip the offset so Google can convert the time to each searcher's local zone.",
+  "A03-05-d2": "Keep the standard-time offset year-round, since Google adds daylight saving itself.",
+  "A03-05-d3": "Change the server clock to local time so Googlebot sees the right timestamp."
+ },
+ "A03-06": {
+  "A03-06-d1": "Yes; a visible date without the time counts as a mismatch with the markup.",
+  "A03-06-d2": "Yes; Google may ignore the markup if the byline can't show the offset.",
+  "A03-06-d3": "No; but then the markup should drop the time and timezone too."
+ },
+ "A04-01": {
+  "A04-01-d1": "Square, at least 48×48 px, in multiples of 48 px.",
+  "A04-01-d2": "Usually 16×16 px, the standard browser favicon size.",
+  "A04-01-d3": "Landscape or square, at least 32 px tall."
+ },
+ "A04-02": {
+  "A04-02-d1": "Yes; each subdirectory's own icon link is used for its pages.",
+  "A04-02-d2": "No; it's one favicon per registered domain, subdomains included.",
+  "A04-02-d3": "Yes; Google can usually pick the icon linked from each section's index page."
+ },
+ "A04-03": {
+  "A04-03-d1": "Googlebot-Image needs the home page, and Googlebot needs the favicon file.",
+  "A04-03-d2": "The favicon file is enough; the home page can stay blocked in robots.txt.",
+  "A04-03-d3": "Googlebot must fetch the site's manifest.json, which lists the icon sizes."
+ },
+ "A04-04": {
+  "A04-04-d1": "Not instantly; it shows after the next recrawl, usually within a day.",
+  "A04-04-d2": "Requesting indexing of the favicon URL makes it show within hours.",
+  "A04-04-d3": "Display is guaranteed once the icon meets the size rules."
+ },
+ "A04-05": {
+  "A04-05-d1": "Formats Google Images indexes are valid favicon formats too.",
+  "A04-05-d2": "ICO is usually required, since Google looks for /favicon.ico first.",
+  "A04-05-d3": "Only PNG and ICO qualify; JPEG and GIF are rejected."
+ },
+ "A04-06": {
+  "A04-06-d1": "The icon has to sit on the home page's hostname, at /favicon.ico.",
+  "A04-06-d2": "Any CDN works once the CDN domain is verified in Search Console.",
+  "A04-06-d3": "A CDN can work if the icon URL changes with each deploy for cache busting."
+ },
+ "A04-07": {
+  "A04-07-d1": "Google typically shows a default icon until the site passes a trust threshold.",
+  "A04-07-d2": "The favicon isn't an ICO file, so Google falls back to the default.",
+  "A04-07-d3": "The site lacks Organization logo markup, which the favicon depends on."
+ },
+ "A05-01": {
+  "A05-01-d1": "Yes; FAQPage markup marks the answer Google should feature.",
+  "A05-01-d2": "No, but a question-style H2 right above the answer makes Google select it.",
+  "A05-01-d3": "Yes; QAPage markup can usually nominate the featured passage."
+ },
+ "A05-02": {
+  "A05-02-d1": "Use nosnippet, which usually keeps ordinary snippets.",
+  "A05-02-d2": "Set max-image-preview to none for the page.",
+  "A05-02-d3": "Add a featured-snippet opt-out in Search Console."
+ },
+ "A05-03": {
+  "A05-03-d1": "data-nosnippet wins, so marked text is hidden while the rest can still show.",
+  "A05-03-d2": "nosnippet affects only featured snippets, while data-nosnippet hides marked text everywhere.",
+  "A05-03-d3": "Both apply together, so every snippet is built only from unmarked text."
+ },
+ "A05-04": {
+  "A05-04-d1": "Each section needs an id attribute so Google can append a #fragment link to that heading.",
+  "A05-04-d2": "No schema is needed, but each section has to start with an H2 or H3 heading.",
+  "A05-04-d3": "Pages need FAQ or HowTo markup to enable scrolling to the quote."
+ },
+ "A05-05": {
+  "A05-05-d1": "Yes; featured snippets usually need at least 40 characters, so 30 can block them.",
+  "A05-05-d2": "Yes; max-snippet:30 is the only documented featured-snippet opt-out.",
+  "A05-05-d3": "No; it hides ordinary snippets too, so only data-nosnippet is guaranteed."
+ },
+ "A05-06": {
+  "A05-06-d1": "Yes; each heading usually needs an id attribute, or the jump can fail.",
+  "A05-06-d2": "Yes; the quoted text needs to sit inside a section element.",
+  "A05-06-d3": "No; it means the snippet came from structured data, not page text."
+ },
+ "A06-01": {
+  "A06-01-d1": "Metering shows part of each article; lead-in gives a quota of full ones.",
+  "A06-01-d2": "Metering can limit Googlebot's access, while lead-in limits what users see.",
+  "A06-01-d3": "Metering is per-article pricing, while lead-in is a free trial period."
+ },
+ "A06-02": {
+  "A06-02-d1": "Ten is the minimum Google sets for news publishers who use paywalled-content structured data.",
+  "A06-02-d2": "Ten is required only for Top Stories eligibility, not for every Search feature.",
+  "A06-02-d3": "It isn't mandatory; Google typically recommends three free articles a day."
+ },
+ "A06-03": {
+  "A06-03-d1": "It matches how Google recrawls news sites, so meter resets stay indexed.",
+  "A06-03-d2": "It blocks casual readers early, so more of them subscribe right away.",
+  "A06-03-d3": "It's easier to mark up, as paywall schema typically expects monthly limits."
+ },
+ "A06-04": {
+  "A06-04-d1": "By checking that Googlebot gets the same truncated text users see.",
+  "A06-04-d2": "By a Search Console setting where the paywall vendor can be verified.",
+  "A06-04-d3": "By comparing the page's word count against the subscriber version."
+ },
+ "A06-05": {
+  "A06-05-d1": "Track rankings for paywalled URLs, which can drop 10% when sampling falls.",
+  "A06-05-d2": "Track Googlebot's crawl rate on paywalled pages and the index count.",
+  "A06-05-d3": "Track the share of paywalled URLs in Search Console's coverage report."
+ },
+ "A06-06": {
+  "A06-06-d1": "No; a free signup wall is outside the guide, since no payment is involved.",
+  "A06-06-d2": "No; registration walls are usually treated as interstitials, covered elsewhere.",
+  "A06-06-d3": "Yes; but just when the signup asks for payment details up front."
+ },
+ "A06-07": {
+  "A06-07-d1": "Lower the allowance for new visitors first, since they usually convert least.",
+  "A06-07-d2": "Cut the allowance only for search referrals and keep it open for social traffic.",
+  "A06-07-d3": "Lower it for everyone at once, then compare against last year's revenue."
+ },
+ "A07-01": {
+  "A07-01-d1": "Both; it needs NewsArticle markup and recent posts.",
+  "A07-01-d2": "Recency; pages older than a week usually aren't eligible.",
+  "A07-01-d3": "Markup; Article schema with a large image is required."
+ },
+ "A07-02": {
+  "A07-02-d1": "At least 1,200 px wide at a 4:3 ratio, with max-image-preview set to standard.",
+  "A07-02-d2": "At least 600 px wide, square, with the og:image tag set.",
+  "A07-02-d3": "Usually 1.91:1 like Open Graph cards, at least 800 px wide and under 100 KB."
+ },
+ "A07-03": {
+  "A07-03-d1": "It does if the image is at least 1,200 px wide; otherwise Google picks.",
+  "A07-03-d2": "It sets the thumbnail, so a clean logo works best for brand recall.",
+  "A07-03-d3": "It's typically ignored; Discover reads only the first image in the article."
+ },
+ "A07-04": {
+  "A07-04-d1": "It falls when the site's posting frequency drops below daily.",
+  "A07-04-d2": "Discover traffic tracks the Web report, so a drop shows lost rankings.",
+  "A07-04-d3": "It usually means a Discover manual action that hasn't been reported yet."
+ },
+ "A07-05": {
+  "A07-05-d1": "Use the Web report filtered by Discover.",
+  "A07-05-d2": "Use GA4, since Search Console can't separate it.",
+  "A07-05-d3": "Use the Google News Publisher Center."
+ },
+ "A07-06": {
+  "A07-06-d1": "No; Discover demotes content quietly, with no notice in Search Console.",
+  "A07-06-d2": "They can, but they usually show in Publisher Center, not Search Console.",
+  "A07-06-d3": "No; violations lead to a Search manual action rather than a Discover one."
+ },
+ "A07-07": {
+  "A07-07-d1": "Use a curiosity-gap headline, since higher CTR can lift Discover reach.",
+  "A07-07-d2": "Hide the fact in the headline if the first paragraph reveals it.",
+  "A07-07-d3": "Put the teaser in og:title and keep the on-page headline factual."
+ },
+ "A07-08": {
+  "A07-08-d1": "No; such pages are blocked outright as a Discover policy violation.",
+  "A07-08-d2": "They appear if they use JobPosting or ClaimReview markup.",
+  "A07-08-d3": "Yes; they may be held back at first but can be expected to appear."
+ },
+ "A07-09": {
+  "A07-09-d1": "Add object-position CSS, which Google can use to center its crop.",
+  "A07-09-d2": "Keep the vertical image and set max-image-preview to standard.",
+  "A07-09-d3": "Add a 9:16 version to an image sitemap so Discover shows it full height."
+ },
+ "A08-01": {
+  "A08-01-d1": "Yes, if the image URL is also listed in an image sitemap.",
+  "A08-01-d2": "Not as CSS; convert them to inline SVG so Google Images can index them.",
+  "A08-01-d3": "Google can index them but gives them less weight than img tags."
+ },
+ "A08-02": {
+  "A08-02-d1": "srcset is enough; src can be left out.",
+  "A08-02-d2": "Always put the URL in data-src for lazy loading.",
+  "A08-02-d3": "Leave src empty and let srcset choose."
+ },
+ "A08-03": {
+  "A08-03-d1": "It's mainly an accessibility attribute that Google doesn't use for ranking.",
+  "A08-03-d2": "It works as the image's title in Google Images results.",
+  "A08-03-d3": "It adds keyword weight, so listing target terms can lift page rankings."
+ },
+ "A08-04": {
+  "A08-04-d1": "Place the image first in the HTML, since Google usually uses the top image.",
+  "A08-04-d2": "Set a thumbnail in Search Console's URL Inspection tool.",
+  "A08-04-d3": "Add the image to the page's XML sitemap with a priority tag."
+ },
+ "A08-05": {
+  "A08-05-d1": "CDN domains have to be verified in Search Console first.",
+  "A08-05-d2": "Other-domain URLs need a separate sitemap hosted on the CDN.",
+  "A08-05-d3": "A sitemap can usually list just its own host's image paths."
+ },
+ "A08-06": {
+  "A08-06-d1": "They're the only image text Google reads, so put the main keyword first.",
+  "A08-06-d2": "They're typically ignored, so hashed or random filenames work fine.",
+  "A08-06-d3": "They boost rankings when keywords are separated by underscores."
+ },
+ "A08-07": {
+  "A08-07-d1": "Unique URLs can usually help each page rank its own copy.",
+  "A08-07-d2": "Reuse one URL within a section, but give each section its own copy.",
+  "A08-07-d3": "Use a new URL per page to avoid duplicate-image filters."
+ },
+ "A08-08": {
+  "A08-08-d1": "Yes; once inline linking is off, Google drops the image from its index.",
+  "A08-08-d2": "Yes; it can usually remove the image from results like noimageindex.",
+  "A08-08-d3": "No; it just blocks other sites from hotlinking, not Google."
+ },
+ "A08-09": {
+  "A08-09-d1": "They aren't indexed, since Google can't crawl inline images.",
+  "A08-09-d2": "They're allowed and can usually shrink page weight versus files.",
+  "A08-09-d3": "They're allowed for icons under 1 KB, not content images."
+ },
+ "A08-10": {
+  "A08-10-d1": "Google ignores it for links; add a title attribute for anchor text.",
+  "A08-10-d2": "It's an accessibility aid; Google takes anchor text from the filename.",
+  "A08-10-d3": "Leave it empty, since alt on linked images can count as stuffing."
+ },
+ "A08-11": {
+  "A08-11-d1": "Through an alt attribute on the svg element, like an img.",
+  "A08-11-d2": "Through a figcaption, which Google requires for vector images.",
+  "A08-11-d3": "Through a title attribute on the parent div, which screen readers usually read."
+ },
+ "A08-12": {
+  "A08-12-d1": "Whether the image's EXIF and IPTC metadata contain the keywords for its subject.",
+  "A08-12-d2": "Whether the image sitemap entry still uses the caption and title tags.",
+  "A08-12-d3": "Whether the file is large enough, since resolution can outweigh page context."
+ },
+ "A09-01": {
+  "A09-01-d1": "Search Console verification also verifies the Business Profile listing.",
+  "A09-01-d2": "Business Profile controls the site's sitelinks; Search Console sets its ranking region.",
+  "A09-01-d3": "Both share one verification, and either can edit Maps details."
+ },
+ "A09-02": {
+  "A09-02-d1": "WebSite markup for the logo, and SiteNavigationElement markup for hierarchy.",
+  "A09-02-d2": "LocalBusiness markup for the logo, and sitelinks searchbox markup for hierarchy.",
+  "A09-02-d3": "Brand markup can set the logo, and ItemList markup usually defines hierarchy."
+ },
+ "A09-03": {
+  "A09-03-d1": "Edit the panel directly in Search Console's Enhancements report.",
+  "A09-03-d2": "Update Wikipedia, since panels pull their facts from it alone.",
+  "A09-03-d3": "Add sameAs links and request indexing; the panel usually updates within a day."
+ },
+ "A09-04": {
+  "A09-04-d1": "Add LocalBusiness markup; Google uses it over the Business Profile.",
+  "A09-04-d2": "Verify the site in Search Console and edit the address in Settings.",
+  "A09-04-d3": "Update the address in the footer and Maps can then recrawl it."
+ },
+ "A09-05": {
+  "A09-05-d1": "At least 48 hours after publishing the markup.",
+  "A09-05-d2": "About a month, which is typically the refresh cycle.",
+  "A09-05-d3": "Right after the Rich Results Test validates it."
+ },
+ "A10-01": {
+  "A10-01-d1": "A list marked up with ItemList and AggregateRating for each business, linked from the home page.",
+  "A10-01-d2": "A list of at least ten places that can show reviews from verified customers.",
+  "A10-01-d3": "A list from a publisher with a verified Business Profile in the same city."
+ },
+ "A10-02": {
+  "A10-02-d1": "Add nosnippet to each list page, which removes it from local features.",
+  "A10-02-d2": "Remove the ItemList markup, which is what makes the lists eligible.",
+  "A10-02-d3": "Disallowing Google-Extended in robots.txt can stop the lists appearing."
+ },
+ "A10-03": {
+  "A10-03-d1": "Yes; the only test is that the article is independent and unsponsored.",
+  "A10-03-d2": "Yes; online businesses can qualify by listing a service area.",
+  "A10-03-d3": "No; it needs to appear in at least three such articles first."
+ },
+ "A11-01": {
+  "A11-01-d1": "Each subdomain is opted out separately, while paths follow their host.",
+  "A11-01-d2": "Paths can be chosen by URL prefix, usually matching a Search Console property.",
+  "A11-01-d3": "The exact hostname you enter; its parent domain and sibling subdomains stay included."
+ },
+ "A11-02": {
+  "A11-02-d1": "Within 30 days, on google.com for local results and worldwide for the others.",
+  "A11-02-d2": "Usually within a week, across each country's Google domain for each property.",
+  "A11-02-d3": "After about 90 days, in the business's home country rather than globally."
+ },
+ "A12-01": {
+  "A12-01-d1": "It's one combined score built from the three Core Web Vitals.",
+  "A12-01-d2": "It's one signal that can act as a tiebreaker between equal pages.",
+  "A12-01-d3": "Experience signals feed Google's helpful content system, not core ranking."
+ },
+ "A12-02": {
+  "A12-02-d1": "HTTPS and mobile-friendliness are direct boosts, while Core Web Vitals aren't used.",
+  "A12-02-d2": "Each item can add a small, equal boost to the page experience score.",
+  "A12-02-d3": "Core Web Vitals count for mobile, while desktop ranking uses HTTPS alone."
+ },
+ "A12-03": {
+  "A12-03-d1": "They usually do when competing pages fail CWV.",
+  "A12-03-d2": "No; Google stopped using Core Web Vitals in ranking in 2023.",
+  "A12-03-d3": "A perfect Lighthouse score guarantees position one."
+ },
+ "A12-04": {
+  "A12-04-d1": "Site-wide, using the domain's CrUX origin data.",
+  "A12-04-d2": "Strictly per page, with no site-wide assessment.",
+  "A12-04-d3": "Per template, usually grouped like Search Console's URL groups."
+ },
+ "A12-05": {
+  "A12-05-d1": "It can rank, but it's usually capped below pages that pass Core Web Vitals.",
+  "A12-05-d2": "No; failing Core Web Vitals removes it from the top results.",
+  "A12-05-d3": "On desktop, where page experience isn't assessed, but not on mobile."
+ },
+ "A12-06": {
+  "A12-06-d1": "Check TTFB, total page weight, the number of requests and the Lighthouse SEO score.",
+  "A12-06-d2": "Check AMP validity, structured-data errors, image compression and the XML sitemap.",
+  "A12-06-d3": "Check bounce rate and dwell time, which Google can read from Chrome."
+ },
+ "A12-07": {
+  "A12-07-d1": "Lighthouse lab audits, which can simulate users' ad load.",
+  "A12-07-d2": "The ad density score in Search Console's Page Experience report.",
+  "A12-07-d3": "The Mobile-Friendly Test's intrusive-ads check."
+ },
+ "A13-01": {
+  "A13-01-d1": "Show a full-page overlay after a 10-second delay.",
+  "A13-01-d2": "Show the overlay to users but not to Googlebot.",
+  "A13-01-d3": "Use a full-page overlay that can be closed."
+ },
+ "A13-02": {
+  "A13-02-d1": "They're treated like promotional popups, so they count against the page in the same way.",
+  "A13-02-d2": "They're exempt on desktop, but on mobile they can count as intrusive.",
+  "A13-02-d3": "They count as intrusive unless they cover less than a third of the screen on mobile."
+ },
+ "A13-03": {
+  "A13-03-d1": "It can create a redirect chain longer than Googlebot will usually follow.",
+  "A13-03-d2": "It makes Google treat the consent page as a soft 404 for the site.",
+  "A13-03-d3": "It passes all PageRank to the consent page and dilutes the home page."
+ },
+ "A13-04": {
+  "A13-04-d2": "Let requests with a Googlebot user-agent string skip the gate without further checks.",
+  "A13-04-d1": "Keep the age gate in place for Googlebot and rely on the sitemap for indexing.",
+  "A13-04-d3": "Noindex the gated pages, since Googlebot can't pass the gate."
+ },
+ "A13-05": {
+  "A13-05-d2": "Dialogs cover the whole page; interstitials cover only part of it.",
+  "A13-05-d1": "An interstitial appears before the page loads; a dialog appears after the user scrolls.",
+  "A13-05-d3": "Interstitials are promotional, while dialogs are used for legal notices like cookie consent."
+ },
+ "A13-06": {
+  "A13-06-d2": "Google can recognize popular plugins and exempt their dialogs from the guidance.",
+  "A13-06-d1": "Googlebot ignores plugin dialogs because they load asynchronously.",
+  "A13-06-d3": "Plugins add structured data that marks the prompt as a dialog rather than an interstitial."
+ },
+ "A14-01": {
+  "A14-01-d1": "LCP ≤2.5 seconds; FID ≤100 ms; CLS ≤0.1.",
+  "A14-01-d3": "LCP ≤4 seconds; INP ≤500 ms; CLS ≤0.25.",
+  "A14-01-d2": "LCP ≤2.5 seconds; INP ≤100 ms; TTFB ≤0.8 seconds."
+ },
+ "A14-02": {
+  "A14-02-d3": "The 90th percentile across all devices combined, for each metric.",
+  "A14-02-d1": "The 75th percentile of page loads pooled across devices.",
+  "A14-02-d2": "The median page load, passing when two of the three metrics are good."
+ },
+ "A14-03": {
+  "A14-03-d3": "A Lighthouse score above 90 can stand in for field data.",
+  "A14-03-d2": "Lab runs are enough when throttled to mimic a mobile device.",
+  "A14-03-d1": "Lighthouse shows CrUX data, so field monitoring is redundant."
+ },
+ "A14-04": {
+  "A14-04-d3": "It secures first place when rivals are equally relevant.",
+  "A14-04-d2": "It gives a fixed ranking boost over slower rival pages.",
+  "A14-04-d1": "It guarantees top rankings on mobile, not yet desktop."
+ },
+ "A14-05": {
+  "A14-05-d1": "Yes; any two good metrics out of three count as a pass.",
+  "A14-05-d3": "No; the page also needs a good FID score, as FID is still a Core Web Vital.",
+  "A14-05-d2": "Yes; LCP and CLS decide the assessment, while INP is only diagnostic."
+ },
+ "A14-06": {
+  "A14-06-d1": "Yes; Google evaluates a single blended percentile across device types.",
+  "A14-06-d3": "No; report the mobile percentile alone, since desktop isn't assessed.",
+  "A14-06-d2": "Yes; pooling is fine when mobile makes up most of the traffic."
+ },
+ "A15-01": {
+  "A15-01-d2": "The site gains a Top Stories ranking boost for readers across its region.",
+  "A15-01-d1": "Its articles are pinned to the first Top Stories slot for that reader.",
+  "A15-01-d3": "The reader gets push notifications whenever the site publishes a new story."
+ },
+ "A15-02": {
+  "A15-02-d1": "It is limited to English Top Stories in the US and India.",
+  "A15-02-d3": "It is available across the EEA in every member state's language.",
+  "A15-02-d2": "It works worldwide, but only for English-language publications."
+ },
+ "A15-03": {
+  "A15-03-d2": "Yes; any subdirectory with its own Search Console property can be selected.",
+  "A15-03-d1": "Yes; subdirectories qualify if they publish news.",
+  "A15-03-d3": "No; only the root domain is eligible, not its subdomains."
+ },
+ "A15-04": {
+  "A15-04-d3": "The button is required to get the AI Mode badge.",
+  "A15-04-d1": "It is required unless the site is in Google News.",
+  "A15-04-d2": "It is optional, but sites using it can rank higher."
+ },
+ "A15-05": {
+  "A15-05-d1": "The deeplink option: a link with the domain in the q parameter.",
+  "A15-05-d3": "The SDK option: an ES module import with a custom trigger.",
+  "A15-05-d2": "A JSON-LD block declaring the site as a preferred source."
+ },
+ "A15-06": {
+  "A15-06-d3": "Add the domain to a sitemap with a news:publication tag.",
+  "A15-06-d1": "Embed publisher.js in a noscript block as a fallback.",
+  "A15-06-d2": "Submit the domain through the Publisher Center so it can be added."
+ },
+ "A15-07": {
+  "A15-07-d2": "Keep the standard script tag; the button renders on its own in custom UIs.",
+  "A15-07-d3": "Call the Indexing API with the publication URL when the user clicks.",
+  "A15-07-d1": "Set preferred-sources-control to auto so the badge initializes itself."
+ },
+ "A15-08": {
+  "A15-08-d3": "Check that the article has Article structured data with a publisher field.",
+  "A15-08-d1": "Check that the site is verified in Google Publisher Center for News.",
+  "A15-08-d2": "Check that the publisher.js button is installed, since AI badges depend on it."
+ },
+ "A16-01": {
+  "A16-01-d2": "Purely page-level; each URL is ranked on its own signals alone.",
+  "A16-01-d3": "Mostly site-wide; a strong domain score lifts each page on the site equally.",
+  "A16-01-d1": "Neither; it works per section, scoring each folder as its own site."
+ },
+ "A16-02": {
+  "A16-02-d2": "BERT matches synonyms, neural matching ranks links, RankBrain weighs user clicks.",
+  "A16-02-d1": "BERT counts keyword density, neural matching finds duplicate pages, RankBrain sets freshness.",
+  "A16-02-d3": "BERT reads phrasing, neural matching detects spam, RankBrain sets crawl priority."
+ },
+ "A16-03": {
+  "A16-03-d1": "It replaced BERT as the main ranking system in 2021.",
+  "A16-03-d2": "It is used for general ranking, mainly in English.",
+  "A16-03-d3": "It ranks multimodal queries such as images, not text."
+ },
+ "A16-04": {
+  "A16-04-d1": "PageRank was retired when Google stopped showing the toolbar score.",
+  "A16-04-d2": "PageRank was folded into the helpful content system in 2024.",
+  "A16-04-d3": "PageRank survives as a crawl-scheduling signal rather than a ranking system."
+ },
+ "A16-05": {
+  "A16-05-d3": "Exact-match domains still get a strong boost for commercial queries.",
+  "A16-05-d2": "Domain words aren't a ranking factor, so the name is neutral.",
+  "A16-05-d1": "The advantage holds for .com domains but not for new gTLDs."
+ },
+ "A16-06": {
+  "A16-06-d2": "Freshness is a sitewide signal, so frequently updated sites rank higher.",
+  "A16-06-d1": "Newer pages generally outrank older ones regardless of the query type.",
+  "A16-06-d3": "Updating the visible date on a page is enough to trigger a freshness boost."
+ },
+ "A16-07": {
+  "A16-07-d1": "It also appears as a normal listing, usually in position one.",
+  "A16-07-d3": "It moves to the second page so the snippet and listing don't compete.",
+  "A16-07-d2": "It is replaced by the next result from the same site, if one exists."
+ },
+ "A16-08": {
+  "A16-08-d1": "A system that indexes each passage as a separate document with its own URL.",
+  "A16-08-d2": "A feature that ranks pages higher when headings match the query exactly.",
+  "A16-08-d3": "A markup option that tells Google which passages should rank."
+ },
+ "A16-09": {
+  "A16-09-d2": "Usually up to three show, though Google adds more for branded queries.",
+  "A16-09-d1": "Two is a hard limit, but subdomains each get their own two slots.",
+  "A16-09-d3": "Two per domain applies on mobile, while desktop allows up to four."
+ },
+ "A16-10": {
+  "A16-10-d2": "It joined the core ranking systems in 2022, at launch.",
+  "A16-10-d3": "It still runs separately, just without announcements.",
+  "A16-10-d1": "It merged into the spam systems in March 2024."
+ },
+ "A16-11": {
+  "A16-11-d2": "It reviews reconsideration requests that sites submit after manual actions.",
+  "A16-11-d3": "It scores content helpfulness as part of the core ranking systems.",
+  "A16-11-d1": "It flags AI-generated text so those pages can be demoted."
+ },
+ "A16-12": {
+  "A16-12-d3": "It ranks the most recent coverage first, since freshness matters most in a crisis.",
+  "A16-12-d1": "It pauses ranking updates and freezes results until the situation settles.",
+  "A16-12-d2": "It restricts results to government domains until the crisis is declared over."
+ },
+ "A16-13": {
+  "A16-13-d3": "They are treated identically, with the earliest publish date winning ties.",
+  "A16-13-d2": "Citing pages tend to rank higher as they link to the original.",
+  "A16-13-d1": "Priority goes to whichever page Google crawled first, original or not."
+ },
+ "A16-14": {
+  "A16-14-d3": "Removals affect the removed URLs alone; other pages on the site are untouched.",
+  "A16-14-d1": "One valid removal request can trigger a sitewide demotion.",
+  "A16-14-d2": "Invalid requests, not valid ones, can lead to demotion of other content."
+ },
+ "A16-15": {
+  "A16-15-d1": "Each subdomain is generally treated as a separate site with its own slots.",
+  "A16-15-d2": "Subdomains count as one site when they share the same server IP address.",
+  "A16-15-d3": "Splitting works if each subdomain has a separate Search Console property."
+ },
+ "A16-16": {
+  "A16-16-d1": "They are current updates that Google still announces by name.",
+  "A16-16-d2": "Panda and Penguin are retired, but Hummingbird runs as a separate update.",
+  "A16-16-d3": "They are still active and roll out alongside each spam update."
+ },
+ "A17-01": {
+  "A17-01-d2": "It weighs user comments on product pages as its main quality input.",
+  "A17-01-d3": "It evaluates them when they are marked up with Review structured data.",
+  "A17-01-d1": "It evaluates both, giving more weight to verified-purchase comments."
+ },
+ "A17-02": {
+  "A17-02-d2": "It covers products; services fall under local systems.",
+  "A17-02-d1": "It covers products and software, but not films.",
+  "A17-02-d3": "It covers single products, not comparisons or lists."
+ },
+ "A17-03": {
+  "A17-03-d2": "It is site-wide, so one weak review can pull down the entire domain.",
+  "A17-03-d3": "It is page-level, though small review sites may be assessed site-wide.",
+  "A17-03-d1": "It is page-level, but the assessment extends to pages that the review links out to."
+ },
+ "A17-04": {
+  "A17-04-d1": "Valid Product markup with aggregateRating is what marks a review as high quality.",
+  "A17-04-d2": "Markup is irrelevant; listing many products makes a review strong.",
+  "A17-04-d3": "It can raise quality when the pros and cons properties are filled in."
+ },
+ "A17-05": {
+  "A17-05-d1": "Promise recovery at the next core update.",
+  "A17-05-d3": "Promise recovery within four weeks, after recrawling.",
+  "A17-05-d2": "Say recovery can't start before the next reviews update."
+ },
+ "A17-06": {
+  "A17-06-d1": "Neither is in scope, since the system targets single-product reviews.",
+  "A17-06-d2": "Both are in scope and judged mainly on how many products they include.",
+  "A17-06-d3": "Comparisons are in scope, but ranked lists are excluded as affiliate content."
+ },
+ "A17-07": {
+  "A17-07-d1": "It applies to English, with other languages listed as planned.",
+  "A17-07-d2": "It covers every language, but for searches in the United States.",
+  "A17-07-d3": "It lists three languages: English, Spanish and German."
+ },
+ "A18-01": {
+  "A18-01-d3": "A drop usually means a manual action was applied to the site.",
+  "A18-01-d2": "It proves an algorithmic penalty lifted at the next update.",
+  "A18-01-d1": "It proves the site broke spam policies enforced by the update."
+ },
+ "A18-02": {
+  "A18-02-d1": "Start analysis the day the update is announced, using the prior day as a baseline.",
+  "A18-02-d3": "Wait until the next core update, then compare the two rollout periods.",
+  "A18-02-d2": "Wait two weeks after the announcement, then compare month over month."
+ },
+ "A18-03": {
+  "A18-03-d3": "Rewrite it, since a two-position loss signals a quality issue.",
+  "A18-03-d1": "Refresh the date and add new sections to regain position two.",
+  "A18-03-d2": "Rewrite the intro and title, which usually recovers a small drop like this quickly."
+ },
+ "A18-04": {
+  "A18-04-d3": "Rewrite title tags sitewide, as large drops tend to start with weak titles.",
+  "A18-04-d1": "Disavow recent backlinks, since large drops usually come from link spam.",
+  "A18-04-d2": "Increase publishing frequency so fresh pages offset the losses."
+ },
+ "A18-05": {
+  "A18-05-d2": "Pruning declining pages is the fastest documented way to recover.",
+  "A18-05-d3": "Delete it, but redirect each URL to the homepage to keep link equity.",
+  "A18-05-d1": "Noindex declining pages, since that removes them without the risk of 404s."
+ },
+ "A18-06": {
+  "A18-06-d1": "Recovery is tied to the next announced core update rollout.",
+  "A18-06-d3": "Recovery can start once a reconsideration request is approved.",
+  "A18-06-d2": "Improvements show at the next spam update, which also reassesses quality."
+ },
+ "A18-07": {
+  "A18-07-d1": "Compare Search Console clicks with Analytics sessions.",
+  "A18-07-d2": "Check the Core Web Vitals report, since image declines usually come from LCP.",
+  "A18-07-d3": "Use the Page indexing report to see whether images were dropped from the index."
+ },
+ "A18-08": {
+  "A18-08-d2": "They can request a manual review from Google on the site's behalf.",
+  "A18-08-d3": "They bring fresh keyword research, which core updates tend to reward.",
+  "A18-08-d1": "Google weighs third-party audits as a signal when reassessing the site."
+ },
+ "A18-09": {
+  "A18-09-d2": "Guarantee recovery by the next core update.",
+  "A18-09-d3": "Quote 90 days, the standard time Google needs to reassess a site.",
+  "A18-09-d1": "Explain that effects can be seen within one week of recrawling."
+ },
+ "A19-01": {
+  "A19-01-d3": "Detection is constant; an update is a manual sweep by the webspam team.",
+  "A19-01-d2": "Updates are when detection runs; between them spam is not assessed.",
+  "A19-01-d1": "An update targets link spam, while detection handles content spam."
+ },
+ "A19-02": {
+  "A19-02-d1": "Review Core Web Vitals, which spam updates also assess.",
+  "A19-02-d2": "Review the disavow file, the main fix for spam updates.",
+  "A19-02-d3": "Review the Manual actions report, where spam updates show."
+ },
+ "A19-03": {
+  "A19-03-d3": "The benefit returns once a disavow file for those links is processed.",
+  "A19-03-d1": "The benefit can return gradually as Google recrawls the cleaned pages.",
+  "A19-03-d2": "The benefit returns once replacement links are built from the same sites."
+ },
+ "A19-04": {
+  "A19-04-d2": "Rankings reset to their earlier level once the rollout ends.",
+  "A19-04-d3": "Recovery can be expected within a week of recrawling.",
+  "A19-04-d1": "Recovery follows at the next announced spam update."
+ },
+ "A20-01": {
+  "A20-01-d2": "Sites can switch them on in Search Console settings.",
+  "A20-01-d1": "They apply across the EEA, and other regions mirror them.",
+  "A20-01-d3": "They are available worldwide once the markup is added."
+ },
+ "A20-02": {
+  "A20-02-d2": "Pick the guide for the country where the site is based, whatever its users' market.",
+  "A20-02-d3": "Start with the carousel guide, since its markup covers each feature.",
+  "A20-02-d1": "Choose by site size, since larger sites qualify for aggregator units."
+ },
+ "A20-03": {
+  "A20-03-d1": "The same categories apply across the EEA, South Africa and Türkiye.",
+  "A20-03-d3": "Categories follow the search language rather than the region.",
+  "A20-03-d2": "They are identical, with each region using the EEA category list."
+ },
+ "A21-01": {
+  "A21-01-d3": "Each provider gets a short row, and clicks go to a Google booking page.",
+  "A21-01-d1": "Providers rotate in the expanded slot so that each gets equal exposure.",
+  "A21-01-d2": "The highest bidder is expanded, and users can switch providers."
+ },
+ "A21-02": {
+  "A21-02-d1": "Valid ItemList markup on a category page is enough to qualify.",
+  "A21-02-d3": "Sites need ItemList markup plus a Merchant Center account.",
+  "A21-02-d2": "Sites can join by verifying their domain in Search Console."
+ },
+ "A21-03": {
+  "A21-03-d1": "Direct feeds for flights and transport; real-time APIs for hotels and local businesses.",
+  "A21-03-d2": "Crawled ItemList markup covers each category without a separate integration.",
+  "A21-03-d3": "Real-time APIs for hotels and flights; Merchant Center feeds for local businesses."
+ },
+ "A21-04": {
+  "A21-04-d1": "Keyword-rich titles, promotional labels like BEST DEALS and many images.",
+  "A21-04-d2": "Keyword coverage in descriptions, since feed text is ranked the same way as page text.",
+  "A21-04-d3": "Feed file size and update frequency, which decide unit ranking."
+ },
+ "A21-05": {
+  "A21-05-d1": "Yes; each approved service gets its own unit, stacked by ranking.",
+  "A21-05-d3": "No; only one unit shows, and it lists a single provider with no alternatives.",
+  "A21-05-d2": "Yes; up to three units can show, one for each top-ranked provider."
+ },
+ "A21-06": {
+  "A21-06-d1": "Product queries use the same Search Aggregator Features form as hotels.",
+  "A21-06-d3": "Product queries apply through Merchant Center, not a separate form.",
+  "A21-06-d2": "Product queries apply by adding ItemList markup and a Search Console request."
+ },
+ "A22-01": {
+  "A22-01-d3": "It features direct providers and can appear without an aggregator unit.",
+  "A22-01-d1": "It features aggregators only, while direct providers stay in ordinary results.",
+  "A22-01-d2": "It shows paid supplier ads, while the aggregator unit is organic."
+ },
+ "A22-02": {
+  "A22-02-d2": "A feed is required, though crawled data can fill in the gaps.",
+  "A22-02-d1": "Feeds are needed for hotels and airlines, but not for local services.",
+  "A22-02-d3": "Crawled data is enough, but suppliers still need VSS approval."
+ },
+ "A22-03": {
+  "A22-03-d3": "Yes; it can appear alone for branded queries about that supplier.",
+  "A22-03-d1": "Yes; it always appears alone when the supplier provides a data feed.",
+  "A22-03-d2": "No; it appears in a separate tab rather than on the main results page."
+ },
+ "A23-01": {
+  "A23-01-d3": "It shows related products from shopping sites for commercial queries.",
+  "A23-01-d2": "It displays news stories from publishers for trending topics.",
+  "A23-01-d1": "It highlights local businesses near the user's location."
+ },
+ "A23-02": {
+  "A23-02-d3": "Neither is needed, so a site with relevant content can appear by default.",
+  "A23-02-d1": "A data feed is needed, though no new structured data type is required.",
+  "A23-02-d2": "It needs Dataset markup on pages that show charts or live data."
+ },
+ "A23-03": {
+  "A23-03-d2": "A site with high domain authority, whatever its topic focus.",
+  "A23-03-d3": "A site that has verified its ownership in Search Console.",
+  "A23-03-d1": "A site with Dataset markup that supplies interactive data."
+ },
+ "A24-01": {
+  "A24-01-d2": "JobPosting markup is required on each listing for the carousel to show.",
+  "A24-01-d1": "ItemList markup is needed, though JobPosting can be left off.",
+  "A24-01-d3": "No markup is needed, but sites need to submit a jobs feed to Google."
+ },
+ "A24-02": {
+  "A24-02-d1": "It filters results to direct employers' career pages, worldwide.",
+  "A24-02-d2": "It opens Google for Jobs listings, available in the US and EEA.",
+  "A24-02-d3": "It focuses results on aggregators for job queries in the US."
+ },
+ "A24-03": {
+  "A24-03-d3": "It loads more individual job listings from the top aggregator.",
+  "A24-03-d1": "It opens the employer's careers page for the selected job.",
+  "A24-03-d2": "It shows sponsored job boards that pay for placement."
+ },
+ "A25-01": {
+  "A25-01-d2": "The EEA only, for flights, hotels and local businesses.",
+  "A25-01-d3": "Türkiye and South Africa, for travel, hotel and shopping queries.",
+  "A25-01-d1": "South Africa, for travel and shopping queries."
+ },
+ "A25-02": {
+  "A25-02-d2": "Every listing page needs ItemList markup for the carousel and chips.",
+  "A25-02-d1": "Hotel and LocalBusiness markup are needed, though no feed is required.",
+  "A25-02-d3": "No markup is needed, but a Merchant Center feed is required to qualify."
+ },
+ "A25-03": {
+  "A25-03-d1": "Through a Places filter in Google Maps rather than in Search.",
+  "A25-03-d3": "Via the Places tab under the search bar, next to Images and News.",
+  "A25-03-d2": "By switching the Search region setting to Türkiye."
+ },
+ "A26-01": {
+  "A26-01-d3": "It gives a small boost within the top ten results.",
+  "A26-01-d2": "It improves rankings for South African users but not elsewhere.",
+  "A26-01-d1": "It raises rankings for ads, while organic results stay unchanged."
+ },
+ "A26-02": {
+  "A26-02-d1": "It appears on organic results, while ads use a separate label.",
+  "A26-02-d2": "It appears on ads, while organic results get a refinement chip instead.",
+  "A26-02-d3": "It can appear on organic results and Maps listings, but not ads."
+ },
+ "A26-03": {
+  "A26-03-d2": "Platforms need Organization markup with a South African address.",
+  "A26-03-d3": "Platforms qualify through a .co.za domain, which replaces markup.",
+  "A26-03-d1": "Platforms need ItemList markup on their category pages."
+ },
+ "A26-04": {
+  "A26-04-d1": "Both cover travel, car hire, bus booking, products and food delivery.",
+  "A26-04-d3": "Ads cover more categories; organic badges cover travel and shopping.",
+  "A26-04-d2": "Organic badges cover travel, while ads cover products and food delivery."
+ },
+ "A27-01": {
+  "A27-01-d2": "It shows entities from several sites; the aggregator unit is single-site.",
+  "A27-01-d3": "It needs VSS approval, while the aggregator unit relies on ordinary ItemList markup.",
+  "A27-01-d1": "It is the mobile version of the aggregator unit, with the same rules."
+ },
+ "A27-02": {
+  "A27-02-d2": "Only in the EEA, for hotel and local-business queries.",
+  "A27-02-d3": "Globally on mobile, and in the EEA on desktop as well.",
+  "A27-02-d1": "Globally, though the beta is limited to travel and local queries."
+ },
+ "A27-03": {
+  "A27-03-d2": "A summary page with at least two items linking to detail pages.",
+  "A27-03-d3": "A single page with at least three items and anchors for details.",
+  "A27-03-d1": "Detail pages for five or more items, listed in a sitemap."
+ },
+ "A27-04": {
+  "A27-04-d2": "Each detail page needs the markup, and the summary page does not.",
+  "A27-04-d1": "Every summary and detail page needs matching markup.",
+  "A27-04-d3": "Only the summary page needs markup; detail URLs can be left out."
+ },
+ "A27-05": {
+  "A27-05-d1": "Put the full category in one ItemList on page one, and do the same for infinite scroll.",
+  "A27-05-d2": "Use one ItemList per page; for infinite scroll, mark the full list, including unloaded items.",
+  "A27-05-d3": "Mark page one, since later pages can be found through rel=next links."
+ },
+ "A27-06": {
+  "A27-06-d1": "The name, url and description properties for each item.",
+  "A27-06-d3": "The name, image and aggregateRating properties for each item.",
+  "A27-06-d2": "The url and logo properties for each item."
+ },
+ "A27-07": {
+  "A27-07-d1": "Yes; anchors work if each section has its own heading and markup.",
+  "A27-07-d3": "Yes; anchors are fine as long as each URL is unique within the list.",
+  "A27-07-d2": "No; items need URLs on a different domain from the summary page."
+ },
+ "A27-08": {
+  "A27-08-d3": "Each valid field is shown on the tile, in the order supplied.",
+  "A27-08-d2": "Extra fields are rejected and can cause the carousel to fail validation.",
+  "A27-08-d1": "Extra fields show if the Rich Results Test lists them as valid."
+ },
+ "A27-09": {
+  "A27-09-d3": "Offer takes lowPrice and highPrice, while AggregateOffer takes price.",
+  "A27-09-d2": "Use price together with lowPrice and highPrice so that ranges show correctly.",
+  "A27-09-d1": "Ranges can be given in price as text, such as 10-50, on either type."
+ },
+ "A27-10": {
+  "A27-10-d3": "No default.",
+  "A27-10-d1": "EUR.",
+  "A27-10-d2": "GBP."
+ },
+ "A27-11": {
+  "A27-11-d2": "Leave price out, as any free event can omit the offers property.",
+  "A27-11-d1": "Set price to 0 when the ticket is free, even if a booking fee applies.",
+  "A27-11-d3": "Use the text value Free in price instead of a number."
+ },
+ "A27-12": {
+  "A27-12-d1": "A pass confirms the markup is eligible and meets the content policies.",
+  "A27-12-d2": "It catches policy problems too, but not regional eligibility.",
+  "A27-12-d3": "It confirms the markup, but a missing carousel usually means a manual action."
+ },
+ "A27-13": {
+  "A27-13-d1": "A logo is the preferred image when the entity is a brand or chain.",
+  "A27-13-d3": "Logos can be used if they meet the 50K-pixel minimum size.",
+  "A27-13-d2": "Logos are fine for the 1:1 version, but photos must be used for 16:9 and 4:3."
+ },
+ "A27-14": {
+  "A27-14-d1": "Plain numbers use a 10-point scale, so 8 needs no extra properties.",
+  "A27-14-d2": "Add ratingCount of 10 so Google reads the value as eight out of ten.",
+  "A27-14-d3": "Google infers the scale from the highest rating on the page."
+ },
+ "A27-15": {
+  "A27-15-d1": "priceRange accepts numbers alone, so currency symbols are dropped.",
+  "A27-15-d2": "priceRange has a 50-character limit, and longer text is truncated.",
+  "A27-15-d3": "priceRange must sit inside Offer markup to display."
+ },
+ "A27-16": {
+  "A27-16-d2": "Yes; it applies to every LocalBusiness that serves food, hotels included.",
+  "A27-16-d3": "Yes; extra properties are allowed, so it is recommended on each type.",
+  "A27-16-d1": "No; it is required for restaurants and hotels alike."
+ },
+ "A28-01": {
+  "A28-01-d2": "Followers see its content in Top Stories with a preferred badge.",
+  "A28-01-d1": "Following lifts the creator's pages in regular Search results.",
+  "A28-01-d3": "Followers get its new posts in their Google News Following tab."
+ },
+ "A28-02": {
+  "A28-02-d1": "Add Organization markup with a sameAs link to the profile to show the badge.",
+  "A28-02-d3": "Add the badge, then verify the site in Search Console to claim it.",
+  "A28-02-d2": "Request the badge through Publisher Center once the site is approved."
+ },
+ "A28-03": {
+  "A28-03-d1": "Recolor the art to match the site; 24×24 px touch targets on each device.",
+  "A28-03-d2": "Unaltered art; touch targets of 44×44 dp on Android, 48×48 px on web.",
+  "A28-03-d3": "The art can be resized and rotated freely; touch targets are not specified."
+ },
+ "A28-04": {
+  "A28-04-d3": "Yes; a link to the creator's social profile works the same.",
+  "A28-04-d1": "No; the graphical badge is required wherever it is linked.",
+  "A28-04-d2": "No; text links can go in newsletters but not bylines."
+ },
+ "A29-01": {
+  "A29-01-d1": "They are the same thing, shown in different places on mobile and desktop.",
+  "A29-01-d3": "A title link covers the whole site; a site name covers one page.",
+  "A29-01-d2": "A site name is set in Search Console, while title links come from markup."
+ },
+ "A29-02": {
+  "A29-02-d1": "A WebSite markup block on the /news landing page can set its own name.",
+  "A29-02-d3": "Site names are supported per domain, so subdomains share the parent's name.",
+  "A29-02-d2": "Site names are supported per subdirectory if it has its own Search Console property."
+ },
+ "A29-03": {
+  "A29-03-d1": "Add Organization markup with a name property to each page.",
+  "A29-03-d2": "Set og:site_name on the home page, which outweighs other signals.",
+  "A29-03-d3": "Add WebSite structured data with name and url to each article page."
+ },
+ "A29-04": {
+  "A29-04-d3": "On the canonical homepage alone, since duplicates are consolidated.",
+  "A29-04-d2": "On the home page and every category page, so the name is seen sitewide.",
+  "A29-04-d1": "On the HTTP and HTTPS copies, each with its own variant of the name."
+ },
+ "A29-05": {
+  "A29-05-d3": "The tool needs the page to be indexed first; request indexing and retest.",
+  "A29-05-d2": "Site names show in the tool after the markup is recrawled, which can take weeks.",
+  "A29-05-d1": "The tool supports site names but needs an Organization block with a logo."
+ },
+ "A29-06": {
+  "A29-06-d1": "It sets a name for each language version of the site.",
+  "A29-06-d3": "It lists brand misspellings so Google can match them in queries.",
+  "A29-06-d2": "It names the site's alternate domains so they share one site name."
+ },
+ "A29-07": {
+  "A29-07-d3": "Add the new name to the old URL's markup, since the source is used.",
+  "A29-07-d2": "Use the Change of Address tool in Search Console, which can update the name directly.",
+  "A29-07-d1": "Wait for the next core update, when site names are recalculated."
+ },
+ "A29-08": {
+  "A29-08-d2": "Inner pages keep their first indexed name until removed.",
+  "A29-08-d3": "Inner pages always pull the name from their own title tags.",
+  "A29-08-d1": "Inner results update within hours, so an old name points to a cache bug."
+ },
+ "A29-09": {
+  "A29-09-d1": "Google shows no site name until markup is added to that homepage.",
+  "A29-09-d3": "Google uses the Business Profile name tied to that subdomain.",
+  "A29-09-d2": "Google typically uses the title tag of the most-visited inner page."
+ },
+ "A30-01": {
+  "A30-01-d3": "They can be set in Search Console under the Sitelinks settings.",
+  "A30-01-d2": "They are chosen through SiteNavigationElement markup.",
+  "A30-01-d1": "They follow the main menu in the order it lists pages."
+ },
+ "A30-02": {
+  "A30-02-d1": "Adding SiteNavigationElement markup and a sitemap priority for key pages.",
+  "A30-02-d3": "Long keyword-rich anchors and more pages that repeat the main topic.",
+  "A30-02-d2": "Deeper URL folders and footer links, which can signal page importance."
+ },
+ "A30-03": {
+  "A30-03-d3": "Demote the sitelink in Search Console, which leaves the page indexed.",
+  "A30-03-d2": "Add rel=nofollow to internal links pointing to that page.",
+  "A30-03-d1": "Block the page in robots.txt, which keeps it indexed but out of sitelinks."
+ },
+ "A30-04": {
+  "A30-04-d3": "Sitelinks appear once a site reaches a set level of brand searches.",
+  "A30-04-d1": "Sitelinks only show when SiteNavigationElement markup is present.",
+  "A30-04-d2": "Sitelinks show for queries matching the homepage title."
+ },
+ "A31-01": {
+  "A31-01-d3": "Google rotates through meta descriptions saved from earlier crawls.",
+  "A31-01-d2": "Snippets come from the meta description, cut to fit each device.",
+  "A31-01-d1": "Each snippet is the same meta description, with the query's keywords shown in bold."
+ },
+ "A31-02": {
+  "A31-02-d3": "Descriptions longer than 160 characters can trigger a warning in Search Console.",
+  "A31-02-d2": "The limit is 155 characters on mobile and 160 characters on desktop results.",
+  "A31-02-d1": "Google cuts descriptions at 160 characters and ignores the text past that point."
+ },
+ "A31-03": {
+  "A31-03-d3": "Use nosnippet for the whole snippet; googleoff and googleon comments can hide one passage.",
+  "A31-03-d1": "Use data-nosnippet for the whole snippet and max-snippet:0 to exclude one passage.",
+  "A31-03-d2": "Use noarchive for the whole snippet and a robots.txt Disallow line for one passage."
+ },
+ "A31-04": {
+  "A31-04-d3": "They can be used, but they may count as duplicate content against rankings.",
+  "A31-04-d2": "They work best when one template sentence is reused site-wide.",
+  "A31-04-d1": "They can work if they list the page's main keywords separated by commas."
+ },
+ "A31-05": {
+  "A31-05-d3": "Start with paginated and filtered URLs, which make up most of the gap.",
+  "A31-05-d1": "Fill the missing fields first with one sitewide default description.",
+  "A31-05-d2": "Start with deep, low-traffic pages, since descriptions lift weak rankings."
+ },
+ "A31-06": {
+  "A31-06-d1": "Google treats fragment-style descriptions as low quality and tends to rewrite them.",
+  "A31-06-d2": "Fragments may work, but Google usually prefers a single keyword-rich sentence.",
+  "A31-06-d3": "Labeled facts belong in structured data, so the description should be one sentence."
+ },
+ "A31-07": {
+  "A31-07-d1": "Headings without id attributes, since the link jumps to the nearest heading anchor.",
+  "A31-07-d2": "Missing FAQ or HowTo structured data that marks where each passage starts.",
+  "A31-07-d3": "A long page with many sections, which can make browsers ignore the fragment."
+ },
+ "A31-08": {
+  "A31-08-d3": "Submit the descriptions in Search Console, which can apply them to each URL.",
+  "A31-08-d2": "Add a description property in JSON-LD, which Google uses in place of the meta tag.",
+  "A31-08-d1": "Put the description in the page's first paragraph, which Google reads as the meta tag."
+ },
+ "A31-09": {
+  "A31-09-d1": "Use the personal story, since a unique anecdote stands out among other snippets.",
+  "A31-09-d2": "List the main egg keywords, since descriptions mainly need to match the query terms.",
+  "A31-09-d3": "Either works, since Google can rewrite the snippet from page text anyway."
+ },
+ "A32-01": {
+  "A32-01-d1": "It can act as a ranking factor, often lifting marked-up pages a few positions.",
+  "A32-01-d2": "It tells Google which queries a page should rank for and sets the snippet text.",
+  "A32-01-d3": "It mainly helps Googlebot discover new URLs faster, much like an XML sitemap."
+ },
+ "A32-02": {
+  "A32-02-d3": "The Schema Markup Validator, since a clean result defines eligibility.",
+  "A32-02-d1": "Schema.org's type pages, since Google uses each property they list.",
+  "A32-02-d2": "The W3C JSON-LD specification, which defines the properties Search reads."
+ },
+ "A32-03": {
+  "A32-03-d1": "JSON-LD, Microdata, and RDFa are supported, with Microdata recommended.",
+  "A32-03-d3": "JSON-LD is recommended, but Google can't read it when JavaScript injects it.",
+  "A32-03-d2": "JSON-LD, Microdata, and Microformats are supported, with Microdata recommended."
+ },
+ "A32-04": {
+  "A32-04-d3": "Prioritize recommended properties, since Google can infer the required ones.",
+  "A32-04-d1": "Add as many recommended properties as possible, even when some values are guesses.",
+  "A32-04-d2": "Fill every recommended field with placeholder values so the markup looks complete."
+ },
+ "A32-05": {
+  "A32-05-d3": "Markup can sit on a separate page as long as its canonical points to the content page.",
+  "A32-05-d1": "A separate page works if each item links back to the page it describes.",
+  "A32-05-d2": "Put it in one sitewide JSON-LD block on the homepage, which Google maps to each page."
+ },
+ "A32-06": {
+  "A32-06-d3": "Use the enhancement report's valid-item count as the measure of business impact.",
+  "A32-06-d2": "Track average position in a rank tracker, since rich results usually raise rankings.",
+  "A32-06-d1": "Compare site-wide Google Analytics sessions for the week before and the week after launch."
+ },
+ "A32-07": {
+  "A32-07-d1": "It needs to be in the head, or Google treats it as visible page content.",
+  "A32-07-d3": "Body placement may work, but it can delay rich results by several weeks.",
+  "A32-07-d2": "It has to be in the head unless Google Tag Manager injects it."
+ },
+ "A32-08": {
+  "A32-08-d2": "Google can demote pages whose markup hasn't been revalidated lately.",
+  "A32-08-d1": "Googlebot updates change syntax rules, so older markup stops parsing.",
+  "A32-08-d3": "Search Console needs a monthly validation request to keep rich results."
+ },
+ "A33-01": {
+  "A33-01-d3": "Display usually follows within days, and a missing result often means a syntax error.",
+  "A33-01-d1": "Display follows once Search Console reports the item as valid with no warnings.",
+  "A33-01-d2": "Display depends mainly on filling in recommended properties, not on page quality."
+ },
+ "A33-02": {
+  "A33-02-d2": "It keeps rich results but lowers rankings for the pages with spammy markup.",
+  "A33-02-d3": "It removes rich results and can lower rankings across the whole domain.",
+  "A33-02-d1": "It demotes the affected pages in web search until a reconsideration request succeeds."
+ },
+ "A33-03": {
+  "A33-03-d3": "Nesting several types on one page, which can confuse Google's quality systems.",
+  "A33-03-d1": "Using Microdata instead of JSON-LD, which Google treats as a lower-quality format.",
+  "A33-03-d2": "Leaving out optional properties, such as a review's author image or rating scale."
+ },
+ "A33-04": {
+  "A33-04-d1": "Place it only on the canonical page, since Google ignores markup on all duplicates.",
+  "A33-04-d3": "Mark up duplicates differently, since identical markup can count as duplicate spam.",
+  "A33-04-d2": "Leave it off duplicates so Google doesn't report conflicting rich-result items."
+ },
+ "A33-05": {
+  "A33-05-d2": "Merge them into one item whose properties combine values from each entity.",
+  "A33-05-d1": "Mark up the first item alone, since Google reads one entity per page.",
+  "A33-05-d3": "Use a separate script per item, since nested items can't be read by Google."
+ },
+ "A33-06": {
+  "A33-06-d2": "Images must be on the page's own domain, though the page itself can be noindexed.",
+  "A33-06-d3": "Login-protected pages qualify when the markup is visible in the page source.",
+  "A33-06-d1": "Pages need to be indexable, but images can stay blocked if they are in the markup."
+ },
+ "A33-07": {
+  "A33-07-d1": "Google can fill in the recipe details from the video's description field.",
+  "A33-07-d3": "The cook time, since Google reads ingredients and steps from the transcript.",
+  "A33-07-d2": "The recipe card may still show, but its ratings will usually be missing."
+ },
+ "A33-08": {
+  "A33-08-d2": "Updating dateModified can keep an expired event or job eligible for rich results.",
+  "A33-08-d1": "Expired listings keep rich results for about 30 days while the markup stays valid.",
+  "A33-08-d3": "Valid markup keeps it eligible, though Google may label it as a past listing."
+ },
+ "A34-01": {
+  "A34-01-d3": "A knowledge panel built from a site's Organization markup and social profiles.",
+  "A34-01-d2": "A featured snippet that combines answers from several different sites into one box.",
+  "A34-01-d1": "A standard result enhanced with sitelinks and a site name, with no extra filtering."
+ },
+ "A34-02": {
+  "A34-02-d1": "Each feature needs a detail page, and markup on category pages is ignored by Google.",
+  "A34-02-d2": "It varies; enriched search uses category pages, while the carousel uses leaf pages.",
+  "A34-02-d3": "Category pages are preferred, since one summary page can describe many items at once."
+ },
+ "A34-03": {
+  "A34-03-d3": "The affected markup type is excluded, while other types on the site stay eligible.",
+  "A34-03-d1": "Exclusion is applied per URL, so a site-wide loss would need a manual action.",
+  "A34-03-d2": "A whole site can be excluded once over 10 percent of its markup shows warnings."
+ },
+ "A34-04": {
+  "A34-04-d1": "They count as duplicates unless each listing rewrites the description in unique words.",
+  "A34-04-d3": "They may be kept, but Google usually folds them into a single listing.",
+  "A34-04-d2": "They are allowed if each one uses a canonical tag pointing to the main listing."
+ },
+ "A34-05": {
+  "A34-05-d3": "Enriched ranking is driven by review counts, not completeness.",
+  "A34-05-d1": "Completeness can affect eligibility but plays no part in ranking.",
+  "A34-05-d2": "Completeness also raises an item's ranking in ordinary web results."
+ },
+ "A35-01": {
+  "A35-01-d1": "Google reads it when it is in the initial HTML, but not when JavaScript adds it.",
+  "A35-01-d2": "Google reads it if Google Tag Manager adds it, but not custom JavaScript.",
+  "A35-01-d3": "Google can read it, but rich results from it are usually limited to desktop."
+ },
+ "A35-02": {
+  "A35-02-d3": "Google can read GTM markup when it's built from variables, but not from static text.",
+  "A35-02-d1": "Variables make the tag load faster, which Google rewards with quicker indexing.",
+  "A35-02-d2": "Hard-coded values in GTM are flagged as cloaking, while variables aren't."
+ },
+ "A35-03": {
+  "A35-03-d2": "Google may read it, but it usually drops the review and rating properties.",
+  "A35-03-d3": "It is read on desktop crawls but often skipped by the smartphone crawler.",
+  "A35-03-d1": "It can't be used for merchant listings, which need the markup in the raw HTML."
+ },
+ "A35-04": {
+  "A35-04-d2": "Use code input, since it shows the markup before Googlebot caches the page.",
+  "A35-04-d1": "Use code input, since URL input can't execute JavaScript on the page.",
+  "A35-04-d3": "Either works the same, since both run the full page JavaScript with Googlebot."
+ },
+ "A35-05": {
+  "A35-05-d3": "The markup is valid for each schema.org type on the page, including unsupported ones.",
+  "A35-05-d1": "The page meets Google's content and quality policies for the tested feature.",
+  "A35-05-d2": "The rich result is guaranteed to appear once Googlebot next recrawls the page."
+ },
+ "A35-06": {
+  "A35-06-d2": "Publish as is, since Google can fill placeholder values from the visible page text.",
+  "A35-06-d3": "Replace the placeholders with fixed sample values so the markup validates.",
+  "A35-06-d1": "Check that the placeholders pass the Rich Results Test in code input mode."
+ },
+ "A35-07": {
+  "A35-07-d3": "They may be combined, but duplicate entities usually trigger a manual action.",
+  "A35-07-d2": "Mixing them is treated as cloaking, so one method should be chosen per site.",
+  "A35-07-d1": "They can be combined, but Google reads the server-rendered copy and ignores the additions."
+ },
+ "A36-01": {
+  "A36-01-d3": "Use your SEO plugin's schema menu, since it lists the types Google supports.",
+  "A36-01-d1": "Check schema.org for the type, since each listed type has a Search feature.",
+  "A36-01-d2": "Run the markup through the Schema Markup Validator and look for feature names."
+ },
+ "A36-02": {
+  "A36-02-d3": "The traditional carousel entry lists Course list, Article, Event, and Video.",
+  "A36-02-d2": "The traditional carousel entry lists Product, Event, Movie, and Video.",
+  "A36-02-d1": "The traditional carousel entry lists Recipe, Product, Event, and Article."
+ },
+ "A36-03": {
+  "A36-03-d2": "Product results show a title and snippet, with prices left to Shopping ads.",
+  "A36-03-d1": "Product results can show the seller's phone number and store hours.",
+  "A36-03-d3": "Product results can show the SKU, the GTIN, and the item's weight."
+ },
+ "A36-04": {
+  "A36-04-d1": "ProfilePage markup is how a site claims its Search profile and badge.",
+  "A36-04-d2": "ProfilePage marks a creator page; the badge comes from sameAs links.",
+  "A36-04-d3": "The badge marks up a creator page; ProfilePage links to a Search profile."
+ },
+ "A36-05": {
+  "A36-05-d2": "It tells Google to index the free section and skip the paywalled text.",
+  "A36-05-d1": "It lets Google show a subscription price and a Subscribe button in the result.",
+  "A36-05-d3": "It gives paywalled articles a ranking boost in Top stories for subscribers."
+ },
+ "A37-01": {
+  "A37-01-d1": "Google uses the title element unless it exceeds 60 characters.",
+  "A37-01-d2": "Google uses the title element unless og:title gives a different value.",
+  "A37-01-d3": "Google automatically shortens long title elements but can't replace their wording."
+ },
+ "A37-02": {
+  "A37-02-d1": "A 60-character limit applies, and Google rewrites titles that run past it.",
+  "A37-02-d2": "No limit applies on desktop, but mobile title links are capped at 50 characters.",
+  "A37-02-d3": "Google indexes the first 60 characters of a title and can ignore the rest for ranking."
+ },
+ "A37-03": {
+  "A37-03-d2": "The year conflicts with the datePublished value in the page's Article structured data.",
+  "A37-03-d1": "Google treats dates in titles as clickbait and replaces them with the publish date.",
+  "A37-03-d3": "Google can update years in titles that it sees ranking for fresh, time-sensitive queries."
+ },
+ "A37-04": {
+  "A37-04-d3": "Add og:title tags that differ from the title so Google can choose the best one.",
+  "A37-04-d1": "Add the target keyword to the start of each title so Google sees it as relevant.",
+  "A37-04-d2": "Put the brand name first in each title so the template stays consistent."
+ },
+ "A37-05": {
+  "A37-05-d3": "The block works once Google drops the cached copy, usually within a few days.",
+  "A37-05-d1": "A robots.txt block keeps the URL out of search results until the block is lifted.",
+  "A37-05-d2": "The URL can still be indexed, but it shows as a bare URL with no title link."
+ },
+ "A37-06": {
+  "A37-06-d1": "Prices in titles count as promotional text, which Google treats as spam.",
+  "A37-06-d3": "Titles with prices are treated as ads and moved into the sponsored results.",
+  "A37-06-d2": "Prices in titles require Product markup, which flight pages can't use."
+ },
+ "A37-07": {
+  "A37-07-d3": "Google usually removes brand names that may be read as keyword stuffing.",
+  "A37-07-d1": "Google may drop a brand name that is placed at the start of the title.",
+  "A37-07-d2": "The brand was removed because the WebSite structured data is missing."
+ },
+ "A37-08": {
+  "A37-08-d2": "It updates as soon as the sitemap is resubmitted, and Google can set it on request.",
+  "A37-08-d3": "Changes take about six months, and Google support can edit titles for verified owners.",
+  "A37-08-d1": "It updates within a day, and Search Console lets you set it manually."
+ },
+ "A37-09": {
+  "A37-09-d1": "The meta description, which Google can shorten to fit the title link.",
+  "A37-09-d3": "The logo image's alt text, which Google treats as the page's main title.",
+  "A37-09-d2": "The URL slug, which Google converts into words to build the title link."
+ },
+ "A37-10": {
+  "A37-10-d3": "It triggers duplicate-content filtering, so Google typically indexes one season page.",
+  "A37-10-d1": "It is the same as a brand suffix, since repeated titles are treated as boilerplate.",
+  "A37-10-d2": "It drops the season distinction, which Google may add from the URL path."
+ },
+ "A38-01": {
+  "A38-01-d1": "An opt-in is needed through the International targeting settings in Search Console.",
+  "A38-01-d3": "No opt-in is needed; Google can apply it based on the site's server location.",
+  "A38-01-d2": "No opt-in is needed, but pages need hreflang tags to be eligible."
+ },
+ "A38-02": {
+  "A38-02-d1": "Google stores a translated copy in its cache and refreshes it each time it recrawls.",
+  "A38-02-d2": "Google hosts a copy on translate.goog that ranks as a separate indexed page.",
+  "A38-02-d3": "Google can host a translated copy, which counts as duplicate content for the site."
+ },
+ "A38-03": {
+  "A38-03-d3": "Filter analytics by the hl= parameter, which can mark translated landing pages.",
+  "A38-03-d1": "Use the Country filter in the Performance report to isolate translated clicks.",
+  "A38-03-d2": "Use the International targeting report, which lists translated-result clicks."
+ },
+ "A38-04": {
+  "A38-04-d2": "Add hreflang tags for each language so Google won't offer a translation.",
+  "A38-04-d3": "Set a Content-Language header, which can stop Google from offering translations.",
+  "A38-04-d1": "Use the noarchive rule in a robots meta tag or X-Robots-Tag header."
+ },
+ "A38-05": {
+  "A38-05-d3": "Persian may be added later, and the feature is limited to desktop results.",
+  "A38-05-d2": "Persian isn't supported yet, though the feature works on mobile and desktop.",
+  "A38-05-d1": "Persian is a supported language, but the feature is limited to desktop results."
+ },
+ "A39-01": {
+  "A39-01-d2": "Translated pages are served from Google's cache, which can block new ad requests.",
+  "A39-01-d3": "Google adds its own ad slots to translated pages, which replace the publisher's units.",
+  "A39-01-d1": "Translation strips the ad scripts, so no impressions are recorded."
+ },
+ "A39-02": {
+  "A39-02-d1": "The translate.google.com domain, the u= parameter, and the tl= code.",
+  "A39-02-d2": "The .goog.translate prefix, the _x_tr_lang list, and the _x_tr_src field.",
+  "A39-02-d3": "The .translate.goog suffix alone; query parameters pass through unchanged."
+ },
+ "A39-03": {
+  "A39-03-d1": "Keep the path and the _x_tr_* parameters, and drop the fragment.",
+  "A39-03-d3": "Keep the path, fragment, and query, and add _x_tr_sl for the language.",
+  "A39-03-d2": "Keep the path, and drop all query parameters and the fragment."
+ },
+ "A39-04": {
+  "A39-04-d2": "Only hostname decoding and the removal of all _x_tr_* parameters.",
+  "A39-04-d1": "Full URL reconstruction, including the path, query string, and fragment.",
+  "A39-04-d3": "Hostname decoding, which can stand in for checks of path, query, and fragment."
+ },
+ "A39-05": {
+  "A39-05-d2": "Some hyphens encode slashes from the original path, which would break the URL.",
+  "A39-05-d1": "Single hyphens encode literal hyphens, and double hyphens mark label boundaries.",
+  "A39-05-d3": "Hyphens may come from the language code, which is usually joined to the host."
+ },
+ "A40-01": {
+  "A40-01-d3": "Google indexes videos from YouTube and Vimeo, while self-hosted files are skipped.",
+  "A40-01-d1": "Videos can be indexed once they reach a minimum number of plays on the page.",
+  "A40-01-d2": "Video indexing needs a video sitemap, and pages without one are skipped."
+ },
+ "A40-02": {
+  "A40-02-d3": "A page that can play a video inline, such as a review with an embedded trailer.",
+  "A40-02-d1": "A page that embeds a video with VideoObject markup, such as a product demo page.",
+  "A40-02-d2": "A page that lists several videos, such as a channel or video category page."
+ },
+ "A40-03": {
+  "A40-03-d2": "It should appear once, so the other page needs to link to the watch page.",
+  "A40-03-d1": "Both are allowed, but Google may treat the second page as duplicate video spam.",
+  "A40-03-d3": "Both are allowed if the product page sets its canonical to the watch page."
+ },
+ "A40-04": {
+  "A40-04-d2": "Check that the video loads when its #fragment URL is opened in the browser.",
+  "A40-04-d3": "Check that the player can load the video after a scroll or tap in Chrome.",
+  "A40-04-d1": "Check that the video's thumbnail appears in Google Images within a week of launch."
+ },
+ "A40-05": {
+  "A40-05-d1": "loc is the player, embedUrl the video file, and contentUrl the watch page.",
+  "A40-05-d2": "loc is the video file, embedUrl the watch page, and contentUrl the player.",
+  "A40-05-d3": "loc is the watch page, embedUrl the video file, and contentUrl the player."
+ },
+ "A40-06": {
+  "A40-06-d2": "Signed URLs slow page loading, which lowers the watch page's Core Web Vitals.",
+  "A40-06-d3": "Expiring URLs can be indexed, but they often lose the video's view count data.",
+  "A40-06-d1": "Expiring URLs are treated as cloaking, since Googlebot sees a different file."
+ },
+ "A40-07": {
+  "A40-07-d3": "At least 120x90 pixels, a stable crawlable URL, and a transparent background allowed.",
+  "A40-07-d2": "At least 60x30 pixels, a stable crawlable URL, and 50% of pixels with alpha above 128.",
+  "A40-07-d1": "At least 120x90 pixels, a 16:9 aspect ratio, and a JPEG file under 2 MB."
+ },
+ "A40-08": {
+  "A40-08-d2": "The embedded player page, which Google uses to capture frames during playback.",
+  "A40-08-d1": "The thumbnail and the VideoObject markup, which list the timestamps Google needs.",
+  "A40-08-d3": "A transcript file, which Google can align with the video to build previews."
+ },
+ "A40-09": {
+  "A40-09-d2": "Clip marks short highlight videos as separate files; SeekToAction adds a play button.",
+  "A40-09-d3": "Clip is for YouTube videos; SeekToAction is for self-hosted videos with a seek bar.",
+  "A40-09-d1": "SeekToAction lists segment times and labels; Clip shows where timestamps go in URLs."
+ },
+ "A40-10": {
+  "A40-10-d2": "Use the noarchive meta tag, which also stops automatic key moments.",
+  "A40-10-d1": "Remove the Clip and SeekToAction markup, which also stops automatic key moments.",
+  "A40-10-d3": "Request removal in the Video indexing report, which turns off key moments for the site."
+ },
+ "A40-11": {
+  "A40-11-d1": "The platform page alone can appear, since it hosts the original video file.",
+  "A40-11-d2": "The publisher page appears instead of the platform page once it adds VideoObject markup.",
+  "A40-11-d3": "Google can index the video on one page, usually the one that embedded it first."
+ },
+ "A40-12": {
+  "A40-12-d3": "Expiry hides the video for 90 days, then Google applies noindex.",
+  "A40-12-d2": "Both remove the page from Search, but expiry also drops the thumbnail.",
+  "A40-12-d1": "Expiry removes the page, while noindex hides only the video."
+ },
+ "A40-13": {
+  "A40-13-d3": "A single removal request can cover each page, since Google groups them by video.",
+  "A40-13-d1": "Removing the watch page through the Removals tool also hides embeds on other pages.",
+  "A40-13-d2": "Removing the video file from the CDN removes each embedding page from Search."
+ },
+ "A40-14": {
+  "A40-14-d1": "An empty allow list allows every country; an empty deny list blocks all of them.",
+  "A40-14-d2": "Both empty lists allow every country, since an empty list sets no restriction.",
+  "A40-14-d3": "Both empty lists block every country until at least one code is added."
+ },
+ "A40-15": {
+  "A40-15-d2": "Video indexing tracks markup, Video rich results traffic, and Performance indexing.",
+  "A40-15-d1": "Page indexing tracks videos, Enhancements tracks markup, and Insights tracks traffic.",
+  "A40-15-d3": "Video indexing tracks indexing and markup together, while Performance tracks traffic."
+ },
+ "A40-16": {
+  "A40-16-d2": "Show Googlebot the full video while users see a login wall, without extra markup.",
+  "A40-16-d1": "Set the gated page to noindex so Google can index the video file on its own.",
+  "A40-16-d3": "Use the isAccessibleForFree true value so Google treats the video as public."
+ },
+ "A40-17": {
+  "A40-17-d1": "LiveBlogPosting structured data can enable the badge for livestreams.",
+  "A40-17-d3": "VideoObject with a future uploadDate can enable the badge for livestreams.",
+  "A40-17-d2": "Event structured data with an eventStatus of live can enable the badge."
+ },
+ "A40-18": {
+  "A40-18-d1": "Each video's uploadDate, duration, and embedUrl should be unique and accurate.",
+  "A40-18-d3": "Each video's publisher name and logo should be unique so Google can tell videos apart.",
+  "A40-18-d2": "Each video's name should be unique, while one shared description can cover the series."
+ },
+ "A40-19": {
+  "A40-19-d1": "The page host needs capacity; Google fetches the video from its cache.",
+  "A40-19-d2": "The video host needs capacity; a slow page host is crawled from cache.",
+  "A40-19-d3": "Both share one crawl budget, so the video host takes the page's share."
+ },
+ "A41-01": {
+  "A41-01-d1": "Author details such as the byline, author photo, and publication date.",
+  "A41-01-d3": "Licensing details such as the copyright holder, image credit, and license URL.",
+  "A41-01-d2": "Rich details such as review stars, price, and the product's stock status."
+ },
+ "A41-02": {
+  "A41-02-d3": "They are attributes in the HTML, such as alt and title, that Google reads.",
+  "A41-02-d2": "They are the sitelinks that appear below a result for a site's main pages.",
+  "A41-02-d1": "They are a separate result type, which can replace the text result with a card."
+ },
+ "A41-03": {
+  "A41-03-d1": "The image opens the image file, while the video thumbnail opens the web page.",
+  "A41-03-d3": "Both open the media file directly, without visiting the page that embeds it.",
+  "A41-03-d2": "The image opens Google Images, while the video thumbnail plays it in a preview."
+ },
+ "A41-04": {
+  "A41-04-d2": "Publishers can suggest them in Search Console, and Google usually accepts them.",
+  "A41-04-d3": "Publishers can control them with question-style H2 headings on the page.",
+  "A41-04-d1": "Publishers can choose them by marking up FAQPage questions on the page."
+ },
+ "A41-05": {
+  "A41-05-d3": "Sitelinks can include anchors once SiteNavigationElement markup is added.",
+  "A41-05-d2": "Sitelinks are restricted to pages chosen in Search Console settings.",
+  "A41-05-d1": "Sitelinks point to separate pages that are listed in the main navigation."
+ },
+ "A42-01": {
+  "A42-01-d2": "AMP is recommended, but Stories with AMP errors can still be indexed normally.",
+  "A42-01-d1": "AMP is optional, since Google also accepts Web Stories built in plain HTML.",
+  "A42-01-d3": "AMP must be valid for Discover, while Search also accepts non-AMP stories."
+ },
+ "A42-02": {
+  "A42-02-d1": "poster-square-src, poster-landscape-src, description, and author.",
+  "A42-02-d3": "title, publisher, poster-square-src, and description.",
+  "A42-02-d2": "publisher-logo-src, poster-portrait-src, description, and author."
+ },
+ "A42-03": {
+  "A42-03-d3": "A Web Story should point its canonical to the site's Stories hub page.",
+  "A42-03-d1": "Every Web Story must have a rel=\"canonical\" link pointing to its source article.",
+  "A42-03-d2": "Web Stories need no canonical, since AMP pages canonicalize to themselves."
+ },
+ "A42-04": {
+  "A42-04-d2": "Search results in English-speaking regions; Discover in the US and Canada.",
+  "A42-04-d1": "Search results in the US, India, and Brazil; Discover in all regions.",
+  "A42-04-d3": "Search and Discover in the US alone, with other regions in a limited beta."
+ },
+ "A42-05": {
+  "A42-05-d1": "Check for a video sitemap entry, since Stories are indexed through video sitemaps.",
+  "A42-05-d3": "Check Core Web Vitals, since slow Stories can be dropped from the index.",
+  "A42-05-d2": "Resubmit the Story through the AMP Test tool, which pushes it into the index."
+ },
+ "A42-06": {
+  "A42-06-d1": "Use the AMP Linter, which can report layout problems on small screens.",
+  "A42-06-d2": "Use the Rich Results Test's desktop preview to check each page layout.",
+  "A42-06-d3": "Use the Mobile-Friendly Test, which checks each Story page at phone size."
+ },
+ "A43-01": {
+  "A43-01-d1": "Best practice suggests about 180 characters, but policy flags most pages over 280.",
+  "A43-01-d2": "Both pages set the same limit of 200 characters of text per Story page.",
+  "A43-01-d3": "Best practice suggests 500 characters, while policy flags Stories under 100."
+ },
+ "A43-02": {
+  "A43-02-d2": "Keep it under 60 characters, the same limit as ordinary title tags.",
+  "A43-02-d3": "Keep it under 120 characters, ideally a descriptive title under 100.",
+  "A43-02-d1": "Keep it under 60 characters, ideally a descriptive title under 40."
+ },
+ "A43-03": {
+  "A43-03-d2": "Poster at least 640x853 px at 3:4; logo at least 192x96 px at 2:1.",
+  "A43-03-d1": "Poster at least 853x640 px at 4:3; logo at least 96x96 px at 1:1.",
+  "A43-03-d3": "Poster at least 853x640 px at 4:3; logo at least 192x96 px at 2:1."
+ },
+ "A43-04": {
+  "A43-04-d3": "Under 30 seconds of video per page, 120 max, and audio of 5 seconds or more.",
+  "A43-04-d1": "Under 30 seconds of video per page, 120 max, and audio under 3 seconds.",
+  "A43-04-d2": "Under 15 seconds of video per page, 60 max, and audio under 3 seconds."
+ },
+ "A43-05": {
+  "A43-05-d1": "Story URLs need a /stories/ folder so Google can detect the Web Story format.",
+  "A43-05-d2": "Story URLs need an amp parameter or .amp suffix to be crawled as Stories.",
+  "A43-05-d3": "Story URLs can use any structure, but each slug should end with -webstory."
+ },
+ "A43-06": {
+  "A43-06-d1": "Put the exact on-screen text in the amp-video element's alt attribute.",
+  "A43-06-d2": "Put a keyword summary of the slides in the story's meta description.",
+  "A43-06-d3": "Add the text to the poster image's file name so Google can read it."
+ },
+ "A43-07": {
+  "A43-07-d3": "Use large background videos with text over them, and rely on swipe gestures on desktop.",
+  "A43-07-d2": "Use autoplaying audio for each page, and hide captions until the user taps.",
+  "A43-07-d1": "Burn text into images so it renders consistently, and lock pages to portrait."
+ },
+ "A43-08": {
+  "A43-08-d2": "Keep them, but add a note that the action only works in the original app.",
+  "A43-08-d1": "Keep the swipe-up prompts, since Web Stories support the same gestures as social apps.",
+  "A43-08-d3": "Replace them with links to the social profile, since readers can swipe there instead."
+ },
+ "A44-01": {
+  "A44-01-d3": "Richer experiences replace the general policies with a shorter Story-specific list.",
+  "A44-01-d2": "Single results add Story policies, while richer experiences use the general ones.",
+  "A44-01-d1": "Both use the same general Search and Discover policies with no added rules."
+ },
+ "A44-02": {
+  "A44-02-d3": "Stories may link out for the ending, as long as the link opens in the same tab.",
+  "A44-02-d1": "This is allowed if the final page has a clear call to action to the full article.",
+  "A44-02-d2": "This is allowed for news publishers, who can link out to the full report."
+ },
+ "A44-03": {
+  "A44-03-d2": "Affiliate links are fine, but display ads aren't allowed in Web Stories.",
+  "A44-03-d3": "Both are allowed only in Search, not in Stories shown in Discover.",
+  "A44-03-d1": "Ads are fine, but affiliate links aren't allowed in Stories under the policy."
+ },
+ "A44-04": {
+  "A44-04-d1": "No background audio, a dark color theme, or a square poster image.",
+  "A44-04-d3": "Autoplaying video, last-page link-outs, or a missing meta description.",
+  "A44-04-d2": "Using a Story template, stock photography, or embedded video."
+ },
+ "A44-05": {
+  "A44-05-d1": "Google licenses media in indexed Stories, so creators need no separate permission.",
+  "A44-05-d3": "The creator and Google share responsibility once the Story appears in Discover.",
+  "A44-05-d2": "Fair use covers Stories shown by Google, so permission must be obtained for ads alone."
+ },
+ "A45-01": {
+  "A45-01-d1": "Carriers can join by adding ParcelDelivery markup to their tracking pages.",
+  "A45-01-d3": "The program uses schema markup and accepts carriers that apply through a form.",
+  "A45-01-d2": "The program is open to new carriers that submit a tracking API through Search Console."
+ },
+ "A45-02": {
+  "A45-02-d2": "99% uptime, a 700 ms average, and a 95th percentile of at most 1,500 ms.",
+  "A45-02-d3": "99% uptime, a 1,000 ms average, and a 95th percentile of at most 1,000 ms.",
+  "A45-02-d1": "Almost no downtime, a 1,000 ms average, and a 95th percentile of at most 1,500 ms."
+ },
+ "A45-03": {
+  "A45-03-d1": "Delivery times are required; CurrentStatus and transit events are recommended.",
+  "A45-03-d3": "Tracking number and delivery time are required; CurrentStatus is recommended.",
+  "A45-03-d2": "CurrentStatus and transit events are required; delivery times are recommended."
+ },
+ "A45-04": {
+  "A45-04-d3": "Addresses are fine when the user is signed in, since Google can verify the recipient.",
+  "A45-04-d1": "Recipient addresses are fine if hashed, while transit locations should be omitted.",
+  "A45-04-d2": "Recipient city and postcode are fine, since they count as transit event locations."
+ },
+ "A45-05": {
+  "A45-05-d2": "CurrentStatus is required unless the latest transit event includes a status.",
+  "A45-05-d1": "Supplying the delivery date and transit events can stand in for CurrentStatus.",
+  "A45-05-d3": "CurrentStatus is recommended, and an estimated delivery time is the required field."
+ }
+}

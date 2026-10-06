@@ -1,0 +1,218 @@
+{
+ "A02-07": {
+  "answer": "No. Google's guide describes AI Overviews as an AI feature in Google Search and says that, because AI is built into Search, robots.txt directives for Googlebot are the control for managing access to how a site is crawled for Search; to limit the information shown from your pages in Search, it says to use nosnippet, data-nosnippet, max-snippet or noindex. For limiting AI training and grounding in some of Google's other systems, it refers you to Google-Extended.",
+  "evidence": [
+   {
+    "source": 52,
+    "title": "AI features and your website",
+    "section": "AI features and your website",
+    "anchor": "ai-features-and-your-website",
+    "block": 0,
+    "quote": "This guide covers how AI features like AI Overviews and AI Mode work in Google Search from a site owner's perspective and how to approach your content's inclusion in these experiences.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/appearance/ai-features#ai-features-and-your-website"
+   },
+   {
+    "source": 52,
+    "title": "AI features and your website",
+    "section": "Controlling your content in AI features in Search",
+    "anchor": "control",
+    "block": 35,
+    "quote": "AI is built into Search and integral to how Search functions, which is why robots.txt directives for Googlebot is the control for site owners to manage access to how their sites are crawled for Search. To limit the information shown from your pages in Search, use nosnippet , data-nosnippet , max-snippet , or noindex controls.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/appearance/ai-features#control"
+   },
+   {
+    "source": 52,
+    "title": "AI features and your website",
+    "section": "Controlling your content in AI features in Search",
+    "anchor": "control",
+    "block": 36,
+    "quote": "To limit AI training and grounding in some of Google's other systems, read more about Google-Extended .",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/appearance/ai-features#control"
+   }
+  ]
+ },
+ "A34-05": {
+  "answer": "It says the more additional (recommended) properties you provide, the higher quality the item is to users, and gives the example that users prefer job postings with explicitly stated salaries, which enriched search ranking also takes into consideration. It then states that completeness is one of the most important ranking signals for enriched search. Separately, the same guidelines say items missing an enriched search type's required properties are ineligible.",
+  "evidence": [
+   {
+    "source": 84,
+    "title": "Enriched search results",
+    "section": "Enriched search quality guidelines",
+    "anchor": "guidelines",
+    "block": 20,
+    "quote": "Completeness: The more additional (recommended) properties you provide, the higher quality the item is to our users. For a job posting, users prefer jobs with explicitly stated salaries than those without, and enriched search ranking also takes this into consideration. If your recipes have actual user reviews and genuine star ratings, that is also valuable to users of your site and enriched search. Completeness is one of the most important ranking signals for enriched search.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/appearance/enriched-search-results#guidelines"
+   },
+   {
+    "source": 84,
+    "title": "Enriched search results",
+    "section": "Enriched search quality guidelines",
+    "anchor": "guidelines",
+    "block": 0,
+    "quote": "Required properties: Each enriched search type defines a required set of properties. Items missing the required properties are ineligible.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/appearance/enriched-search-results#guidelines"
+   }
+  ]
+ },
+ "A41-03": {
+  "question": "How does tapping a text-result image compare with tapping a video thumbnail?",
+  "answer": "They lead to the same kind of destination. Tapping a text-result image takes the user to the web page that's embedding the image, and tapping or clicking a video thumbnail takes the user to the web page that's embedding the video. By contrast, the gallery says tapping or clicking an Image-result thumbnail takes the user to the image.",
+  "evidence": [
+   {
+    "source": 91,
+    "title": "Visual Elements gallery of Google Search",
+    "section": "Text result image",
+    "anchor": "text-result-image",
+    "block": 46,
+    "quote": "A text result image is the most relevant image from that particular web page for the given query. Tapping it takes the user to the web page that's embedding the image. A text result image is more likely to appear for image-seeking queries.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/appearance/visual-elements-gallery#text-result-image"
+   },
+   {
+    "source": 91,
+    "title": "Visual Elements gallery of Google Search",
+    "section": "Video result",
+    "anchor": "video-result",
+    "block": 70,
+    "quote": "Video thumbnail A video thumbnail for the indexed video that's embedded on a web page. Tapping or clicking it takes the user to the web page that's embedding the video. Learn how to specify a video thumbnail .",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/appearance/visual-elements-gallery#video-result"
+   },
+   {
+    "source": 91,
+    "title": "Visual Elements gallery of Google Search",
+    "section": "Image result",
+    "anchor": "image-result",
+    "block": 60,
+    "quote": "Image thumbnail An image thumbnail for the indexed image that's embedded on a web page. Tapping or clicking it takes the user to the image. To optimize your image for image results, follow the image SEO best practices .",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/appearance/visual-elements-gallery#image-result"
+   }
+  ]
+ },
+ "C37-07": {
+  "answer": "Google keeps track of both URLs in a redirect, and the one that isn't canonical becomes an alternate name: a version users might recognize and trust more, which may appear when a user's query hints they might trust the old URL more. After a move to a new domain, Google says it's very likely to keep occasionally showing the old URLs even though the new URLs are already indexed. This is normal, and as users get used to the new domain name the alternate names fade away without you doing anything.",
+  "evidence": [
+   {
+    "source": 46,
+    "title": "Redirects and Google Search",
+    "section": "Alternate versions of a URL",
+    "anchor": "alternate-versions-of-a-url",
+    "block": 60,
+    "quote": "When you redirect a URL, Google keeps track of both the redirect source (the old URL) and the redirect target (the new URL). One of the URLs will be the canonical ; which one, depends on signals such as whether the redirect was temporary or permanent. The other URL becomes an alternate name of the canonical URL. Alternate names are different versions of a canonical URL that users might recognize and trust more. Alternate names may appear in search results when a user's query hints that they might trust the old URL more.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects#alternate-versions-of-a-url"
+   },
+   {
+    "source": 46,
+    "title": "Redirects and Google Search",
+    "section": "Alternate versions of a URL",
+    "anchor": "alternate-versions-of-a-url",
+    "block": 0,
+    "quote": "For example, if you moved to a new domain name , it's very likely that Google will continue to occasionally show the old URLs in the results, even though the new URLs are already indexed. This is normal and as users get used to the new domain name, the alternate names will fade away without you doing anything.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects#alternate-versions-of-a-url"
+   }
+  ]
+ },
+ "C20-04": {
+  "answer": "The canonical. When Google finds pages that seem to be the same or have very similar primary content, it clusters them and marks as canonical the page that, based on the signals collected during indexing, is the most complete and useful for search users. The canonical page is crawled most regularly, while duplicates are crawled less frequently to reduce the crawling load on sites.",
+  "evidence": [
+   {
+    "source": 29,
+    "title": "What is canonicalization",
+    "section": "How Google indexes and chooses the canonical URL",
+    "anchor": "canonical-how",
+    "block": 10,
+    "quote": "When Google indexes a page , it determines the primary content (or centerpiece ) of each page. If Google finds multiple pages that seem to be the same or the primary content very similar, it clusters them together. Google then chooses the page that, based on the factors (or signals ) the indexing process collected, is objectively the most complete and useful for search users, and marks it as the canonical. The canonical page will be crawled most regularly; duplicates are crawled less frequently in order to reduce the crawling load on sites.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/crawling-indexing/canonicalization#canonical-how"
+   }
+  ]
+ },
+ "C30-10": {
+  "answer": "No. Google lists both under historical and other unused rules that Google Search doesn't use and ignores: Google Search no longer uses noarchive to control whether a cached link is shown, as the cached link feature no longer exists, and no longer uses nositelinkssearchbox to control whether the sitelink search box is shown, as that feature no longer exists either. The same list notes that nocache isn't used by Google Search.",
+  "evidence": [
+   {
+    "source": 39,
+    "title": "Robots meta tag, data-nosnippet , and X-Robots-Tag specifications",
+    "section": "Reference of historical and other unused rules",
+    "anchor": "reference-of-historical-and-other-unused-rules",
+    "block": 0,
+    "quote": "The following rules aren't used by Google Search and are ignored. We're including these rules here because people have often asked about them or we used them in the past.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#reference-of-historical-and-other-unused-rules"
+   },
+   {
+    "source": 39,
+    "title": "Robots meta tag, data-nosnippet , and X-Robots-Tag specifications",
+    "section": "Reference of historical and other unused rules",
+    "anchor": "reference-of-historical-and-other-unused-rules",
+    "block": 48,
+    "quote": "noarchive The noarchive rule is no longer used by Google Search to control whether a cached link is shown in search results, as the cached link feature no longer exists.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#reference-of-historical-and-other-unused-rules"
+   },
+   {
+    "source": 39,
+    "title": "Robots meta tag, data-nosnippet , and X-Robots-Tag specifications",
+    "section": "Reference of historical and other unused rules",
+    "anchor": "reference-of-historical-and-other-unused-rules",
+    "block": 50,
+    "quote": "nositelinkssearchbox The nositelinkssearchbox rule is no longer used by Google Search to control whether the sitelink search box is shown for a given page, as the feature no longer exists.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#reference-of-historical-and-other-unused-rules"
+   },
+   {
+    "source": 39,
+    "title": "Robots meta tag, data-nosnippet , and X-Robots-Tag specifications",
+    "section": "Reference of historical and other unused rules",
+    "anchor": "reference-of-historical-and-other-unused-rules",
+    "block": 49,
+    "quote": "nocache The nocache rule isn't used by Google Search.",
+    "clipped": false,
+    "url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag#reference-of-historical-and-other-unused-rules"
+   }
+  ]
+ },
+ "F02-06": {
+  "answer": "Google's crawlers try not to crawl a site too fast to avoid overloading it, and this is based on the site's responses; Google's own example is that HTTP 500 errors mean \"slow down\". When Google's crawling infrastructure encounters a significant number of URLs with 500, 503 or 429 responses, it reduces the site's crawling rate across the whole hostname, for URLs that return content as well as those returning errors, and the rate starts increasing again once these errors are reduced. If Googlebot sees these status codes on the same URL for multiple days, that URL may be dropped from Google's index.",
+  "evidence": [
+   {
+    "source": 2,
+    "title": "In-depth guide to how Google Search works",
+    "section": "Crawling",
+    "anchor": "crawling",
+    "block": 0,
+    "quote": "Google's crawlers are also programmed such that they try not to crawl the site too fast to avoid overloading it. This mechanism is based on the responses of the site (for example, HTTP 500 errors mean \"slow down\" ).",
+    "clipped": true,
+    "url": "https://developers.google.com/search/docs/fundamentals/how-search-works#crawling"
+   },
+   {
+    "source": 25,
+    "title": "Reduce the Google crawl rate",
+    "section": "Urgently reduce crawler traffic (for emergencies)",
+    "anchor": "urgently-reduce-crawler-traffic-for-emergencies",
+    "block": 0,
+    "quote": "Google's crawling infrastructure reduces your site's crawling rate when it encounters a significant number of URLs with 500 , 503 , or 429 HTTP response status codes (for example, if you disabled your website ). The reduced crawl rate affects the whole hostname of your site (for example, subdomain.example.com ), both the crawling of the URLs that return errors, as well as the URLs that return content. Once the number of these errors is reduced, the crawl rate will automatically start increasing again.",
+    "clipped": true,
+    "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/reduce-crawl-rate#urgently-reduce-crawler-traffic-for-emergencies"
+   },
+   {
+    "source": 25,
+    "title": "Reduce the Google crawl rate",
+    "section": "Urgently reduce crawler traffic (for emergencies)",
+    "anchor": "urgently-reduce-crawler-traffic-for-emergencies",
+    "block": 0,
+    "quote": "Warning : We don't recommend that you do this for a long period of time (meaning, longer than 1-2 days) as it may have a negative effect on how your site appears in Google products. For example, in case of Search, if Googlebot observes these status codes on the same URL for multiple days, the URL may be dropped from Google's index.",
+    "clipped": false,
+    "url": "https://developers.google.com/crawling/docs/crawlers-fetchers/reduce-crawl-rate#urgently-reduce-crawler-traffic-for-emergencies"
+   }
+  ]
+ }
+}

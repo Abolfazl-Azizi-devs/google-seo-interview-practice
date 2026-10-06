@@ -13,7 +13,7 @@ The guide covers 95 Google documentation pages and includes 127 definitions, doc
 - Both formats run on one script, `public/assets/app.js`. The format switch on the practice screen changes between `/quiz/` and `/practice/` without reloading and keeps the current question.
 - Documents are grouped in the sidebar by area and topic group, with progress per group. Progress, question set, search scope and order are set in the Filters panel; every active filter shows as a removable chip.
 - Each question has its own link, such as `quiz/#q500`. `#review` opens the review queue and `#topic-3` opens one topic group.
-- The quiz has one correct option and three wrong ones. The correct option is a short form of the model answer, written to the same length as the wrong options (`content/quiz-correct-options.json`). After a choice, the full model answer and the Google excerpts are shown. The score counts the first choice per question; retries do not change it.
+- The quiz has one correct option and three wrong ones, written to similar length and wording so the answer can't be spotted from its form (`content/quiz-correct-options.json`, `content/quiz-wrong-options.json`). Wrong options are believable misconceptions, not obvious falsehoods. After a choice, the full model answer and the Google excerpts are shown. The score counts the first choice per question; retries do not change it.
 - Progress is stored only in the browser, under separate keys for the two formats (`seo-public-quiz-v1`, `seo-public-practice-v1`). No account, analytics or third-party scripts.
 
 ## Run locally
@@ -36,7 +36,8 @@ Open `http://localhost:9000/`. Serve over HTTP rather than opening files directl
 | `public/assets/quiz-choices.json` | The four options per question. |
 | `site/` | Templates for the home page and the two practice pages. |
 | `build_pages.py` | Renders `public/index.html`, `public/practice/`, `public/quiz/` and `404.html` from `site/`. Standard library only. |
-| `build_site.py` | Optional. Re-exports the data files and downloads from the original study packs in sibling folders, applying `content/quiz-correct-options.json`. |
+| `build_site.py` | Optional. Re-exports the data files and downloads from the original study packs in sibling folders, applying the files in `content/`. |
+| `content/answer-fixes.json` | Reviewed corrections to model answers whose wording went beyond the quoted Google text; every quote is checked word for word against the source. |
 | `verify_site.py` | Playwright checks under the GitHub Pages path: all 669 cards in both formats, filters, search, saved progress, links, format switching, layout at 320–1440px and every published file. |
 
 After editing a template run `python build_pages.py`, then `python verify_site.py`.

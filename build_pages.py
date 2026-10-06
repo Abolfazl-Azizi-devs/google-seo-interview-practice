@@ -62,8 +62,6 @@ DOWNLOADS = [
     ('Q&A workbook', f'All {total} questions with model answers', [('PDF', 'Complete_SEO_Interview_Workbook.pdf'), ('Word', 'Complete_SEO_Interview_Workbook.docx')]),
     ('Complete source reference', 'The licensed Google articles behind every answer', [('PDF', 'Complete_Google_SEO_Source_Reference.pdf'), ('Word', 'Complete_Google_SEO_Source_Reference.docx')]),
     ('Definitions quick review', f'{len(data["glossary"])} terms on a few pages', [('PDF', 'SEO_Definitions_Quick_Review.pdf'), ('Word', 'SEO_Definitions_Quick_Review.docx')]),
-    ('Offline quiz pack', 'The four-choice quiz as a local HTML file', [('ZIP', 'Google_SEO_Four_Choice_Quiz.zip')]),
-    ('Offline answer-aloud pack', 'The answer-aloud practice as a local HTML file', [('ZIP', 'Complete_Google_SEO_Interview_Pack.zip')]),
     ('All 95 source links', 'Plain list of the Google pages used', [('TXT', 'All_95_Source_Links.txt')]),
 ]
 
