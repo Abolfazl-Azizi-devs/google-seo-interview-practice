@@ -1,0 +1,23 @@
+{
+  "baseUrl": "http://127.0.0.1:7524/google-seo-interview-practice/",
+  "cards": {
+    "practice": 669,
+    "quiz": 669
+  },
+  "mobileWidths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "allMobileCardsChecked": true,
+  "scopedSearchAndIndependentFiltersChecked": true,
+  "savedProgressAndModeIsolationChecked": true,
+  "sourceNavigationKeepsDocumentFiltersConsistent": true,
+  "questionPermalinksAndCopyChecked": true,
+  "allDownloadsReturn200": true,
+  "originalArtifactsUnchanged": 61,
+  "browserErrors": [],
+  "failedRequests": []
+}

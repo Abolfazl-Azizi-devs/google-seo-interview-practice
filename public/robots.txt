@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/sitemap.xml

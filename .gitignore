@@ -1,0 +1,4 @@
+__pycache__/
+previews/
+test-results/
+*.log

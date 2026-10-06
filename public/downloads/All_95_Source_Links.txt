@@ -1,0 +1,300 @@
+D01 · Fundamentals · Search Engine Optimization (SEO) Starter Guide
+https://developers.google.com/search/docs/fundamentals/seo-starter-guide
+
+D02 · Fundamentals · In-depth guide to how Google Search works
+https://developers.google.com/search/docs/fundamentals/how-search-works
+
+D03 · Fundamentals · Creating helpful, reliable, people-first content
+https://developers.google.com/search/docs/fundamentals/creating-helpful-content
+
+D04 · Fundamentals · Optimizing your website for generative AI features on Google Search
+https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+
+D05 · Fundamentals · Google Search's guidance on using generative AI content on your website
+https://developers.google.com/search/docs/fundamentals/using-gen-ai-content
+
+D06 · Fundamentals · Maintaining your website's SEO
+https://developers.google.com/search/docs/fundamentals/get-started
+
+D07 · Fundamentals · Get started with Search: a developer's guide
+https://developers.google.com/search/docs/fundamentals/get-started-developers
+
+D08 · Fundamentals · Do you need an SEO?
+https://developers.google.com/search/docs/fundamentals/do-i-need-seo
+
+D09 · Fundamentals · Google Search's guidance on using third-party SEO tools, services, and advice
+https://developers.google.com/search/docs/fundamentals/third-party-seo
+
+D10 · Crawling & indexing · Overview of crawling and indexing topics
+https://developers.google.com/search/docs/crawling-indexing
+
+D11 · Crawling & indexing · File types indexable by Google
+https://developers.google.com/search/docs/crawling-indexing/indexable-file-types
+
+D12 · Crawling & indexing · URL structure best practices for Google Search
+https://developers.google.com/search/docs/crawling-indexing/url-structure
+
+D13 · Crawling & indexing · Link best practices for Google
+https://developers.google.com/search/docs/crawling-indexing/links-crawlable
+
+D14 · Crawling & indexing · Learn about sitemaps
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview
+
+D15 · Crawling & indexing · Build and submit a sitemap
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap
+
+D16 · Crawling & indexing · Manage your sitemaps with a sitemap index file
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/large-sitemaps
+
+D17 · Crawling & indexing · Image sitemaps
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps
+
+D18 · Crawling & indexing · News sitemaps
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap
+
+D19 · Crawling & indexing · Video sitemaps and alternatives
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps
+
+D20 · Crawling & indexing · How to combine sitemap extensions
+https://developers.google.com/search/docs/crawling-indexing/sitemaps/combine-sitemap-extensions
+
+D21 · Crawling & indexing · Ask Google to recrawl your URLs
+https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl
+
+D22 · Crawling & indexing · Troubleshoot Google Search crawling errors
+https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors
+
+D23 · Crawling & indexing · Overview of Google crawlers and fetchers (user agents)
+https://developers.google.com/crawling/docs/crawlers-fetchers/overview-google-crawlers
+
+D24 · Crawling & indexing · Googlebot
+https://developers.google.com/search/docs/crawling-indexing/googlebot
+
+D25 · Crawling & indexing · Reduce the Google crawl rate
+https://developers.google.com/crawling/docs/crawlers-fetchers/reduce-crawl-rate
+
+D26 · Crawling & indexing · Verify requests from Google crawlers and fetchers
+https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests
+
+D27 · Crawling & indexing · Introduction to robots.txt
+https://developers.google.com/search/docs/crawling-indexing/robots/intro
+
+D28 · Crawling & indexing · How Google interprets the robots.txt specification
+https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec
+
+D29 · Crawling & indexing · What is canonicalization
+https://developers.google.com/search/docs/crawling-indexing/canonicalization
+
+D30 · Crawling & indexing · How to specify a canonical URL with rel="canonical" and other methods
+https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls
+
+D31 · Crawling & indexing · Fix canonicalization issues
+https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting
+
+D32 · Crawling & indexing · Mobile site and mobile-first indexing best practices
+https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing
+
+D33 · Crawling & indexing · Understand the JavaScript SEO basics
+https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics
+
+D34 · Crawling & indexing · Fix Search-related JavaScript problems
+https://developers.google.com/search/docs/crawling-indexing/javascript/fix-search-javascript
+
+D35 · Crawling & indexing · Fix lazy-loaded content
+https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading
+
+D36 · Crawling & indexing · Dynamic rendering as a workaround
+https://developers.google.com/search/docs/crawling-indexing/javascript/dynamic-rendering
+
+D37 · Crawling & indexing · Use valid HTML to specify page metadata
+https://developers.google.com/search/docs/crawling-indexing/valid-page-metadata
+
+D38 · Crawling & indexing · meta tags and attributes that Google supports
+https://developers.google.com/search/docs/crawling-indexing/special-tags
+
+D39 · Crawling & indexing · Robots meta tag, data-nosnippet , and X-Robots-Tag specifications
+https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag
+
+D40 · Crawling & indexing · Block Search indexing with noindex
+https://developers.google.com/search/docs/crawling-indexing/block-indexing
+
+D41 · Crawling & indexing · Qualify your outbound links to Google
+https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links
+
+D42 · Crawling & indexing · Control what you share with Google
+https://developers.google.com/search/docs/crawling-indexing/control-what-you-share
+
+D43 · Crawling & indexing · Remove a page hosted on your site from Google
+https://developers.google.com/search/docs/crawling-indexing/remove-information
+
+D44 · Crawling & indexing · Remove images hosted on your site from search results
+https://developers.google.com/search/docs/crawling-indexing/prevent-images-on-your-page
+
+D45 · Crawling & indexing · Keep redacted information out of Google Search
+https://developers.google.com/search/docs/crawling-indexing/keep-redacted-information-out
+
+D46 · Crawling & indexing · Redirects and Google Search
+https://developers.google.com/search/docs/crawling-indexing/301-redirects
+
+D47 · Crawling & indexing · Changing your hosting
+https://developers.google.com/search/docs/crawling-indexing/site-move-no-url-changes
+
+D48 · Crawling & indexing · How to move a site
+https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes
+
+D49 · Crawling & indexing · Minimize A/B testing impact in Google Search
+https://developers.google.com/search/docs/crawling-indexing/website-testing
+
+D50 · Crawling & indexing · Temporarily pause or disable a website
+https://developers.google.com/search/docs/crawling-indexing/pause-online-business
+
+D51 · Ranking & appearance · Overview of Search appearance topics
+https://developers.google.com/search/docs/appearance
+
+D52 · Ranking & appearance · AI features and your website
+https://developers.google.com/search/docs/appearance/ai-features
+
+D53 · Ranking & appearance · Influence your byline dates in Google Search
+https://developers.google.com/search/docs/appearance/publication-dates
+
+D54 · Ranking & appearance · Define a favicon to show in search results
+https://developers.google.com/search/docs/appearance/favicon-in-search
+
+D55 · Ranking & appearance · Featured snippets and your website
+https://developers.google.com/search/docs/appearance/featured-snippets
+
+D56 · Ranking & appearance · Flexible Sampling general guidance
+https://developers.google.com/search/docs/appearance/flexible-sampling
+
+D57 · Ranking & appearance · Discover and your website
+https://developers.google.com/search/docs/appearance/google-discover
+
+D58 · Ranking & appearance · Google image SEO best practices
+https://developers.google.com/search/docs/appearance/google-images
+
+D59 · Ranking & appearance · Establish your business details with Google
+https://developers.google.com/search/docs/appearance/establish-business-details
+
+D60 · Ranking & appearance · Top Places List
+https://developers.google.com/search/docs/appearance/top-places-list
+
+D61 · Ranking & appearance · Opt out of display on local search results and other Google properties
+https://support.google.com/webmasters/answer/3035947
+
+D62 · Ranking & appearance · Understanding page experience in Google Search results
+https://developers.google.com/search/docs/appearance/page-experience
+
+D63 · Ranking & appearance · Avoid intrusive interstitials and dialogs
+https://developers.google.com/search/docs/appearance/avoid-intrusive-interstitials
+
+D64 · Ranking & appearance · Understanding Core Web Vitals and Google search results
+https://developers.google.com/search/docs/appearance/core-web-vitals
+
+D65 · Ranking & appearance · Help your readers find your site through preferred sources in Google Search
+https://developers.google.com/search/docs/appearance/preferred-sources
+
+D66 · Ranking & appearance · A guide to Google Search ranking systems
+https://developers.google.com/search/docs/appearance/ranking-systems-guide
+
+D67 · Ranking & appearance · Google Search's reviews system and your website
+https://developers.google.com/search/docs/appearance/reviews-system
+
+D68 · Ranking & appearance · Google Search's core updates and your website
+https://developers.google.com/search/docs/appearance/core-updates
+
+D69 · Ranking & appearance · Google Search spam updates and your site
+https://developers.google.com/search/docs/appearance/spam-updates
+
+D70 · Ranking & appearance · Regional differences in Search experience
+https://developers.google.com/search/docs/appearance/aggregator-features
+
+D71 · Ranking & appearance · Aggregator unit in Google Search
+https://developers.google.com/search/docs/appearance/aggregator-unit
+
+D72 · Ranking & appearance · Supplier unit in Google Search
+https://developers.google.com/search/docs/appearance/supplier-unit
+
+D73 · Ranking & appearance · Ecosystem carousel in Google Search
+https://developers.google.com/search/docs/appearance/ecosystem-carousel
+
+D74 · Ranking & appearance · Job sites: aggregator carousel and refinement chip
+https://developers.google.com/search/docs/appearance/job-sites
+
+D75 · Ranking & appearance · Places sites: aggregator carousel and refinement chip
+https://developers.google.com/search/docs/appearance/places-sites
+
+D76 · Ranking & appearance · Search experiences in South Africa: badge and refinement chip
+https://developers.google.com/search/docs/appearance/south-africa-features
+
+D77 · Ranking & appearance · Structured data carousels (beta)
+https://developers.google.com/search/docs/appearance/structured-data/carousels-beta
+
+D78 · Ranking & appearance · Add a Search profile badge to your website
+https://developers.google.com/search/docs/appearance/search-profiles
+
+D79 · Ranking & appearance · Provide a site name to Google Search
+https://developers.google.com/search/docs/appearance/site-names
+
+D80 · Ranking & appearance · Sitelinks
+https://developers.google.com/search/docs/appearance/sitelinks
+
+D81 · Ranking & appearance · Control your snippets in search results
+https://developers.google.com/search/docs/appearance/snippet
+
+D82 · Ranking & appearance · Introduction to structured data markup in Google Search
+https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data
+
+D83 · Ranking & appearance · General structured data guidelines
+https://developers.google.com/search/docs/appearance/structured-data/sd-policies
+
+D84 · Ranking & appearance · Enriched search results
+https://developers.google.com/search/docs/appearance/enriched-search-results
+
+D85 · Ranking & appearance · Generate structured data with JavaScript
+https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript
+
+D86 · Ranking & appearance · Structured data markup that Google Search supports
+https://developers.google.com/search/docs/appearance/structured-data/search-gallery
+
+D87 · Ranking & appearance · Influencing your title links in search results
+https://developers.google.com/search/docs/appearance/title-link
+
+D88 · Ranking & appearance · Translated results in Google Search
+https://developers.google.com/search/docs/appearance/translated-results
+
+D89 · Ranking & appearance · Enabling your ad network to work with translation-related Google Search features
+https://developers.google.com/search/docs/appearance/ad-network-and-translation
+
+D90 · Ranking & appearance · Video SEO best practices
+https://developers.google.com/search/docs/appearance/video
+
+D91 · Ranking & appearance · Visual Elements gallery of Google Search
+https://developers.google.com/search/docs/appearance/visual-elements-gallery
+
+D92 · Ranking & appearance · Enable Web Stories on Google
+https://developers.google.com/search/docs/appearance/enable-web-stories
+
+D93 · Ranking & appearance · Best practices for creating Web Stories
+https://developers.google.com/search/docs/appearance/web-stories-creation-best-practices
+
+D94 · Ranking & appearance · Web Story Content Policies on Google
+https://developers.google.com/search/docs/appearance/web-stories-content-policy
+
+D95 · Ranking & appearance · Package tracking Early Adopters Program
+https://developers.google.com/search/docs/appearance/package-tracking
+
+SUPPLEMENTS
+S1 · Upcoming deprecation of Crawl Rate Limiter Tool in Search Console
+https://developers.google.com/search/blog/2023/11/sc-crawl-limiter-byebye
+S2 · Introducing Search Generative AI performance reports in Search Console
+https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports
+S3 · Search generative AI control
+https://support.google.com/webmasters/answer/16908024
+S4 · Web Vitals
+https://web.dev/articles/vitals
+S5 · Generative AI performance report (Search)
+https://support.google.com/webmasters/answer/16984139
+S6 · AI-generated content
+https://support.google.com/merchants/answer/14743464
+S7 · Optimize your crawl budget
+https://developers.google.com/crawling/docs/crawl-budget
