@@ -3,20 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>SEO interview practice: 669 questions checked against Google’s documentation</title>
-<meta name="description" content="Practise 669 SEO interview questions from 95 Google documentation pages. Answer aloud or take a four-choice quiz, and check every answer against the Google excerpt it comes from.">
-<meta name="theme-color" content="#152d3a">
-<meta property="og:title" content="SEO interview practice: 669 questions checked against Google’s documentation">
-<meta property="og:description" content="Practise 669 SEO interview questions from 95 Google documentation pages. Answer aloud or take a four-choice quiz, and check every answer against the Google excerpt it comes from.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/">
-<meta property="og:image" content="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/assets/social-preview.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="SEO interview practice: 669 questions, 95 Google documents, answer-aloud and multiple-choice modes.">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<title>{{title}}</title>
+{{meta}}
 <link rel="stylesheet" href="assets/site.css">
 <link rel="preload" href="assets/fonts/Manrope.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/SourceSans3.woff2" as="font" type="font/woff2" crossorigin>
@@ -50,9 +38,9 @@
   <section class="hero">
     <div class="wrap">
       <div class="hero-copy">
-        <p class="label">Built from 95 Google Search Central documents</p>
+        <p class="label">Built from {{documents}} Google Search Central documents</p>
         <h1>Practise SEO interview answers against Google’s own documentation</h1>
-        <p class="hero-lede">669 questions with model answers. Answer out loud or choose from four options, then check yourself against the exact Google excerpt each answer comes from.</p>
+        <p class="hero-lede">{{total}} questions with model answers. Answer out loud or choose from four options, then check yourself against the exact Google excerpt each answer comes from.</p>
         <div class="hero-ctas">
           <a class="btn btn-primary" href="quiz/">Start multiple choice
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></a>
@@ -66,18 +54,18 @@
       </div>
 
       <aside class="try" aria-labelledby="try-q">
-        <div class="try-head"><p class="label">Try one question</p><span class="mono q-key">C19-06</span></div>
-        <h2 id="try-q">Does Google support crawl-delay or noindex in robots.txt?</h2>
-        <ol class="options" id="try-opts"><li><button class="opt" data-i="0"><span class="opt-key">A</span><span class="opt-text">crawl-delay always sets Google&#x27;s precise request frequency.</span></button></li><li><button class="opt" data-i="1"><span class="opt-key">B</span><span class="opt-text">Neither is supported by Google in robots.txt.</span></button></li><li><button class="opt" data-i="2"><span class="opt-key">C</span><span class="opt-text">robots.txt noindex is Google&#x27;s preferred way to exclude web pages.</span></button></li><li><button class="opt" data-i="3"><span class="opt-key">D</span><span class="opt-text">Both crawl-delay and robots.txt noindex are supported.</span></button></li></ol>
+        <div class="try-head"><p class="label">Try one question</p><span class="mono q-key">{{try_key}}</span></div>
+        <h2 id="try-q">{{try_question}}</h2>
+        <ol class="options" id="try-opts">{{try_options}}</ol>
         <p class="try-hint" id="try-hint">Pick an answer to see the explanation and the Google evidence.</p>
         <div class="try-result" id="try-result" hidden aria-live="polite">
           <p class="try-verdict" id="try-verdict"></p>
           <figure class="evidence">
             <div class="ev-head"><span class="label">From Google’s documentation</span></div>
-            <blockquote>“Google supports the following fields (other fields such as crawl-delay aren&#x27;t supported):”</blockquote>
-            <figcaption class="ev-src"><a class="url mono" href="https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec#syntax" target="_blank" rel="noopener">developers.google.com/crawling/docs/robots-txt/robots-txt-spec</a></figcaption>
+            <blockquote>“{{try_quote}}”</blockquote>
+            <figcaption class="ev-src"><a class="url mono" href="{{try_url}}" target="_blank" rel="noopener">{{try_url_short}}</a></figcaption>
           </figure>
-          <div class="try-foot"><span>668 more questions like this</span><a class="btn btn-primary" href="quiz/">Keep practising</a></div>
+          <div class="try-foot"><span>{{total_minus_one}} more questions like this</span><a class="btn btn-primary" href="quiz/">Keep practising</a></div>
         </div>
       </aside>
     </div>
@@ -86,11 +74,11 @@
   <div class="facts">
     <div class="wrap">
       <dl>
-        <div><dt>interview questions</dt><dd>669</dd></div>
-        <div><dt>Google documents</dt><dd>95</dd></div>
-        <div><dt>definitions</dt><dd>127</dd></div>
-        <div><dt>notes on changed guidance</dt><dd>10</dd></div>
-        <div><dt>documentation last reviewed</dt><dd class="small">6 Oct 2026</dd></div>
+        <div><dt>interview questions</dt><dd>{{total}}</dd></div>
+        <div><dt>Google documents</dt><dd>{{documents}}</dd></div>
+        <div><dt>definitions</dt><dd>{{definitions}}</dd></div>
+        <div><dt>notes on changed guidance</dt><dd>{{flags}}</dd></div>
+        <div><dt>documentation last reviewed</dt><dd class="small">{{reviewed_short}}</dd></div>
       </dl>
     </div>
   </div>
@@ -129,14 +117,14 @@
   <section class="block" id="coverage">
     <div class="wrap">
       <div class="block-head">
-        <h2>What the 669 questions cover</h2>
+        <h2>What the {{total}} questions cover</h2>
         <p>Questions per topic group. Select a group to practise only that part of the documentation.</p>
       </div>
       <div class="cover">
         <div>
-          <div class="split" aria-hidden="true"><i class="a1" style="width:19.28%"></i><i class="a2" style="width:35.87%"></i><i class="a3" style="width:44.84%"></i></div>
-          <div class="split-legend"><span><i class="a1"></i>Fundamentals <b>129</b></span><span><i class="a2"></i>Crawling and indexing <b>240</b></span><span><i class="a3"></i>Ranking and appearance <b>300</b></span></div>
-          <div class="area-block"><h3>Fundamentals · 9 documents</h3><ul class="bars"><li><a href="quiz/#topic-1"><span class="name">Fundamentals<small>9 docs</small></span><span class="track"><span class="fill" style="width:100.0%;background:var(--ink)"></span></span><span class="v">129</span></a></li></ul></div><div class="area-block"><h3>Crawling and indexing · 41 documents</h3><ul class="bars"><li><a href="quiz/#topic-2"><span class="name">Discovery &amp; sitemaps<small>12 docs</small></span><span class="track"><span class="fill" style="width:48.1%;background:var(--teal)"></span></span><span class="v">62</span></a></li><li><a href="quiz/#topic-3"><span class="name">Crawlers &amp; robots.txt<small>7 docs</small></span><span class="track"><span class="fill" style="width:34.9%;background:var(--teal)"></span></span><span class="v">45</span></a></li><li><a href="quiz/#topic-4"><span class="name">Canonicals &amp; mobile<small>4 docs</small></span><span class="track"><span class="fill" style="width:20.2%;background:var(--teal)"></span></span><span class="v">26</span></a></li><li><a href="quiz/#topic-5"><span class="name">JavaScript &amp; metadata<small>6 docs</small></span><span class="track"><span class="fill" style="width:24.8%;background:var(--teal)"></span></span><span class="v">32</span></a></li><li><a href="quiz/#topic-6"><span class="name">Directives &amp; removals<small>7 docs</small></span><span class="track"><span class="fill" style="width:28.7%;background:var(--teal)"></span></span><span class="v">37</span></a></li><li><a href="quiz/#topic-7"><span class="name">Redirects &amp; site changes<small>5 docs</small></span><span class="track"><span class="fill" style="width:29.5%;background:var(--teal)"></span></span><span class="v">38</span></a></li></ul></div><div class="area-block"><h3>Ranking and appearance · 45 documents</h3><ul class="bars"><li><a href="quiz/#topic-8"><span class="name">Search presentation<small>6 docs</small></span><span class="track"><span class="fill" style="width:29.5%;background:var(--right)"></span></span><span class="v">38</span></a></li><li><a href="quiz/#topic-9"><span class="name">Discovery &amp; business<small>5 docs</small></span><span class="track"><span class="fill" style="width:24.0%;background:var(--right)"></span></span><span class="v">31</span></a></li><li><a href="quiz/#topic-10"><span class="name">Experience &amp; ranking<small>8 docs</small></span><span class="track"><span class="fill" style="width:48.8%;background:var(--right)"></span></span><span class="v">63</span></a></li><li><a href="quiz/#topic-11"><span class="name">Regional features<small>9 docs</small></span><span class="track"><span class="fill" style="width:34.9%;background:var(--right)"></span></span><span class="v">45</span></a></li><li><a href="quiz/#topic-12"><span class="name">Metadata &amp; structured data<small>8 docs</small></span><span class="track"><span class="fill" style="width:42.6%;background:var(--right)"></span></span><span class="v">55</span></a></li><li><a href="quiz/#topic-13"><span class="name">Titles, media &amp; Stories<small>9 docs</small></span><span class="track"><span class="fill" style="width:52.7%;background:var(--right)"></span></span><span class="v">68</span></a></li></ul></div>
+          <div class="split" aria-hidden="true">{{split}}</div>
+          <div class="split-legend">{{split_legend}}</div>
+          {{bars}}
         </div>
         <div class="cover-side">
           <div class="side-note">
@@ -144,7 +132,7 @@
             <p>Each explanation quotes the Google passage it is based on, with the page link and its revision date, so you can check it yourself.</p>
           </div>
           <div class="side-note">
-            <h3>10 notes on guidance that changed</h3>
+            <h3>{{flags}} notes on guidance that changed</h3>
             <p>Where Google’s pages disagree or have aged, a note says so. Example: the Search Console crawl-rate setting was retired on 8 January 2024, but two articles still mention it.</p>
           </div>
         </div>
@@ -158,7 +146,7 @@
         <h2>Downloads</h2>
         <p>For printing or studying offline.</p>
       </div>
-      <ul class="downloads"><li><b>Q&amp;A workbook</b><small>All 669 questions with model answers</small><span class="files"><a class="file-link" href="downloads/Complete_SEO_Interview_Workbook.pdf">PDF <span>3.6 MB</span></a><a class="file-link" href="downloads/Complete_SEO_Interview_Workbook.docx">Word <span>314 KB</span></a></span></li><li><b>Complete source reference</b><small>The licensed Google articles behind every answer</small><span class="files"><a class="file-link" href="downloads/Complete_Google_SEO_Source_Reference.pdf">PDF <span>4.8 MB</span></a><a class="file-link" href="downloads/Complete_Google_SEO_Source_Reference.docx">Word <span>297 KB</span></a></span></li><li><b>Definitions quick review</b><small>127 terms on a few pages</small><span class="files"><a class="file-link" href="downloads/SEO_Definitions_Quick_Review.pdf">PDF <span>166 KB</span></a><a class="file-link" href="downloads/SEO_Definitions_Quick_Review.docx">Word <span>48 KB</span></a></span></li><li><b>Offline quiz pack</b><small>The four-choice quiz as a local HTML file</small><span class="files"><a class="file-link" href="downloads/Google_SEO_Four_Choice_Quiz.zip">ZIP <span>7.9 MB</span></a></span></li><li><b>Offline answer-aloud pack</b><small>The answer-aloud practice as a local HTML file</small><span class="files"><a class="file-link" href="downloads/Complete_Google_SEO_Interview_Pack.zip">ZIP <span>8.6 MB</span></a></span></li><li><b>All 95 source links</b><small>Plain list of the Google pages used</small><span class="files"><a class="file-link" href="downloads/All_95_Source_Links.txt">TXT <span>15 KB</span></a></span></li></ul>
+      <ul class="downloads">{{downloads_full}}</ul>
     </div>
   </section>
 </main>
@@ -170,7 +158,7 @@
   </div>
 </footer>
 
-<script type="application/json" id="try-data">{"correct": 1, "answer": "This specification's supported fields are user-agent, allow, disallow, and sitemap, and it explicitly says crawl-delay is unsupported. Google's separate noindex guide says noindex in robots.txt is unsupported."}</script>
+<script type="application/json" id="try-data">{{try_json}}</script>
 <script>
 (() => {
   const $ = id => document.getElementById(id);

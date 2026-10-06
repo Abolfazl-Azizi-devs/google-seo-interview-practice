@@ -1,53 +1,176 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<title>Multiple choice — SEO interview practice</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Multiple choice · SEO interview practice</title>
+<meta name="description" content="Practise 669 SEO interview questions from 95 Google documentation pages. Answer aloud or take a four-choice quiz, and check every answer against the Google excerpt it comes from.">
+<meta name="theme-color" content="#152d3a">
+<meta property="og:title" content="Multiple choice · SEO interview practice">
+<meta property="og:description" content="Practise 669 SEO interview questions from 95 Google documentation pages. Answer aloud or take a four-choice quiz, and check every answer against the Google excerpt it comes from.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/quiz/">
+<meta property="og:image" content="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/assets/social-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="SEO interview practice: 669 questions, 95 Google documents, answer-aloud and multiple-choice modes.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/quiz/">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+<link rel="preload" href="../assets/fonts/Manrope.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/SourceSans3.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body class="study-page" data-mode="quiz" data-root="../">
+<div class="app">
 
-<meta content="Practise 669 SEO interview questions from 95 Google documentation pages. Choose answer-aloud practice or a four-choice quiz. Includes sources and 127 definitions." name="description"/><meta content="#152d3a" name="theme-color"/><meta content="Multiple choice — SEO interview practice" property="og:title"/><meta content="Practise 669 SEO interview questions from 95 Google documentation pages. Choose answer-aloud practice or a four-choice quiz. Includes sources and 127 definitions." property="og:description"/><meta content="website" property="og:type"/><meta content="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/quiz/" property="og:url"/><meta content="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/assets/social-preview.png" property="og:image"/><meta content="1200" property="og:image:width"/><meta content="630" property="og:image:height"/><meta content="SEO interview practice: 669 questions, 95 Google documents, answer-aloud and multiple-choice modes." property="og:image:alt"/><meta content="summary_large_image" name="twitter:card"/><link href="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/quiz/" rel="canonical"/><link href="../assets/favicon.svg" rel="icon" type="image/svg+xml"/><link href="../assets/quiz-base.css" rel="stylesheet"/><link href="../assets/site.css" rel="stylesheet"/><link as="font" crossorigin="" href="../assets/fonts/Manrope.woff2" rel="preload" type="font/woff2"/><link as="font" crossorigin="" href="../assets/fonts/SourceSans3.woff2" rel="preload" type="font/woff2"/></head>
-<body class="study-page" data-mode="quiz">
+  <aside class="rail" id="rail" aria-label="Documents">
+    <a class="brand" href="../">
+      <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#21414d"/><circle cx="27" cy="26" r="13" fill="none" stroke="#8ed9c9" stroke-width="5"/><path d="m37 37 12 12" stroke="#8ed9c9" stroke-width="6" stroke-linecap="round"/></svg>
+      <span><b>SEO interview practice</b><small>95 Google documents · reviewed 6 Oct 2026</small></span>
+    </a>
+    <nav class="rail-views" aria-label="Sections" data-views></nav>
+    <label class="rail-find">
+      <span class="sr-only">Find a document</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg>
+      <input id="doc-find" type="search" placeholder="Find a document" autocomplete="off">
+    </label>
+    <button class="rail-all" id="rail-all" aria-pressed="true">All questions <span>669</span></button>
+    <div id="rail-groups"></div>
+    <p class="rail-foot">Progress is saved in this browser only. No account, no analytics.</p>
+  </aside>
+  <button class="scrim" id="scrim" aria-label="Close documents" tabindex="-1"></button>
 
-<div class="shell">
-<aside aria-label="Google documentation menu" class="sidebar" id="sidebar">
-<div class="brand"><a href="../"><span>SEO STUDY GUIDE</span>Interview practice</a></div>
-<div class="edition">95 documents · 669 questions<br/>Reviewed 6 October 2026</div>
-<div class="progress-box"><strong id="confident-count">0</strong> <span class="small">/ 669 confident</span><div class="track"><i id="progress-fill"></i></div><div class="caption" id="queue-count">0 questions in your review queue</div></div>
-<button class="topic active" data-chapter="0"><span class="num">ALL</span>Complete question bank<span class="count">669</span></button>
-<nav id="topic-nav"></nav>
-</aside>
-<main class="main">
-<div class="topbar"><button aria-controls="sidebar" aria-expanded="false" aria-label="Open document menu" class="mobile-top" id="menu-toggle">☰ Documents</button><nav aria-label="Practice format" class="mode-switch"><a href="../practice/">Answer aloud</a><a aria-current="page" href="../quiz/">Multiple choice</a></nav><div aria-label="Study mode" class="tabs" role="tablist"><button aria-selected="true" class="active" data-view="practice" id="tab-practice" role="tab">Questions</button><button aria-selected="false" data-view="notes" id="tab-notes" role="tab">Notes</button><button aria-selected="false" data-view="glossary" id="tab-glossary" role="tab">Definitions</button><button aria-selected="false" data-view="sources" id="tab-sources" role="tab">Source library</button></div></div>
-<div class="intro-row"><div><div class="eyebrow" id="mode-eyebrow">MULTIPLE CHOICE</div><h1 id="mode-title">SEO interview quiz</h1><p id="mode-description">Choose one answer, then check the explanation and Google excerpts. Your first-choice score and review list stay in this browser.</p></div><div class="stat"><strong>669</strong><span>QUESTIONS TO PRACTISE</span></div></div>
-<p class="load-message" id="load-message" role="status">Loading study data…</p><noscript><p>Enable JavaScript to use questions and filters. The PDF and Word downloads remain available.</p></noscript><div class="filters" id="filters">
-<div class="filter-search-row">
-<label class="search-wrap" for="search"><span class="field-label">Search</span><span class="search-input-wrap"><input autocomplete="off" id="search" placeholder="e.g. canonical, robots.txt, Core Web Vitals" type="search"/><button aria-label="Clear search" hidden="" id="search-clear" type="button">×</button></span></label>
-<label class="scope-field" for="search-scope"><span class="field-label">Search in</span><select id="search-scope"><option value="qa">Questions and answers</option><option value="question">Questions only</option><option value="evidence">Google excerpts</option><option value="all">All content in question cards</option></select></label>
-</div>
-<p class="filter-help" id="search-help">Searches question and answer text. Filters below work together.</p>
-<button aria-controls="filter-fields" aria-expanded="false" class="mobile-filter-toggle" id="filter-toggle" type="button">Filters <span id="filter-count">0 active</span><span aria-hidden="true">⌄</span></button>
-<div class="filter-fields" id="filter-fields">
-<label for="group-filter"><span class="field-label">Topic group</span><select id="group-filter"><option value="">All topic groups</option></select></label>
-<label for="document-filter"><span class="field-label">Document</span><select id="document-filter"><option value="0">All 95 documents</option></select></label>
-<label for="status-filter"><span class="field-label">Your progress</span><select id="status-filter"><option value="all">Any progress</option><option value="unseen">Not answered</option><option value="review">Needs review</option><option value="know">Confident</option></select></label>
-<label for="set-filter"><span class="field-label">Question set</span><select id="set-filter"><option value="all">All 669 questions</option><option value="priority">Priority questions (179)</option><option value="scenarios">Cross-topic scenarios (10)</option><option value="extra">Additional appearance (76)</option></select></label>
-</div>
-<div class="filter-summary-row"><div aria-label="Current filters" class="active-filters" id="active-filters"></div><button class="quiet filter-reset" id="clear-filters">Reset all</button></div>
-</div>
-<p class="storage-notice" id="storage-notice">Your browser blocked local progress storage. The quiz still works for this session.</p>
-<section aria-labelledby="tab-practice" id="practice-view" role="tabpanel"><div aria-live="polite" class="quiz-summary" id="quiz-summary"><div><span class="eyebrow">FIRST-CHOICE SCORE</span><strong id="quiz-score">0 / 0 correct</strong></div><div class="score-detail"><span id="quiz-rate">Choose your first answer</span><span class="small" id="quiz-answered">0 of 669 answered</span></div></div>
-<div class="session-row"><span aria-live="polite" class="small" id="match-count"></span><div class="session-actions"><button class="quiet" id="shuffle">↗ Shuffle</button><button class="quiet" id="review-queue">Review queue</button><button class="quiet" id="copy-question">Copy question link</button><span id="copy-status" role="status"></span></div></div>
-<div id="practice-content"><div class="loading-card" id="loading-card" role="status">Loading 669 questions…</div></div>
-<div class="below-row"><div class="support-card"><div class="eyebrow">DOCUMENTATION UPDATES</div><h3>Guidance that needs context</h3><p>Ten notes explain changed tools, crawler limits, AI reporting and feature-specific requirements.</p><button id="open-flags">Read the source notes</button></div><div class="support-card plan"><div class="eyebrow">REFERENCE</div><h3>Definitions and full documents</h3><p>Check 127 definitions or read the original document sections behind an answer.</p><div class="reference-actions"><button data-open-view="glossary">Definitions</button><button data-open-view="sources">Source library</button></div></div></div>
-</section>
-<section aria-labelledby="tab-notes" hidden="" id="notes-view" role="tabpanel"><div class="notes-list" id="notes-content"></div><section id="flags-section"><h2>Source wording to handle carefully</h2><p class="muted small">These notes distinguish the captured wording from current guidance. Licensed original articles and complete-topic Support briefs are in the source library.</p><div class="flags" id="flags-content"></div></section></section>
-<section aria-labelledby="tab-glossary" hidden="" id="glossary-view" role="tabpanel"><label class="search-wrap"><span class="visually-hidden">Search definitions</span><input id="glossary-search" placeholder="Search 127 definitions…" type="search"/></label><p class="small muted" id="glossary-count"></p><div class="notes-list" id="glossary-content"></div></section>
-<section aria-labelledby="tab-sources" hidden="" id="sources-view" role="tabpanel"><p class="small muted">Full licensed articles, tables and examples, plus labeled Google Support briefs. Original illustrations and videos are linked. Select a document in the topics menu, or choose below.</p><label><span class="visually-hidden">Source document</span><select id="source-select"></select></label><div id="source-content"></div></section>
-<div class="download-row"><a href="../downloads/SEO_Definitions_Quick_Review.pdf">Definitions · quick PDF</a><a href="../downloads/Complete_SEO_Interview_Workbook.docx">Q&amp;A workbook · Word</a><a href="../downloads/Complete_SEO_Interview_Workbook.pdf">Q&amp;A workbook · PDF</a><a href="../downloads/Complete_Google_SEO_Source_Reference.docx">Complete reference · Word</a><a href="../downloads/Complete_Google_SEO_Source_Reference.pdf">Complete reference · PDF</a><a href="../downloads/Google_SEO_Four_Choice_Quiz.zip">Offline quiz pack · ZIP</a></div>
-<footer class="footer"><div class="footer-row"><p>By <a href="https://github.com/Abolfazl-Azizi-devs" rel="noopener" target="_blank">Abolfazl</a> · <a href="https://github.com/Abolfazl-Azizi-devs/google-seo-interview-practice" rel="noopener" target="_blank">GitHub</a></p><button class="quiet" id="reset-progress">Reset quiz progress</button></div><p>Your progress stays in this browser. No account is needed.</p><details><summary>Sources, coverage and licensing</summary><p id="scope-text"></p><p id="license-text"></p><p><a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener" target="_blank">CC BY 4.0</a> · <a href="https://www.apache.org/licenses/LICENSE-2.0" rel="noopener" target="_blank">Apache 2.0</a> · <a href="../downloads/All_95_Source_Links.txt">All 95 source links</a></p></details></footer>
-</main>
+  <div class="workspace">
+    <header class="topbar">
+      <button class="icon-btn menu-btn" id="menu-btn" aria-controls="rail" aria-expanded="false" aria-label="Open documents and sections">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <a class="top-brand" href="../">SEO interview practice</a>
+      <nav class="views" role="tablist" aria-label="Sections" data-views></nav>
+      <div class="top-actions">
+        <span class="top-progress"><b id="tp-answered">0</b>/669<span id="tp-label"> answered</span></span>
+        <button class="btn btn-ghost" id="dl-btn" aria-expanded="false" aria-controls="dl-pop" aria-label="Downloads">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg><span class="lbl-dl">Downloads</span>
+        </button>
+        <a class="btn btn-ghost gh" href="https://github.com/Abolfazl-Azizi-devs/google-seo-interview-practice" target="_blank" rel="noopener">GitHub</a>
+        <div class="popover" id="dl-pop" hidden>
+          <ul class="dl-list"><li><b>Q&amp;A workbook</b><small>All 669 questions with model answers</small><span class="files"><a class="file-link" href="../downloads/Complete_SEO_Interview_Workbook.pdf">PDF <span>3.6 MB</span></a><a class="file-link" href="../downloads/Complete_SEO_Interview_Workbook.docx">Word <span>314 KB</span></a></span></li><li><b>Complete source reference</b><small>The licensed Google articles behind every answer</small><span class="files"><a class="file-link" href="../downloads/Complete_Google_SEO_Source_Reference.pdf">PDF <span>4.8 MB</span></a><a class="file-link" href="../downloads/Complete_Google_SEO_Source_Reference.docx">Word <span>297 KB</span></a></span></li><li><b>Definitions quick review</b><small>127 terms on a few pages</small><span class="files"><a class="file-link" href="../downloads/SEO_Definitions_Quick_Review.pdf">PDF <span>166 KB</span></a><a class="file-link" href="../downloads/SEO_Definitions_Quick_Review.docx">Word <span>48 KB</span></a></span></li><li><b>Offline quiz pack</b><small>The four-choice quiz as a local HTML file</small><span class="files"><a class="file-link" href="../downloads/Google_SEO_Four_Choice_Quiz.zip">ZIP <span>7.9 MB</span></a></span></li><li><b>Offline answer-aloud pack</b><small>The answer-aloud practice as a local HTML file</small><span class="files"><a class="file-link" href="../downloads/Complete_Google_SEO_Interview_Pack.zip">ZIP <span>8.6 MB</span></a></span></li><li><b>All 95 source links</b><small>Plain list of the Google pages used</small><span class="files"><a class="file-link" href="../downloads/All_95_Source_Links.txt">TXT <span>15 KB</span></a></span></li></ul>
+        </div>
+      </div>
+    </header>
+
+    <main class="content" id="content">
+      <div class="stage" id="practice-pane">
+        <h1 class="sr-only" id="sr-title">Multiple-choice SEO interview quiz</h1>
+        <p class="notice" id="storage-notice" hidden>This browser blocked saved progress. Practice still works, but progress will be lost when you close the page.</p>
+        <div class="session">
+          <div class="seg" role="radiogroup" aria-label="Practice format" id="mode-seg">
+            <button role="radio" aria-checked="true" data-mode="quiz">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="m8 12 3 3 5-6"/></svg>Multiple choice</button>
+            <button role="radio" aria-checked="false" data-mode="practice">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Answer aloud</button>
+          </div>
+          <label class="search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg>
+            <span class="sr-only">Search questions</span>
+            <input id="q-search" type="search" placeholder="Search questions, e.g. hreflang" autocomplete="off">
+            <button class="icon-btn" id="search-clear" type="button" aria-label="Clear search" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+          </label>
+          <button class="btn filter-btn" id="filter-btn" aria-haspopup="dialog">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg><span class="lbl">Filters</span><span class="badge" id="filter-badge" hidden>0</span>
+          </button>
+        </div>
+        <div class="scope" id="scope" aria-live="polite"></div>
+        <div id="card-slot"><div class="loading" role="status">Loading 669 questions…</div></div>
+        <noscript><p class="notice">Turn on JavaScript to practise the questions. The PDF and Word downloads work without it.</p></noscript>
+      </div>
+
+      <div class="view-pane" id="notes-pane" hidden>
+        <div class="view-head"><p class="label">95 documents</p><h1>Document notes</h1><p>The key points of each Google page. Pick a document in the list to read only its notes, practise its questions or open the source.</p></div>
+        <div class="def-grid" id="notes-list"></div>
+        <h2 class="section-title" id="flags-title">Notes on guidance that changed</h2>
+        <p class="muted">Where Google’s pages disagree with each other or have aged, these notes say what changed and which source is current.</p>
+        <div class="def-grid" id="flags-list"></div>
+      </div>
+
+      <div class="view-pane" id="glossary-pane" hidden>
+        <div class="view-head"><p class="label">127 definitions</p><h1>Definitions</h1><p>Say the definition out loud, then check it against the Google evidence.</p></div>
+        <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg><span class="sr-only">Search definitions</span><input id="glossary-search" type="search" placeholder="Search definitions" autocomplete="off"></label>
+        <p class="muted" id="glossary-count"></p>
+        <div class="def-grid" id="glossary-list"></div>
+      </div>
+
+      <div class="view-pane" id="sources-pane" hidden>
+        <div class="view-head"><p class="label">102 source entries</p><h1>Source library</h1><p>94 full licensed Google articles, a labelled summary of one Google Support page and seven official supplements, each with its original link and revision date.</p></div>
+        <div class="view-tools"><label class="sr-only" for="source-select">Source document</label><select id="source-select"></select></div>
+        <div id="source-view"></div>
+      </div>
+
+      <aside class="context" id="context" aria-label="Session details">
+        <section class="panel" id="progress-panel"></section>
+        <section class="panel" id="terms-panel" hidden>
+          <p class="label">Terms in this question</p>
+          <dl class="terms" id="terms"></dl>
+          <button class="more" data-view="glossary">All 127 definitions</button>
+        </section>
+        <section class="panel note" id="flag-panel" hidden></section>
+        <section class="panel plain keys-panel">
+          <p class="label">Keyboard</p>
+          <dl class="keys">
+            <dt><kbd>1</kbd><kbd>4</kbd></dt><dd>Choose an answer</dd>
+            <dt><kbd>R</kbd></dt><dd>Reveal the answer</dd>
+            <dt><kbd>←</kbd><kbd>→</kbd></dt><dd>Previous / next</dd>
+            <dt><kbd>/</kbd></dt><dd>Search</dd>
+          </dl>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="page-foot">
+      <p>Made by <a href="https://github.com/Abolfazl-Azizi-devs" target="_blank" rel="noopener">Abolfazl</a> · <a href="https://github.com/Abolfazl-Azizi-devs/google-seo-interview-practice" target="_blank" rel="noopener">Source on GitHub</a></p>
+      <details><summary>Sources, coverage and licensing</summary><p id="scope-text"></p><p id="license-text"></p>
+        <p><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> · <a href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">Apache 2.0</a> · <a href="../downloads/All_95_Source_Links.txt">All 95 source links</a></p></details>
+    </footer>
+  </div>
 </div>
 
-<script defer="" src="../assets/load.js"></script></body>
+<dialog class="sheet" id="sheet" aria-labelledby="sheet-title">
+  <form method="dialog" class="sheet-in" id="sheet-form">
+    <div class="sheet-head"><h2 id="sheet-title">Filter questions</h2>
+      <button class="icon-btn" value="cancel" aria-label="Close filters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="sheet-body">
+      <fieldset><legend>Your progress</legend>
+        <label class="choice"><input type="radio" name="status" value="all"><span>Any progress</span><small data-count="status:all"></small></label>
+        <label class="choice"><input type="radio" name="status" value="unseen"><span>Not answered yet</span><small data-count="status:unseen"></small></label>
+        <label class="choice"><input type="radio" name="status" value="review"><span>In review queue</span><small data-count="status:review"></small></label>
+        <label class="choice"><input type="radio" name="status" value="know"><span>Marked confident</span><small data-count="status:know"></small></label>
+      </fieldset>
+      <fieldset><legend>Question set</legend>
+        <label class="choice"><input type="radio" name="set" value="all"><span>All questions</span><small data-count="set:all"></small></label>
+        <label class="choice"><input type="radio" name="set" value="priority"><span>Priority questions</span><small data-count="set:priority"></small></label>
+        <label class="choice"><input type="radio" name="set" value="scenarios"><span>Cross-topic scenarios</span><small data-count="set:scenarios"></small></label>
+        <label class="choice"><input type="radio" name="set" value="extra"><span>Additional appearance</span><small data-count="set:extra"></small></label>
+      </fieldset>
+      <fieldset><legend>Search in</legend>
+        <label class="choice"><input type="radio" name="scope" value="qa"><span>Questions and answers</span></label>
+        <label class="choice"><input type="radio" name="scope" value="question"><span>Questions only</span></label>
+        <label class="choice"><input type="radio" name="scope" value="evidence"><span>Google excerpts</span></label>
+        <label class="choice"><input type="radio" name="scope" value="all"><span>Everything on the card</span></label>
+      </fieldset>
+      <fieldset><legend>Order</legend>
+        <label class="choice"><input type="radio" name="order" value="doc"><span>Document order</span></label>
+        <label class="choice"><input type="radio" name="order" value="shuffle"><span>Shuffled</span></label>
+      </fieldset>
+    </div>
+    <div class="sheet-foot">
+      <button class="btn" type="button" id="sheet-reset">Reset</button>
+      <button class="btn btn-primary" value="apply" id="sheet-apply">Show questions</button>
+    </div>
+  </form>
+</dialog>
+
+<script src="../assets/app.js" defer></script>
+</body>
 </html>

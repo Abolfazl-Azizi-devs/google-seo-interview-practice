@@ -3,31 +3,19 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Answer aloud · SEO interview practice</title>
-<meta name="description" content="Practise 669 SEO interview questions from 95 Google documentation pages. Answer aloud or take a four-choice quiz, and check every answer against the Google excerpt it comes from.">
-<meta name="theme-color" content="#152d3a">
-<meta property="og:title" content="Answer aloud · SEO interview practice">
-<meta property="og:description" content="Practise 669 SEO interview questions from 95 Google documentation pages. Answer aloud or take a four-choice quiz, and check every answer against the Google excerpt it comes from.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/practice/">
-<meta property="og:image" content="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/assets/social-preview.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="SEO interview practice: 669 questions, 95 Google documents, answer-aloud and multiple-choice modes.">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="canonical" href="https://abolfazl-azizi-devs.github.io/google-seo-interview-practice/practice/">
-<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<title>{{title}}</title>
+{{meta}}
 <link rel="stylesheet" href="../assets/site.css">
 <link rel="preload" href="../assets/fonts/Manrope.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../assets/fonts/SourceSans3.woff2" as="font" type="font/woff2" crossorigin>
 </head>
-<body class="study-page" data-mode="practice" data-root="../">
+<body class="study-page" data-mode="{{mode}}" data-root="../">
 <div class="app">
 
   <aside class="rail" id="rail" aria-label="Documents">
     <a class="brand" href="../">
       <svg viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#21414d"/><circle cx="27" cy="26" r="13" fill="none" stroke="#8ed9c9" stroke-width="5"/><path d="m37 37 12 12" stroke="#8ed9c9" stroke-width="6" stroke-linecap="round"/></svg>
-      <span><b>SEO interview practice</b><small>95 Google documents · reviewed 6 Oct 2026</small></span>
+      <span><b>SEO interview practice</b><small>95 Google documents · reviewed {{reviewed_short}}</small></span>
     </a>
     <nav class="rail-views" aria-label="Sections" data-views></nav>
     <label class="rail-find">
@@ -35,7 +23,7 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg>
       <input id="doc-find" type="search" placeholder="Find a document" autocomplete="off">
     </label>
-    <button class="rail-all" id="rail-all" aria-pressed="true">All questions <span>669</span></button>
+    <button class="rail-all" id="rail-all" aria-pressed="true">All questions <span>{{total}}</span></button>
     <div id="rail-groups"></div>
     <p class="rail-foot">Progress is saved in this browser only. No account, no analytics.</p>
   </aside>
@@ -49,26 +37,26 @@
       <a class="top-brand" href="../">SEO interview practice</a>
       <nav class="views" role="tablist" aria-label="Sections" data-views></nav>
       <div class="top-actions">
-        <span class="top-progress"><b id="tp-answered">0</b>/669<span id="tp-label"> answered</span></span>
+        <span class="top-progress"><b id="tp-answered">0</b>/{{total}}<span id="tp-label"> answered</span></span>
         <button class="btn btn-ghost" id="dl-btn" aria-expanded="false" aria-controls="dl-pop" aria-label="Downloads">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14"/></svg><span class="lbl-dl">Downloads</span>
         </button>
         <a class="btn btn-ghost gh" href="https://github.com/Abolfazl-Azizi-devs/google-seo-interview-practice" target="_blank" rel="noopener">GitHub</a>
         <div class="popover" id="dl-pop" hidden>
-          <ul class="dl-list"><li><b>Q&amp;A workbook</b><small>All 669 questions with model answers</small><span class="files"><a class="file-link" href="../downloads/Complete_SEO_Interview_Workbook.pdf">PDF <span>3.6 MB</span></a><a class="file-link" href="../downloads/Complete_SEO_Interview_Workbook.docx">Word <span>314 KB</span></a></span></li><li><b>Complete source reference</b><small>The licensed Google articles behind every answer</small><span class="files"><a class="file-link" href="../downloads/Complete_Google_SEO_Source_Reference.pdf">PDF <span>4.8 MB</span></a><a class="file-link" href="../downloads/Complete_Google_SEO_Source_Reference.docx">Word <span>297 KB</span></a></span></li><li><b>Definitions quick review</b><small>127 terms on a few pages</small><span class="files"><a class="file-link" href="../downloads/SEO_Definitions_Quick_Review.pdf">PDF <span>166 KB</span></a><a class="file-link" href="../downloads/SEO_Definitions_Quick_Review.docx">Word <span>48 KB</span></a></span></li><li><b>Offline quiz pack</b><small>The four-choice quiz as a local HTML file</small><span class="files"><a class="file-link" href="../downloads/Google_SEO_Four_Choice_Quiz.zip">ZIP <span>7.9 MB</span></a></span></li><li><b>Offline answer-aloud pack</b><small>The answer-aloud practice as a local HTML file</small><span class="files"><a class="file-link" href="../downloads/Complete_Google_SEO_Interview_Pack.zip">ZIP <span>8.6 MB</span></a></span></li><li><b>All 95 source links</b><small>Plain list of the Google pages used</small><span class="files"><a class="file-link" href="../downloads/All_95_Source_Links.txt">TXT <span>15 KB</span></a></span></li></ul>
+          <ul class="dl-list">{{downloads_compact}}</ul>
         </div>
       </div>
     </header>
 
     <main class="content" id="content">
       <div class="stage" id="practice-pane">
-        <h1 class="sr-only" id="sr-title">Answer-aloud SEO interview practice</h1>
+        <h1 class="sr-only" id="sr-title">{{h1}}</h1>
         <p class="notice" id="storage-notice" hidden>This browser blocked saved progress. Practice still works, but progress will be lost when you close the page.</p>
         <div class="session">
           <div class="seg" role="radiogroup" aria-label="Practice format" id="mode-seg">
-            <button role="radio" aria-checked="false" data-mode="quiz">
+            <button role="radio" aria-checked="{{quiz_checked}}" data-mode="quiz">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="m8 12 3 3 5-6"/></svg>Multiple choice</button>
-            <button role="radio" aria-checked="true" data-mode="practice">
+            <button role="radio" aria-checked="{{practice_checked}}" data-mode="practice">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Answer aloud</button>
           </div>
           <label class="search">
@@ -82,7 +70,7 @@
           </button>
         </div>
         <div class="scope" id="scope" aria-live="polite"></div>
-        <div id="card-slot"><div class="loading" role="status">Loading 669 questions…</div></div>
+        <div id="card-slot"><div class="loading" role="status">Loading {{total}} questions…</div></div>
         <noscript><p class="notice">Turn on JavaScript to practise the questions. The PDF and Word downloads work without it.</p></noscript>
       </div>
 
@@ -95,14 +83,14 @@
       </div>
 
       <div class="view-pane" id="glossary-pane" hidden>
-        <div class="view-head"><p class="label">127 definitions</p><h1>Definitions</h1><p>Say the definition out loud, then check it against the Google evidence.</p></div>
+        <div class="view-head"><p class="label">{{glossary_total}} definitions</p><h1>Definitions</h1><p>Say the definition out loud, then check it against the Google evidence.</p></div>
         <label class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/></svg><span class="sr-only">Search definitions</span><input id="glossary-search" type="search" placeholder="Search definitions" autocomplete="off"></label>
         <p class="muted" id="glossary-count"></p>
         <div class="def-grid" id="glossary-list"></div>
       </div>
 
       <div class="view-pane" id="sources-pane" hidden>
-        <div class="view-head"><p class="label">102 source entries</p><h1>Source library</h1><p>94 full licensed Google articles, a labelled summary of one Google Support page and seven official supplements, each with its original link and revision date.</p></div>
+        <div class="view-head"><p class="label">{{sources_total}} source entries</p><h1>Source library</h1><p>94 full licensed Google articles, a labelled summary of one Google Support page and seven official supplements, each with its original link and revision date.</p></div>
         <div class="view-tools"><label class="sr-only" for="source-select">Source document</label><select id="source-select"></select></div>
         <div id="source-view"></div>
       </div>
@@ -112,7 +100,7 @@
         <section class="panel" id="terms-panel" hidden>
           <p class="label">Terms in this question</p>
           <dl class="terms" id="terms"></dl>
-          <button class="more" data-view="glossary">All 127 definitions</button>
+          <button class="more" data-view="glossary">All {{glossary_total}} definitions</button>
         </section>
         <section class="panel note" id="flag-panel" hidden></section>
         <section class="panel plain keys-panel">
